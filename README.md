@@ -9,6 +9,8 @@ docker build . -t fuzzing-matter --pull
 docker run -it fuzzing-matter
 ```
 
+Grab a coffee (or 10). Build took ~90 minutes on M1 Macbook Pro.
+
 2. The last line of the Dockerfile builds the fuzzing variant of the all-clusters-app. You can then run it from inside the Docker container by executing: `connectedhomeip/out/linux-arm64-all-clusters-no-ble-asan-libfuzzer-clang/chip-all-clusters-app-fuzzing` (file should exist)
 
 Notes:
