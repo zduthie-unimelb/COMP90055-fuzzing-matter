@@ -2,8 +2,8 @@
 
 1. Build and run the Dockerfile:
 ```
-docker build . -t fuzzing-matter --pull
-docker run -it fuzzing-matter
+docker build . -t chip-build-uni
+docker run --privileged --sysctl "net.ipv6.conf.all.disable_ipv6=0 net.ipv4.conf.all.forwarding=1 net.ipv6.conf.all.forwarding=1" -it chip-build-uni
 ```
 
 Grab a coffee (or 10). Build took ~90 minutes on M1 Macbook Pro.
