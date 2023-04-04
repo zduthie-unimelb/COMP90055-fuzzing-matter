@@ -1,22 +1,22 @@
 diff --git a/scripts/build/build/targets.py b/scripts/build/build/targets.py
-index 2e1dff0506..98af31681f 100755
+index 6073ffc..3cc96c6 100755
 --- a/scripts/build/build/targets.py
 +++ b/scripts/build/build/targets.py
-@@ -72,7 +72,7 @@ def BuildHostFakeTarget():
+@@ -68,7 +68,7 @@ def BuildHostFakeTarget():
      target.AppendModifier("asan", use_asan=True).ExceptIfRe("-tsan")
      target.AppendModifier("tsan", use_tsan=True).ExceptIfRe("-asan")
      target.AppendModifier("ubsan", use_ubsan=True)
 -    target.AppendModifier("libfuzzer", use_tsan=True).OnlyIfRe("-clang")
-+    target.AppendModifier("libfuzzer", use_tsan=False).OnlyIfRe("-clang")
++    target.AppendModifier("libfuzzer", use_asan=True).OnlyIfRe("-clang")
      target.AppendModifier('coverage', use_coverage=True).OnlyIfRe('-(chip-tool|all-clusters)')
      target.AppendModifier('dmalloc', use_dmalloc=True)
      target.AppendModifier('clang', use_clang=True)
-@@ -141,7 +141,7 @@ def BuildHostTarget():
+@@ -140,7 +140,7 @@ def BuildHostTarget():
      target.AppendModifier("asan", use_asan=True).ExceptIfRe("-tsan")
      target.AppendModifier("tsan", use_tsan=True).ExceptIfRe("-asan")
      target.AppendModifier("ubsan", use_ubsan=True)
 -    target.AppendModifier("libfuzzer", use_tsan=True).OnlyIfRe("-clang")
-+    target.AppendModifier("libfuzzer", use_tsan=False).OnlyIfRe("-clang")
++    target.AppendModifier("libfuzzer", use_asan=True).OnlyIfRe("-clang")
      target.AppendModifier('coverage', use_coverage=True).OnlyIfRe('-(chip-tool|all-clusters)')
      target.AppendModifier('dmalloc', use_dmalloc=True)
      target.AppendModifier('clang', use_clang=True)
