@@ -19,7 +19,7 @@ ENV MATTER_PATH="${WORKDIR}/connectedhomeip"
 
 ### MATTER ###
 # Checkout
-RUN git clone https://github.com/project-chip/connectedhomeip.git ${MATTER_PATH}
+RUN git clone https://github.com/zduthie-unimelb/connectedhomeip.git ${MATTER_PATH}
 # Checkout submodules
 RUN cd ${MATTER_PATH} && scripts/checkout_submodules.py --shallow --platform linux
 # Bootstrap
