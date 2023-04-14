@@ -1,0 +1,1695 @@
+ubuntu@a0a074ced910:~/connectedhomeip$ sudo ./out/chip-tool/chip-tool pairing onnetwork 111 20202021
+[1681187819.141225][12575:12575] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_kvs
+[1681187819.141424][12575:12575] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_factory.ini
+[1681187819.141830][12575:12575] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_config.ini
+[1681187819.142323][12575:12575] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_counters.ini
+[1681187819.143093][12575:12575] CHIP:DL: writing settings to file (/tmp/chip_counters.ini-GoJuj2)
+[1681187819.143424][12575:12575] CHIP:DL: renamed tmp file to file (/tmp/chip_counters.ini)
+[1681187819.143497][12575:12575] CHIP:DL: NVS set: chip-counters/reboot-count = 9 (0x9)
+[1681187819.143769][12575:12575] CHIP:DL: Got Ethernet interface: eth0
+[1681187819.143914][12575:12575] CHIP:DL: Found the primary Ethernet interface:eth0
+[1681187819.144081][12575:12575] CHIP:DL: Failed to get WiFi interface
+[1681187819.144188][12575:12575] CHIP:DL: Failed to reset WiFi statistic counts
+[1681187819.144269][12575:12575] CHIP:IN: UDP::Init bind&listen port=0
+[1681187819.144337][12575:12575] CHIP:IN: UDP::Init bound to port=51374
+[1681187819.144383][12575:12575] CHIP:IN: UDP::Init bind&listen port=0
+[1681187819.144406][12575:12575] CHIP:IN: UDP::Init bound to port=51200
+[1681187819.144411][12575:12575] CHIP:IN: BLEBase::Init - setting/overriding transport
+[1681187819.144420][12575:12575] CHIP:IN: TransportMgr initialized
+[1681187819.144441][12575:12575] CHIP:FP: Initializing FabricTable from persistent storage
+[1681187819.144550][12575:12575] CHIP:TS: Last Known Good Time: 2023-04-11T04:29:12
+[1681187819.144598][12575:12575] CHIP:TS: Setting Last Known Good Time to firmware build time 2023-04-11T04:34:58
+[1681187819.145360][12575:12575] CHIP:FP: Fabric index 0x1 was retrieved from storage. Compressed FabricId 0x21190A9D7D12952B, FabricId 0x0000000000000001, NodeId 0x000000000001B669, VendorId 0xFFF1
+[1681187819.146632][12575:12575] CHIP:ZCL: Using ZAP configuration...
+[1681187819.147426][12575:12575] CHIP:CTL: System State Initialized...
+[1681187819.147513][12575:12575] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187819.147564][12575:12575] CHIP:CTL: Setting attestation nonce to random value
+[1681187819.147617][12575:12575] CHIP:CTL: Setting CSR nonce to random value
+[1681187819.147647][12575:12575] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187819.147696][12575:12575] CHIP:IN: UDP::Init bound to port=5550
+[1681187819.147711][12575:12575] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187819.147726][12575:12575] CHIP:IN: UDP::Init bound to port=5550
+[1681187819.147760][12575:12575] CHIP:IN: TransportMgr initialized
+[1681187819.147950][12575:12577] CHIP:DL: CHIP task running
+[1681187819.148054][12575:12577] CHIP:DL: HandlePlatformSpecificBLEEvent 32784
+[1681187819.148241][12575:12577] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187819.148339][12575:12577] CHIP:CTL: Setting attestation nonce to random value
+[1681187819.148405][12575:12577] CHIP:CTL: Setting CSR nonce to random value
+[1681187819.151913][12575:12577] CHIP:CTL: Generating NOC
+[1681187819.152727][12575:12577] CHIP:FP: Validating NOC chain
+[1681187819.154001][12575:12577] CHIP:FP: NOC chain validation successful
+[1681187819.154267][12575:12577] CHIP:FP: Updated fabric at index: 0x1, Node ID: 0x000000000001B669
+[1681187819.154315][12575:12577] CHIP:TS: Last Known Good Time: 2023-04-11T04:34:58
+[1681187819.154324][12575:12577] CHIP:TS: New proposed Last Known Good Time: 2021-01-01T00:00:00
+[1681187819.154360][12575:12577] CHIP:TS: Retaining current Last Known Good Time
+[1681187819.155688][12575:12577] CHIP:FP: Metadata for Fabric 0x1 persisted to storage.
+[1681187819.156840][12575:12577] CHIP:TS: Committing Last Known Good Time to storage: 2023-04-11T04:34:58
+[1681187819.157941][12575:12577] CHIP:CTL: Joined the fabric at index 1. Fabric ID is 0x0000000000000001 (Compressed Fabric ID: 21190A9D7D12952B)
+[1681187819.158001][12575:12577] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187819.158037][12575:12577] CHIP:IN: UDP::Init bound to port=5550
+[1681187819.158043][12575:12577] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187819.158056][12575:12577] CHIP:IN: UDP::Init bound to port=5550
+[1681187819.158093][12575:12577] CHIP:IN: TransportMgr initialized
+[1681187819.164901][12575:12577] CHIP:TOO: Discovered Device: fe80::42:acff:fe11:3:5540
+[1681187819.165251][12575:12577] CHIP:IN: SecureSession[0x7f6e60022060]: Allocated Type:1 LSID:5966
+[1681187819.165284][12575:12577] CHIP:SC: Assigned local session key ID 5966
+[1681187819.165324][12575:12577] CHIP:EM: <<< [E:32031i S:0 M:87329528] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:20 (SecureChannel:PBKDFParamRequest)
+[1681187819.165354][12575:12577] CHIP:IN: (U) Sending msg 87329528 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187819.165458][12575:12577] CHIP:SC: Sent PBKDF param request
+[1681187819.165491][12575:12577] CHIP:CTL: Setting attestation nonce to random value
+[1681187819.165500][12575:12577] CHIP:CTL: Setting CSR nonce to random value
+[1681187819.165506][12575:12577] CHIP:CTL: Commission called for node ID 0x000000000000006F
+[1681187819.165958][12575:12577] CHIP:EM: >>> [E:32031i S:0 M:88218460 (Ack:87329528)] (U) Msg RX from 0:0000000000000000 [0000] --- Type 0000:21 (SecureChannel:PBKDFParamResponse)
+[1681187819.165996][12575:12577] CHIP:EM: Found matching exchange: 32031i, Delegate: 0x7f6e600283b0
+[1681187819.166009][12575:12577] CHIP:EM: Rxd Ack; Removing MessageCounter:87329528 from Retrans Table on exchange 32031i
+[1681187819.166026][12575:12577] CHIP:SC: Received PBKDF param response
+[1681187819.166038][12575:12577] CHIP:SC: Peer assigned session ID 50442
+[1681187819.168354][12575:12577] CHIP:EM: <<< [E:32031i S:0 M:87329529 (Ack:88218460)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:22 (SecureChannel:PASE_Pake1)
+[1681187819.168477][12575:12577] CHIP:IN: (U) Sending msg 87329529 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187819.168651][12575:12577] CHIP:SC: Sent spake2p msg1
+[1681187819.169907][12575:12577] CHIP:EM: >>> [E:32031i S:0 M:88218461 (Ack:87329529)] (U) Msg RX from 0:0000000000000000 [0000] --- Type 0000:23 (SecureChannel:PASE_Pake2)
+[1681187819.169949][12575:12577] CHIP:EM: Found matching exchange: 32031i, Delegate: 0x7f6e600283b0
+[1681187819.169967][12575:12577] CHIP:EM: Rxd Ack; Removing MessageCounter:87329529 from Retrans Table on exchange 32031i
+[1681187819.170021][12575:12577] CHIP:SC: Received spake2p msg2
+[1681187819.170661][12575:12577] CHIP:EM: <<< [E:32031i S:0 M:87329530 (Ack:88218461)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:24 (SecureChannel:PASE_Pake3)
+[1681187819.170759][12575:12577] CHIP:IN: (U) Sending msg 87329530 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187819.170842][12575:12577] CHIP:SC: Sent spake2p msg3
+[1681187819.174246][12575:12577] CHIP:EM: >>> [E:32031i S:0 M:88218462 (Ack:87329530)] (U) Msg RX from 0:0000000000000000 [0000] --- Type 0000:40 (SecureChannel:StatusReport)
+[1681187819.174290][12575:12577] CHIP:EM: Found matching exchange: 32031i, Delegate: 0x7f6e600283b0
+[1681187819.174304][12575:12577] CHIP:EM: Rxd Ack; Removing MessageCounter:87329530 from Retrans Table on exchange 32031i
+[1681187819.174349][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_TEST_MODE=1 bypassing key negotiation... All sessions will use known, fixed test key, and NodeID=0 in NONCE. Node can only communicate with other nodes built with this flag set.
+[1681187819.174413][12575:12577] CHIP:SC: SecureSession[0x7f6e60022060]: Moving from state 'kEstablishing' --> 'kActive'
+[1681187819.174444][12575:12577] CHIP:IN: SecureSession[0x7f6e60022060]: Activated - Type:1 LSID:5966
+[1681187819.174450][12575:12577] CHIP:IN: New secure session activated for device <FFFFFFFB00000000, 0>, LSID:5966 PSID:50442!
+[1681187819.174458][12575:12577] CHIP:CTL: Remote device completed SPAKE2+ handshake
+[1681187819.174462][12575:12577] CHIP:TOO: Pairing Success
+[1681187819.174465][12575:12577] CHIP:TOO: PASE establishment successful
+[1681187819.174470][12575:12577] CHIP:CTL: Commissioning stage next step: 'SecurePairing' -> 'ReadCommissioningInfo'
+[1681187819.174478][12575:12577] CHIP:CTL: Performing next commissioning step 'ReadCommissioningInfo'
+[1681187819.174500][12575:12577] CHIP:CTL: Sending request for commissioning information
+[1681187819.174524][12575:12577] CHIP:DMG: SendReadRequest ReadClient[0x7f6e60029980]: Sending Read Request
+[1681187819.174651][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.174684][12575:12577] CHIP:EM: <<< [E:32032i S:5966 M:226030721] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0001:02 (IM:ReadRequest)
+[1681187819.174723][12575:12577] CHIP:IN: (S) Sending msg 226030721 on secure session with LSID: 5966
+[1681187819.174798][12575:12577] CHIP:DMG: MoveToState ReadClient[0x7f6e60029980]: Moving to [AwaitingIn]
+[1681187819.174845][12575:12577] CHIP:EM: <<< [E:32031i S:0 M:87329531 (Ack:88218462)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.174878][12575:12577] CHIP:IN: (U) Sending msg 87329531 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187819.174905][12575:12577] CHIP:EM: Flushed pending ack for MessageCounter:88218462 on exchange 32031i
+[1681187819.176352][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.176368][12575:12577] CHIP:EM: >>> [E:32032i S:5966 M:160249978 (Ack:226030721)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:05 (IM:ReportData)
+[1681187819.176376][12575:12577] CHIP:EM: Found matching exchange: 32032i, Delegate: 0x7f6e60029990
+[1681187819.176384][12575:12577] CHIP:EM: Rxd Ack; Removing MessageCounter:226030721 from Retrans Table on exchange 32032i
+[1681187819.176425][12575:12577] CHIP:DMG: ReportDataMessage =
+[1681187819.176429][12575:12577] CHIP:DMG: {
+[1681187819.176432][12575:12577] CHIP:DMG:      AttributeReportIBs =
+[1681187819.176438][12575:12577] CHIP:DMG:      [
+[1681187819.176441][12575:12577] CHIP:DMG:              AttributeReportIB =
+[1681187819.176448][12575:12577] CHIP:DMG:              {
+[1681187819.176451][12575:12577] CHIP:DMG:                      AttributeDataIB =
+[1681187819.176455][12575:12577] CHIP:DMG:                      {
+[1681187819.176460][12575:12577] CHIP:DMG:                              DataVersion = 0x320f592d,
+[1681187819.176464][12575:12577] CHIP:DMG:                              AttributePathIB =
+[1681187819.176468][12575:12577] CHIP:DMG:                              {
+[1681187819.176473][12575:12577] CHIP:DMG:                                      Endpoint = 0x0,
+[1681187819.176477][12575:12577] CHIP:DMG:                                      Cluster = 0x31,
+[1681187819.176482][12575:12577] CHIP:DMG:                                      Attribute = 0x0000_0003,
+[1681187819.176485][12575:12577] CHIP:DMG:                              }
+[1681187819.176491][12575:12577] CHIP:DMG:
+[1681187819.176496][12575:12577] CHIP:DMG:                              Data = 20,
+[1681187819.176500][12575:12577] CHIP:DMG:                      },
+[1681187819.176505][12575:12577] CHIP:DMG:
+[1681187819.176508][12575:12577] CHIP:DMG:              },
+[1681187819.176517][12575:12577] CHIP:DMG:
+[1681187819.176520][12575:12577] CHIP:DMG:              AttributeReportIB =
+[1681187819.176525][12575:12577] CHIP:DMG:              {
+[1681187819.176528][12575:12577] CHIP:DMG:                      AttributeDataIB =
+[1681187819.176532][12575:12577] CHIP:DMG:                      {
+[1681187819.176536][12575:12577] CHIP:DMG:                              DataVersion = 0xee92b81e,
+[1681187819.176539][12575:12577] CHIP:DMG:                              AttributePathIB =
+[1681187819.176544][12575:12577] CHIP:DMG:                              {
+[1681187819.176548][12575:12577] CHIP:DMG:                                      Endpoint = 0x0,
+[1681187819.176553][12575:12577] CHIP:DMG:                                      Cluster = 0x28,
+[1681187819.176557][12575:12577] CHIP:DMG:                                      Attribute = 0x0000_0004,
+[1681187819.176561][12575:12577] CHIP:DMG:                              }
+[1681187819.176566][12575:12577] CHIP:DMG:
+[1681187819.176571][12575:12577] CHIP:DMG:                              Data = 32769,
+[1681187819.176574][12575:12577] CHIP:DMG:                      },
+[1681187819.176580][12575:12577] CHIP:DMG:
+[1681187819.176583][12575:12577] CHIP:DMG:              },
+[1681187819.176593][12575:12577] CHIP:DMG:
+[1681187819.176596][12575:12577] CHIP:DMG:              AttributeReportIB =
+[1681187819.176602][12575:12577] CHIP:DMG:              {
+[1681187819.176605][12575:12577] CHIP:DMG:                      AttributeDataIB =
+[1681187819.176609][12575:12577] CHIP:DMG:                      {
+[1681187819.176613][12575:12577] CHIP:DMG:                              DataVersion = 0xee92b81e,
+[1681187819.176631][12575:12577] CHIP:DMG:                              AttributePathIB =
+[1681187819.176636][12575:12577] CHIP:DMG:                              {
+[1681187819.176640][12575:12577] CHIP:DMG:                                      Endpoint = 0x0,
+[1681187819.176645][12575:12577] CHIP:DMG:                                      Cluster = 0x28,
+[1681187819.176650][12575:12577] CHIP:DMG:                                      Attribute = 0x0000_0002,
+[1681187819.176654][12575:12577] CHIP:DMG:                              }
+[1681187819.176659][12575:12577] CHIP:DMG:
+[1681187819.176664][12575:12577] CHIP:DMG:                              Data = 65521,
+[1681187819.176667][12575:12577] CHIP:DMG:                      },
+[1681187819.176673][12575:12577] CHIP:DMG:
+[1681187819.176676][12575:12577] CHIP:DMG:              },
+[1681187819.176686][12575:12577] CHIP:DMG:
+[1681187819.176690][12575:12577] CHIP:DMG:              AttributeReportIB =
+[1681187819.176696][12575:12577] CHIP:DMG:              {
+[1681187819.176700][12575:12577] CHIP:DMG:                      AttributeDataIB =
+[1681187819.176704][12575:12577] CHIP:DMG:                      {
+[1681187819.176707][12575:12577] CHIP:DMG:                              DataVersion = 0x4424b6a1,
+[1681187819.176711][12575:12577] CHIP:DMG:                              AttributePathIB =
+[1681187819.176715][12575:12577] CHIP:DMG:                              {
+[1681187819.176719][12575:12577] CHIP:DMG:                                      Endpoint = 0x0,
+[1681187819.176724][12575:12577] CHIP:DMG:                                      Cluster = 0x30,
+[1681187819.176728][12575:12577] CHIP:DMG:                                      Attribute = 0x0000_0003,
+[1681187819.176731][12575:12577] CHIP:DMG:                              }
+[1681187819.176735][12575:12577] CHIP:DMG:
+[1681187819.176739][12575:12577] CHIP:DMG:                              Data = 2,
+[1681187819.176742][12575:12577] CHIP:DMG:                      },
+[1681187819.176747][12575:12577] CHIP:DMG:
+[1681187819.176750][12575:12577] CHIP:DMG:              },
+[1681187819.176758][12575:12577] CHIP:DMG:
+[1681187819.176761][12575:12577] CHIP:DMG:              AttributeReportIB =
+[1681187819.176767][12575:12577] CHIP:DMG:              {
+[1681187819.176770][12575:12577] CHIP:DMG:                      AttributeDataIB =
+[1681187819.176773][12575:12577] CHIP:DMG:                      {
+[1681187819.176777][12575:12577] CHIP:DMG:                              DataVersion = 0x4424b6a1,
+[1681187819.176781][12575:12577] CHIP:DMG:                              AttributePathIB =
+[1681187819.176785][12575:12577] CHIP:DMG:                              {
+[1681187819.176789][12575:12577] CHIP:DMG:                                      Endpoint = 0x0,
+[1681187819.176793][12575:12577] CHIP:DMG:                                      Cluster = 0x30,
+[1681187819.176798][12575:12577] CHIP:DMG:                                      Attribute = 0x0000_0002,
+[1681187819.176801][12575:12577] CHIP:DMG:                              }
+[1681187819.176807][12575:12577] CHIP:DMG:
+[1681187819.176811][12575:12577] CHIP:DMG:                              Data = 0,
+[1681187819.176814][12575:12577] CHIP:DMG:                      },
+[1681187819.176820][12575:12577] CHIP:DMG:
+[1681187819.176823][12575:12577] CHIP:DMG:              },
+[1681187819.176833][12575:12577] CHIP:DMG:
+[1681187819.176836][12575:12577] CHIP:DMG:              AttributeReportIB =
+[1681187819.176843][12575:12577] CHIP:DMG:              {
+[1681187819.176846][12575:12577] CHIP:DMG:                      AttributeDataIB =
+[1681187819.176849][12575:12577] CHIP:DMG:                      {
+[1681187819.176853][12575:12577] CHIP:DMG:                              DataVersion = 0x4424b6a1,
+[1681187819.176856][12575:12577] CHIP:DMG:                              AttributePathIB =
+[1681187819.176860][12575:12577] CHIP:DMG:                              {
+[1681187819.176864][12575:12577] CHIP:DMG:                                      Endpoint = 0x0,
+[1681187819.176867][12575:12577] CHIP:DMG:                                      Cluster = 0x30,
+[1681187819.176871][12575:12577] CHIP:DMG:                                      Attribute = 0x0000_0001,
+[1681187819.176874][12575:12577] CHIP:DMG:                              }
+[1681187819.176879][12575:12577] CHIP:DMG:
+[1681187819.176882][12575:12577] CHIP:DMG:                              Data =
+[1681187819.176886][12575:12577] CHIP:DMG:                              {
+[1681187819.176891][12575:12577] CHIP:DMG:                                      0x0 = 60,
+[1681187819.176896][12575:12577] CHIP:DMG:                                      0x1 = 900,
+[1681187819.176900][12575:12577] CHIP:DMG:                              },
+[1681187819.176903][12575:12577] CHIP:DMG:                      },
+[1681187819.176909][12575:12577] CHIP:DMG:
+[1681187819.176912][12575:12577] CHIP:DMG:              },
+[1681187819.176922][12575:12577] CHIP:DMG:
+[1681187819.176925][12575:12577] CHIP:DMG:              AttributeReportIB =
+[1681187819.176931][12575:12577] CHIP:DMG:              {
+[1681187819.176934][12575:12577] CHIP:DMG:                      AttributeDataIB =
+[1681187819.176938][12575:12577] CHIP:DMG:                      {
+[1681187819.176941][12575:12577] CHIP:DMG:                              DataVersion = 0x4424b6a1,
+[1681187819.176945][12575:12577] CHIP:DMG:                              AttributePathIB =
+[1681187819.176949][12575:12577] CHIP:DMG:                              {
+[1681187819.176952][12575:12577] CHIP:DMG:                                      Endpoint = 0x0,
+[1681187819.176956][12575:12577] CHIP:DMG:                                      Cluster = 0x30,
+[1681187819.176961][12575:12577] CHIP:DMG:                                      Attribute = 0x0000_0000,
+[1681187819.176964][12575:12577] CHIP:DMG:                              }
+[1681187819.176969][12575:12577] CHIP:DMG:
+[1681187819.176973][12575:12577] CHIP:DMG:                              Data = 0,
+[1681187819.176976][12575:12577] CHIP:DMG:                      },
+[1681187819.176982][12575:12577] CHIP:DMG:
+[1681187819.176985][12575:12577] CHIP:DMG:              },
+[1681187819.176994][12575:12577] CHIP:DMG:
+[1681187819.176996][12575:12577] CHIP:DMG:              AttributeReportIB =
+[1681187819.177003][12575:12577] CHIP:DMG:              {
+[1681187819.177006][12575:12577] CHIP:DMG:                      AttributeDataIB =
+[1681187819.177010][12575:12577] CHIP:DMG:                      {
+[1681187819.177013][12575:12577] CHIP:DMG:                              DataVersion = 0x320f592d,
+[1681187819.177017][12575:12577] CHIP:DMG:                              AttributePathIB =
+[1681187819.177021][12575:12577] CHIP:DMG:                              {
+[1681187819.177025][12575:12577] CHIP:DMG:                                      Endpoint = 0x0,
+[1681187819.177029][12575:12577] CHIP:DMG:                                      Cluster = 0x31,
+[1681187819.177033][12575:12577] CHIP:DMG:                                      Attribute = 0x0000_FFFC,
+[1681187819.177037][12575:12577] CHIP:DMG:                              }
+[1681187819.177042][12575:12577] CHIP:DMG:
+[1681187819.177046][12575:12577] CHIP:DMG:                              Data = 2,
+[1681187819.177049][12575:12577] CHIP:DMG:                      },
+[1681187819.177055][12575:12577] CHIP:DMG:
+[1681187819.177058][12575:12577] CHIP:DMG:              },
+[1681187819.177064][12575:12577] CHIP:DMG:
+[1681187819.177067][12575:12577] CHIP:DMG:      ],
+[1681187819.177094][12575:12577] CHIP:DMG:
+[1681187819.177098][12575:12577] CHIP:DMG:      SuppressResponse = true,
+[1681187819.177102][12575:12577] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.177105][12575:12577] CHIP:DMG: }
+[1681187819.178063][12575:12577] CHIP:CTL: ----- NetworkCommissioning Features: has Thread. endpointid = 0
+[1681187819.178210][12575:12577] CHIP:CTL: Successfully finished commissioning step 'ReadCommissioningInfo'
+[1681187819.178248][12575:12577] CHIP:CTL: Commissioning stage next step: 'ReadCommissioningInfo' -> 'ArmFailSafe'
+[1681187819.178285][12575:12577] CHIP:CTL: Performing next commissioning step 'ArmFailSafe'
+[1681187819.178325][12575:12577] CHIP:CTL: Arming failsafe (60 seconds)
+[1681187819.178363][12575:12577] CHIP:DMG: ICR moving to [AddingComm]
+[1681187819.178427][12575:12577] CHIP:DMG: ICR moving to [AddedComma]
+[1681187819.178475][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.178483][12575:12577] CHIP:EM: <<< [E:32033i S:5966 M:226030722] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187819.178493][12575:12577] CHIP:IN: (S) Sending msg 226030722 on secure session with LSID: 5966
+[1681187819.178556][12575:12577] CHIP:DMG: ICR moving to [CommandSen]
+[1681187819.178696][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.178734][12575:12577] CHIP:EM: <<< [E:32032i S:5966 M:226030723 (Ack:160249978)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.178753][12575:12577] CHIP:IN: (S) Sending msg 226030723 on secure session with LSID: 5966
+[1681187819.179089][12575:12577] CHIP:EM: Flushed pending ack for MessageCounter:160249978 on exchange 32032i
+[1681187819.179313][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.179353][12575:12577] CHIP:EM: >>> [E:32033i S:5966 M:160249979 (Ack:226030722)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187819.179363][12575:12577] CHIP:EM: Found matching exchange: 32033i, Delegate: 0x7f6e60021468
+[1681187819.179371][12575:12577] CHIP:EM: Rxd Ack; Removing MessageCounter:226030722 from Retrans Table on exchange 32033i
+[1681187819.179379][12575:12577] CHIP:DMG: ICR moving to [ResponseRe]
+[1681187819.179395][12575:12577] CHIP:DMG: InvokeResponseMessage =
+[1681187819.179398][12575:12577] CHIP:DMG: {
+[1681187819.179402][12575:12577] CHIP:DMG:      suppressResponse = false,
+[1681187819.179406][12575:12577] CHIP:DMG:      InvokeResponseIBs =
+[1681187819.179414][12575:12577] CHIP:DMG:      [
+[1681187819.179442][12575:12577] CHIP:DMG:              InvokeResponseIB =
+[1681187819.179453][12575:12577] CHIP:DMG:              {
+[1681187819.179458][12575:12577] CHIP:DMG:                      CommandDataIB =
+[1681187819.179463][12575:12577] CHIP:DMG:                      {
+[1681187819.179466][12575:12577] CHIP:DMG:                              CommandPathIB =
+[1681187819.179471][12575:12577] CHIP:DMG:                              {
+[1681187819.179499][12575:12577] CHIP:DMG:                                      EndpointId = 0x0,
+[1681187819.179507][12575:12577] CHIP:DMG:                                      ClusterId = 0x30,
+[1681187819.179515][12575:12577] CHIP:DMG:                                      CommandId = 0x1,
+[1681187819.179539][12575:12577] CHIP:DMG:                              },
+[1681187819.179548][12575:12577] CHIP:DMG:
+[1681187819.179555][12575:12577] CHIP:DMG:                              CommandFields =
+[1681187819.179562][12575:12577] CHIP:DMG:                              {
+[1681187819.179569][12575:12577] CHIP:DMG:                                      0x0 = 0,
+[1681187819.179578][12575:12577] CHIP:DMG:                                      0x1 = "" (0 chars),
+[1681187819.179583][12575:12577] CHIP:DMG:                              },
+[1681187819.179586][12575:12577] CHIP:DMG:                      },
+[1681187819.179595][12575:12577] CHIP:DMG:
+[1681187819.179630][12575:12577] CHIP:DMG:              },
+[1681187819.179645][12575:12577] CHIP:DMG:
+[1681187819.179649][12575:12577] CHIP:DMG:      ],
+[1681187819.179658][12575:12577] CHIP:DMG:
+[1681187819.179661][12575:12577] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.179686][12575:12577] CHIP:DMG: },
+[1681187819.179716][12575:12577] CHIP:DMG: Received Command Response Data, Endpoint=0 Cluster=0x0000_0030 Command=0x0000_0001
+[1681187819.179749][12575:12577] CHIP:CTL: Received ArmFailSafe response errorCode=0
+[1681187819.179757][12575:12577] CHIP:CTL: Successfully finished commissioning step 'ArmFailSafe'
+[1681187819.179788][12575:12577] CHIP:CTL: Commissioning stage next step: 'ArmFailSafe' -> 'ConfigRegulatory'
+[1681187819.179798][12575:12577] CHIP:CTL: Performing next commissioning step 'ConfigRegulatory'
+[1681187819.179801][12575:12577] CHIP:CTL: Setting Regulatory Config
+[1681187819.179804][12575:12577] CHIP:CTL: No regulatory config supplied by controller, leaving as device default (0)
+[1681187819.179826][12575:12577] CHIP:DMG: ICR moving to [AddingComm]
+[1681187819.179866][12575:12577] CHIP:DMG: ICR moving to [AddedComma]
+[1681187819.179909][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.179937][12575:12577] CHIP:EM: <<< [E:32034i S:5966 M:226030724] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187819.179949][12575:12577] CHIP:IN: (S) Sending msg 226030724 on secure session with LSID: 5966
+[1681187819.179990][12575:12577] CHIP:DMG: ICR moving to [CommandSen]
+[1681187819.180011][12575:12577] CHIP:DMG: ICR moving to [AwaitingDe]
+[1681187819.180025][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.180061][12575:12577] CHIP:EM: <<< [E:32033i S:5966 M:226030725 (Ack:160249979)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.180076][12575:12577] CHIP:IN: (S) Sending msg 226030725 on secure session with LSID: 5966
+[1681187819.180098][12575:12577] CHIP:EM: Flushed pending ack for MessageCounter:160249979 on exchange 32033i
+[1681187819.181886][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.181926][12575:12577] CHIP:EM: >>> [E:32034i S:5966 M:160249980 (Ack:226030724)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187819.181932][12575:12577] CHIP:EM: Found matching exchange: 32034i, Delegate: 0x7f6e600205e8
+[1681187819.181939][12575:12577] CHIP:EM: Rxd Ack; Removing MessageCounter:226030724 from Retrans Table on exchange 32034i
+[1681187819.181946][12575:12577] CHIP:DMG: ICR moving to [ResponseRe]
+[1681187819.181957][12575:12577] CHIP:DMG: InvokeResponseMessage =
+[1681187819.181959][12575:12577] CHIP:DMG: {
+[1681187819.181961][12575:12577] CHIP:DMG:      suppressResponse = false,
+[1681187819.181964][12575:12577] CHIP:DMG:      InvokeResponseIBs =
+[1681187819.181969][12575:12577] CHIP:DMG:      [
+[1681187819.181971][12575:12577] CHIP:DMG:              InvokeResponseIB =
+[1681187819.181994][12575:12577] CHIP:DMG:              {
+[1681187819.181998][12575:12577] CHIP:DMG:                      CommandDataIB =
+[1681187819.182001][12575:12577] CHIP:DMG:                      {
+[1681187819.182003][12575:12577] CHIP:DMG:                              CommandPathIB =
+[1681187819.182007][12575:12577] CHIP:DMG:                              {
+[1681187819.182010][12575:12577] CHIP:DMG:                                      EndpointId = 0x0,
+[1681187819.182013][12575:12577] CHIP:DMG:                                      ClusterId = 0x30,
+[1681187819.182016][12575:12577] CHIP:DMG:                                      CommandId = 0x3,
+[1681187819.182019][12575:12577] CHIP:DMG:                              },
+[1681187819.182060][12575:12577] CHIP:DMG:
+[1681187819.182079][12575:12577] CHIP:DMG:                              CommandFields =
+[1681187819.182084][12575:12577] CHIP:DMG:                              {
+[1681187819.182104][12575:12577] CHIP:DMG:                                      0x0 = 0,
+[1681187819.182126][12575:12577] CHIP:DMG:                                      0x1 = "" (0 chars),
+[1681187819.182131][12575:12577] CHIP:DMG:                              },
+[1681187819.182134][12575:12577] CHIP:DMG:                      },
+[1681187819.182138][12575:12577] CHIP:DMG:
+[1681187819.182157][12575:12577] CHIP:DMG:              },
+[1681187819.182164][12575:12577] CHIP:DMG:
+[1681187819.182166][12575:12577] CHIP:DMG:      ],
+[1681187819.182188][12575:12577] CHIP:DMG:
+[1681187819.182194][12575:12577] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.182197][12575:12577] CHIP:DMG: },
+[1681187819.182231][12575:12577] CHIP:DMG: Received Command Response Data, Endpoint=0 Cluster=0x0000_0030 Command=0x0000_0003
+[1681187819.182251][12575:12577] CHIP:CTL: Received SetRegulatoryConfig response errorCode=0
+[1681187819.182274][12575:12577] CHIP:CTL: Successfully finished commissioning step 'ConfigRegulatory'
+[1681187819.182279][12575:12577] CHIP:CTL: Commissioning stage next step: 'ConfigRegulatory' -> 'SendPAICertificateRequest'
+[1681187819.182304][12575:12577] CHIP:CTL: Performing next commissioning step 'SendPAICertificateRequest'
+[1681187819.182307][12575:12577] CHIP:CTL: Sending request for PAI certificate
+[1681187819.182309][12575:12577] CHIP:CTL: Sending Certificate Chain request to 0x7f6e60028360 device
+[1681187819.182321][12575:12577] CHIP:DMG: ICR moving to [AddingComm]
+[1681187819.182330][12575:12577] CHIP:DMG: ICR moving to [AddedComma]
+[1681187819.182345][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.182347][12575:12577] CHIP:EM: <<< [E:32035i S:5966 M:226030726] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187819.182354][12575:12577] CHIP:IN: (S) Sending msg 226030726 on secure session with LSID: 5966
+[1681187819.182387][12575:12577] CHIP:DMG: ICR moving to [CommandSen]
+[1681187819.182427][12575:12577] CHIP:DMG: ICR moving to [AwaitingDe]
+[1681187819.182440][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.182461][12575:12577] CHIP:EM: <<< [E:32034i S:5966 M:226030727 (Ack:160249980)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.182468][12575:12577] CHIP:IN: (S) Sending msg 226030727 on secure session with LSID: 5966
+[1681187819.182501][12575:12577] CHIP:EM: Flushed pending ack for MessageCounter:160249980 on exchange 32034i
+[1681187819.183271][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.183296][12575:12577] CHIP:EM: >>> [E:32035i S:5966 M:160249981 (Ack:226030726)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187819.183301][12575:12577] CHIP:EM: Found matching exchange: 32035i, Delegate: 0x7f6e60021468
+[1681187819.183307][12575:12577] CHIP:EM: Rxd Ack; Removing MessageCounter:226030726 from Retrans Table on exchange 32035i
+[1681187819.183350][12575:12577] CHIP:DMG: ICR moving to [ResponseRe]
+[1681187819.183365][12575:12577] CHIP:DMG: InvokeResponseMessage =
+[1681187819.183368][12575:12577] CHIP:DMG: {
+[1681187819.183371][12575:12577] CHIP:DMG:      suppressResponse = false,
+[1681187819.183373][12575:12577] CHIP:DMG:      InvokeResponseIBs =
+[1681187819.183379][12575:12577] CHIP:DMG:      [
+[1681187819.183381][12575:12577] CHIP:DMG:              InvokeResponseIB =
+[1681187819.183387][12575:12577] CHIP:DMG:              {
+[1681187819.183390][12575:12577] CHIP:DMG:                      CommandDataIB =
+[1681187819.183393][12575:12577] CHIP:DMG:                      {
+[1681187819.183396][12575:12577] CHIP:DMG:                              CommandPathIB =
+[1681187819.183399][12575:12577] CHIP:DMG:                              {
+[1681187819.183406][12575:12577] CHIP:DMG:                                      EndpointId = 0x0,
+[1681187819.183409][12575:12577] CHIP:DMG:                                      ClusterId = 0x3e,
+[1681187819.183412][12575:12577] CHIP:DMG:                                      CommandId = 0x3,
+[1681187819.183432][12575:12577] CHIP:DMG:                              },
+[1681187819.183438][12575:12577] CHIP:DMG:
+[1681187819.183441][12575:12577] CHIP:DMG:                              CommandFields =
+[1681187819.183445][12575:12577] CHIP:DMG:                              {
+[1681187819.183449][12575:12577] CHIP:DMG:                                      0x0 = [
+[1681187819.183492][12575:12577] CHIP:DMG:                                                      0x30, 0x82, 0x01, 0xcb, 0x30, 0x82, 0x01, 0x71, 0xa0, 0x03, 0x02, 0x01, 0x02, 0x02, 0x08, 0x56, 0xad, 0x82, 0x22, 0xad, 0x94, 0x5b, 0x64, 0x30, 0x0a, 0x06, 0x08, 0x2a, 0x86, 0x48, 0xce, 0x3d, 0x04, 0x03, 0x02, 0x30, 0x30, 0x31, 0x18, 0x30, 0x16, 0x06, 0x03, 0x55, 0x04, 0x03, 0x0c, 0x0f, 0x4d, 0x61, 0x74, 0x74, 0x65, 0x72, 0x20, 0x54, 0x65, 0x73, 0x74, 0x20, 0x50, 0x41, 0x41, 0x31, 0x14, 0x30, 0x12, 0x06, 0x0a, 0x2b, 0x06, 0x01, 0x04, 0x01, 0x82, 0xa2, 0x7c, 0x02, 0x01, 0x0c, 0x04, 0x46, 0x46, 0x46, 0x31, 0x30, 0x20, 0x17, 0x0d, 0x32, 0x32, 0x30, 0x32, 0x30, 0x35, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x5a, 0x18, 0x0f, 0x39, 0x39, 0x39, 0x39, 0x31, 0x32, 0x33, 0x31, 0x32, 0x33, 0x35, 0x39, 0x35, 0x39, 0x5a, 0x30, 0x3d, 0x31, 0x25, 0x30, 0x23, 0x06, 0x03, 0x55, 0x04, 0x03, 0x0c, 0x1c, 0x4d, 0x61, 0x74, 0x74, 0x65, 0x72, 0x20, 0x44, 0x65, 0x76, 0x20, 0x50, 0x41, 0x49, 0x20, 0x30, 0x78, 0x46, 0x46, 0x46, 0x31, 0x20, 0x6e, 0x6f, 0x20, 0x50, 0x49, 0x44, 0x31, 0x14, 0x30, 0x12, 0x06, 0x0a, 0x2b, 0x06, 0x01, 0x04, 0x01, 0x82, 0xa2, 0x7c, 0x02, 0x01, 0x0c, 0x04, 0x46, 0x46, 0x46, 0x31, 0x30, 0x59, 0x30, 0x13, 0x06, 0x07, 0x2a, 0x86, 0x48, 0xce, 0x3d, 0x02, 0x01, 0x06, 0x08, 0x2a, 0x86, 0x48, 0xce, 0x3d, 0x03, 0x01, 0x07, 0x03, 0x42, 0x00, 0x04, 0x41, 0x9a, 0x93, 0x15, 0xc2, 0x17, 0x3e, 0x0c, 0x8c, 0x87, 0x6d, 0x03, 0xcc, 0xfc, 0x94, 0x48, 0x52, 0x64, 0x7f, 0x7f, 0xec, 0x5e, 0x50, 0x82, 0xf4, 0x05, 0x99, 0x28, 0xec, 0xa8, 0x94, 0xc5, 0x94, 0x15, 0x13, 0x09, 0xac, 0x63, 0x1e, 0x4c, 0xb0, 0x33, 0x92, 0xaf, 0x68, 0x4b, 0x0b, 0xaf, 0xb7, 0xe6, 0x5b, 0x3b, 0x81, 0x62, 0xc2, 0xf5, 0x2b, 0xf9, 0x31, 0xb8, 0xe7, 0x7a, 0xaa, 0x82, 0xa3, 0x66, 0x30, 0x64, 0x30, 0x12, 0x06, 0x03, 0x55, 0x1d, 0x
+[1681187819.183533][12575:12577] CHIP:DMG:                                      ] (463 bytes)
+[1681187819.183538][12575:12577] CHIP:DMG:                              },
+[1681187819.183541][12575:12577] CHIP:DMG:                      },
+[1681187819.183547][12575:12577] CHIP:DMG:
+[1681187819.183568][12575:12577] CHIP:DMG:              },
+[1681187819.183574][12575:12577] CHIP:DMG:
+[1681187819.183592][12575:12577] CHIP:DMG:      ],
+[1681187819.183599][12575:12577] CHIP:DMG:
+[1681187819.183602][12575:12577] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.183604][12575:12577] CHIP:DMG: },
+[1681187819.183632][12575:12577] CHIP:DMG: Received Command Response Data, Endpoint=0 Cluster=0x0000_003E Command=0x0000_0003
+[1681187819.183649][12575:12577] CHIP:CTL: Received certificate chain from the device
+[1681187819.183661][12575:12577] CHIP:CTL: Successfully finished commissioning step 'SendPAICertificateRequest'
+[1681187819.183683][12575:12577] CHIP:CTL: Commissioning stage next step: 'SendPAICertificateRequest' -> 'SendDACCertificateRequest'
+[1681187819.183714][12575:12577] CHIP:CTL: Performing next commissioning step 'SendDACCertificateRequest'
+[1681187819.183718][12575:12577] CHIP:CTL: Sending request for DAC certificate
+[1681187819.183720][12575:12577] CHIP:CTL: Sending Certificate Chain request to 0x7f6e60028360 device
+[1681187819.183735][12575:12577] CHIP:DMG: ICR moving to [AddingComm]
+[1681187819.183742][12575:12577] CHIP:DMG: ICR moving to [AddedComma]
+[1681187819.183758][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.183778][12575:12577] CHIP:EM: <<< [E:32036i S:5966 M:226030728] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187819.183786][12575:12577] CHIP:IN: (S) Sending msg 226030728 on secure session with LSID: 5966
+[1681187819.183844][12575:12577] CHIP:DMG: ICR moving to [CommandSen]
+[1681187819.183874][12575:12577] CHIP:DMG: ICR moving to [AwaitingDe]
+[1681187819.183900][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.183920][12575:12577] CHIP:EM: <<< [E:32035i S:5966 M:226030729 (Ack:160249981)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.183928][12575:12577] CHIP:IN: (S) Sending msg 226030729 on secure session with LSID: 5966
+[1681187819.183943][12575:12577] CHIP:EM: Flushed pending ack for MessageCounter:160249981 on exchange 32035i
+[1681187819.184645][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.184681][12575:12577] CHIP:EM: >>> [E:32036i S:5966 M:160249982 (Ack:226030728)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187819.184690][12575:12577] CHIP:EM: Found matching exchange: 32036i, Delegate: 0x7f6e600205e8
+[1681187819.184700][12575:12577] CHIP:EM: Rxd Ack; Removing MessageCounter:226030728 from Retrans Table on exchange 32036i
+[1681187819.184734][12575:12577] CHIP:DMG: ICR moving to [ResponseRe]
+[1681187819.184755][12575:12577] CHIP:DMG: InvokeResponseMessage =
+[1681187819.184759][12575:12577] CHIP:DMG: {
+[1681187819.184763][12575:12577] CHIP:DMG:      suppressResponse = false,
+[1681187819.184765][12575:12577] CHIP:DMG:      InvokeResponseIBs =
+[1681187819.184771][12575:12577] CHIP:DMG:      [
+[1681187819.184774][12575:12577] CHIP:DMG:              InvokeResponseIB =
+[1681187819.184781][12575:12577] CHIP:DMG:              {
+[1681187819.184786][12575:12577] CHIP:DMG:                      CommandDataIB =
+[1681187819.184789][12575:12577] CHIP:DMG:                      {
+[1681187819.184792][12575:12577] CHIP:DMG:                              CommandPathIB =
+[1681187819.184796][12575:12577] CHIP:DMG:                              {
+[1681187819.184799][12575:12577] CHIP:DMG:                                      EndpointId = 0x0,
+[1681187819.184803][12575:12577] CHIP:DMG:                                      ClusterId = 0x3e,
+[1681187819.184806][12575:12577] CHIP:DMG:                                      CommandId = 0x3,
+[1681187819.184809][12575:12577] CHIP:DMG:                              },
+[1681187819.184813][12575:12577] CHIP:DMG:
+[1681187819.184816][12575:12577] CHIP:DMG:                              CommandFields =
+[1681187819.184820][12575:12577] CHIP:DMG:                              {
+[1681187819.184827][12575:12577] CHIP:DMG:                                      0x0 = [
+[1681187819.184873][12575:12577] CHIP:DMG:                                                      0x30, 0x82, 0x01, 0xe7, 0x30, 0x82, 0x01, 0x8e, 0xa0, 0x03, 0x02, 0x01, 0x02, 0x02, 0x08, 0x69, 0xcd, 0xf1, 0x0d, 0xe9, 0xe5, 0x4e, 0xd1, 0x30, 0x0a, 0x06, 0x08, 0x2a, 0x86, 0x48, 0xce, 0x3d, 0x04, 0x03, 0x02, 0x30, 0x3d, 0x31, 0x25, 0x30, 0x23, 0x06, 0x03, 0x55, 0x04, 0x03, 0x0c, 0x1c, 0x4d, 0x61, 0x74, 0x74, 0x65, 0x72, 0x20, 0x44, 0x65, 0x76, 0x20, 0x50, 0x41, 0x49, 0x20, 0x30, 0x78, 0x46, 0x46, 0x46, 0x31, 0x20, 0x6e, 0x6f, 0x20, 0x50, 0x49, 0x44, 0x31, 0x14, 0x30, 0x12, 0x06, 0x0a, 0x2b, 0x06, 0x01, 0x04, 0x01, 0x82, 0xa2, 0x7c, 0x02, 0x01, 0x0c, 0x04, 0x46, 0x46, 0x46, 0x31, 0x30, 0x20, 0x17, 0x0d, 0x32, 0x32, 0x30, 0x32, 0x30, 0x35, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x5a, 0x18, 0x0f, 0x39, 0x39, 0x39, 0x39, 0x31, 0x32, 0x33, 0x31, 0x32, 0x33, 0x35, 0x39, 0x35, 0x39, 0x5a, 0x30, 0x53, 0x31, 0x25, 0x30, 0x23, 0x06, 0x03, 0x55, 0x04, 0x03, 0x0c, 0x1c, 0x4d, 0x61, 0x74, 0x74, 0x65, 0x72, 0x20, 0x44, 0x65, 0x76, 0x20, 0x44, 0x41, 0x43, 0x20, 0x30, 0x78, 0x46, 0x46, 0x46, 0x31, 0x2f, 0x30, 0x78, 0x38, 0x30, 0x30, 0x31, 0x31, 0x14, 0x30, 0x12, 0x06, 0x0a, 0x2b, 0x06, 0x01, 0x04, 0x01, 0x82, 0xa2, 0x7c, 0x02, 0x01, 0x0c, 0x04, 0x46, 0x46, 0x46, 0x31, 0x31, 0x14, 0x30, 0x12, 0x06, 0x0a, 0x2b, 0x06, 0x01, 0x04, 0x01, 0x82, 0xa2, 0x7c, 0x02, 0x02, 0x0c, 0x04, 0x38, 0x30, 0x30, 0x31, 0x30, 0x59, 0x30, 0x13, 0x06, 0x07, 0x2a, 0x86, 0x48, 0xce, 0x3d, 0x02, 0x01, 0x06, 0x08, 0x2a, 0x86, 0x48, 0xce, 0x3d, 0x03, 0x01, 0x07, 0x03, 0x42, 0x00, 0x04, 0x46, 0x3a, 0xc6, 0x93, 0x42, 0x91, 0x0a, 0x0e, 0x55, 0x88, 0xfc, 0x6f, 0xf5, 0x6b, 0xb6, 0x3e, 0x62, 0xec, 0xce, 0xcb, 0x14, 0x8f, 0x7d, 0x4e, 0xb0, 0x3e, 0xe5, 0x52, 0x60, 0x14, 0x15, 0x76, 0x7d, 0x16, 0xa5, 0xc6, 0x63, 0xf7, 0x93, 0x
+[1681187819.184888][12575:12577] CHIP:DMG:                                      ] (491 bytes)
+[1681187819.184893][12575:12577] CHIP:DMG:                              },
+[1681187819.184896][12575:12577] CHIP:DMG:                      },
+[1681187819.184901][12575:12577] CHIP:DMG:
+[1681187819.184904][12575:12577] CHIP:DMG:              },
+[1681187819.184909][12575:12577] CHIP:DMG:
+[1681187819.184912][12575:12577] CHIP:DMG:      ],
+[1681187819.184919][12575:12577] CHIP:DMG:
+[1681187819.184922][12575:12577] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.184924][12575:12577] CHIP:DMG: },
+[1681187819.184944][12575:12577] CHIP:DMG: Received Command Response Data, Endpoint=0 Cluster=0x0000_003E Command=0x0000_0003
+[1681187819.184951][12575:12577] CHIP:CTL: Received certificate chain from the device
+[1681187819.184960][12575:12577] CHIP:CTL: Successfully finished commissioning step 'SendDACCertificateRequest'
+[1681187819.184967][12575:12577] CHIP:CTL: Commissioning stage next step: 'SendDACCertificateRequest' -> 'SendAttestationRequest'
+[1681187819.184974][12575:12577] CHIP:CTL: Performing next commissioning step 'SendAttestationRequest'
+[1681187819.184978][12575:12577] CHIP:CTL: Sending Attestation Request to the device.
+[1681187819.184982][12575:12577] CHIP:CTL: Sending Attestation request to 0x7f6e60028360 device
+[1681187819.185003][12575:12577] CHIP:DMG: ICR moving to [AddingComm]
+[1681187819.185011][12575:12577] CHIP:DMG: ICR moving to [AddedComma]
+[1681187819.185028][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.185057][12575:12577] CHIP:EM: <<< [E:32037i S:5966 M:226030730] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187819.185069][12575:12577] CHIP:IN: (S) Sending msg 226030730 on secure session with LSID: 5966
+[1681187819.185149][12575:12577] CHIP:DMG: ICR moving to [CommandSen]
+[1681187819.185176][12575:12577] CHIP:CTL: Sent Attestation request, waiting for the Attestation Information
+[1681187819.185213][12575:12577] CHIP:DMG: ICR moving to [AwaitingDe]
+[1681187819.185228][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.185234][12575:12577] CHIP:EM: <<< [E:32036i S:5966 M:226030731 (Ack:160249982)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.185240][12575:12577] CHIP:IN: (S) Sending msg 226030731 on secure session with LSID: 5966
+[1681187819.185258][12575:12577] CHIP:EM: Flushed pending ack for MessageCounter:160249982 on exchange 32036i
+[1681187819.185864][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.185939][12575:12577] CHIP:EM: >>> [E:32037i S:5966 M:160249983 (Ack:226030730)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.185978][12575:12577] CHIP:EM: Found matching exchange: 32037i, Delegate: 0x7f6e60021468
+[1681187819.185990][12575:12577] CHIP:EM: Rxd Ack; Removing MessageCounter:226030730 from Retrans Table on exchange 32037i
+[1681187819.186764][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.186825][12575:12577] CHIP:EM: >>> [E:32037i S:5966 M:160249984 (Ack:226030730)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187819.186854][12575:12577] CHIP:EM: Found matching exchange: 32037i, Delegate: 0x7f6e60021468
+[1681187819.186930][12575:12577] CHIP:EM: CHIP MessageCounter:226030730 not in RetransTable on exchange 32037i
+[1681187819.187254][12575:12577] CHIP:DMG: ICR moving to [ResponseRe]
+[1681187819.187377][12575:12577] CHIP:DMG: InvokeResponseMessage =
+[1681187819.187395][12575:12577] CHIP:DMG: {
+[1681187819.187451][12575:12577] CHIP:DMG:      suppressResponse = false,
+[1681187819.187457][12575:12577] CHIP:DMG:      InvokeResponseIBs =
+[1681187819.187464][12575:12577] CHIP:DMG:      [
+[1681187819.187467][12575:12577] CHIP:DMG:              InvokeResponseIB =
+[1681187819.187473][12575:12577] CHIP:DMG:              {
+[1681187819.187529][12575:12577] CHIP:DMG:                      CommandDataIB =
+[1681187819.187534][12575:12577] CHIP:DMG:                      {
+[1681187819.187537][12575:12577] CHIP:DMG:                              CommandPathIB =
+[1681187819.187541][12575:12577] CHIP:DMG:                              {
+[1681187819.187545][12575:12577] CHIP:DMG:                                      EndpointId = 0x0,
+[1681187819.187548][12575:12577] CHIP:DMG:                                      ClusterId = 0x3e,
+[1681187819.187551][12575:12577] CHIP:DMG:                                      CommandId = 0x1,
+[1681187819.187554][12575:12577] CHIP:DMG:                              },
+[1681187819.187558][12575:12577] CHIP:DMG:
+[1681187819.187561][12575:12577] CHIP:DMG:                              CommandFields =
+[1681187819.187564][12575:12577] CHIP:DMG:                              {
+[1681187819.187582][12575:12577] CHIP:DMG:                                      0x0 = [
+[1681187819.187637][12575:12577] CHIP:DMG:                                                      0x15, 0x31, 0x01, 0x1b, 0x02, 0x30, 0x82, 0x02, 0x17, 0x06, 0x09, 0x2a, 0x86, 0x48, 0x86, 0xf7, 0x0d, 0x01, 0x07, 0x02, 0xa0, 0x82, 0x02, 0x08, 0x30, 0x82, 0x02, 0x04, 0x02, 0x01, 0x03, 0x31, 0x0d, 0x30, 0x0b, 0x06, 0x09, 0x60, 0x86, 0x48, 0x01, 0x65, 0x03, 0x04, 0x02, 0x01, 0x30, 0x82, 0x01, 0x70, 0x06, 0x09, 0x2a, 0x86, 0x48, 0x86, 0xf7, 0x0d, 0x01, 0x07, 0x01, 0xa0, 0x82, 0x01, 0x61, 0x04, 0x82, 0x01, 0x5d, 0x15, 0x24, 0x00, 0x01, 0x25, 0x01, 0xf1, 0xff, 0x36, 0x02, 0x05, 0x00, 0x80, 0x05, 0x01, 0x80, 0x05, 0x02, 0x80, 0x05, 0x03, 0x80, 0x05, 0x04, 0x80, 0x05, 0x05, 0x80, 0x05, 0x06, 0x80, 0x05, 0x07, 0x80, 0x05, 0x08, 0x80, 0x05, 0x09, 0x80, 0x05, 0x0a, 0x80, 0x05, 0x0b, 0x80, 0x05, 0x0c, 0x80, 0x05, 0x0d, 0x80, 0x05, 0x0e, 0x80, 0x05, 0x0f, 0x80, 0x05, 0x10, 0x80, 0x05, 0x11, 0x80, 0x05, 0x12, 0x80, 0x05, 0x13, 0x80, 0x05, 0x14, 0x80, 0x05, 0x15, 0x80, 0x05, 0x16, 0x80, 0x05, 0x17, 0x80, 0x05, 0x18, 0x80, 0x05, 0x19, 0x80, 0x05, 0x1a, 0x80, 0x05, 0x1b, 0x80, 0x05, 0x1c, 0x80, 0x05, 0x1d, 0x80, 0x05, 0x1e, 0x80, 0x05, 0x1f, 0x80, 0x05, 0x20, 0x80, 0x05, 0x21, 0x80, 0x05, 0x22, 0x80, 0x05, 0x23, 0x80, 0x05, 0x24, 0x80, 0x05, 0x25, 0x80, 0x05, 0x26, 0x80, 0x05, 0x27, 0x80, 0x05, 0x28, 0x80, 0x05, 0x29, 0x80, 0x05, 0x2a, 0x80, 0x05, 0x2b, 0x80, 0x05, 0x2c, 0x80, 0x05, 0x2d, 0x80, 0x05, 0x2e, 0x80, 0x05, 0x2f, 0x80, 0x05, 0x30, 0x80, 0x05, 0x31, 0x80, 0x05, 0x32, 0x80, 0x05, 0x33, 0x80, 0x05, 0x34, 0x80, 0x05, 0x35, 0x80, 0x05, 0x36, 0x80, 0x05, 0x37, 0x80, 0x05, 0x38, 0x80, 0x05, 0x39, 0x80, 0x05, 0x3a, 0x80, 0x05, 0x3b, 0x80, 0x05, 0x3c, 0x80, 0x05, 0x3d, 0x80, 0x05, 0x3e, 0x80, 0x05, 0x3f, 0x80, 0x05, 0x40, 0x80, 0x05, 0x41, 0x80, 0x05, 0x42, 0x80, 0x05, 0x43, 0x80, 0x
+[1681187819.187687][12575:12577] CHIP:DMG:                                      ] (583 bytes)
+[1681187819.187692][12575:12577] CHIP:DMG:                                      0x1 = [
+[1681187819.187705][12575:12577] CHIP:DMG:                                                      0x7c, 0xed, 0x50, 0x36, 0x4f, 0x9f, 0x7f, 0x9a, 0xe7, 0x5d, 0xa5, 0x72, 0xe2, 0xa6, 0x19, 0x89, 0x85, 0xb7, 0x06, 0xff, 0x0b, 0xa4, 0xa1, 0x4d, 0xab, 0xaf, 0xa7, 0xe3, 0x9b, 0x03, 0xe8, 0x93, 0xef, 0xc1, 0xf1, 0x68, 0xa1, 0xfe, 0x22, 0x93, 0xd7, 0x99, 0xd7, 0x4c, 0xd4, 0x0a, 0xdc, 0xb9, 0xc8, 0xd0, 0x3c, 0xe2, 0x65, 0x4e, 0xf2, 0x8e, 0xaf, 0x6e, 0x49, 0x21, 0x3f, 0x0f, 0xd7, 0xff,
+[1681187819.187726][12575:12577] CHIP:DMG:                                      ] (64 bytes)
+[1681187819.187731][12575:12577] CHIP:DMG:                              },
+[1681187819.187759][12575:12577] CHIP:DMG:                      },
+[1681187819.187836][12575:12577] CHIP:DMG:
+[1681187819.187856][12575:12577] CHIP:DMG:              },
+[1681187819.187863][12575:12577] CHIP:DMG:
+[1681187819.187865][12575:12577] CHIP:DMG:      ],
+[1681187819.187871][12575:12577] CHIP:DMG:
+[1681187819.187874][12575:12577] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.187876][12575:12577] CHIP:DMG: },
+[1681187819.187911][12575:12577] CHIP:DMG: Received Command Response Data, Endpoint=0 Cluster=0x0000_003E Command=0x0000_0001
+[1681187819.187937][12575:12577] CHIP:CTL: Received Attestation Information from the device
+[1681187819.187945][12575:12577] CHIP:CTL: Successfully finished commissioning step 'SendAttestationRequest'
+[1681187819.187950][12575:12577] CHIP:CTL: AutoCommissioner setting attestationElements buffer size 583/583
+[1681187819.187960][12575:12577] CHIP:CTL: Commissioning stage next step: 'SendAttestationRequest' -> 'AttestationVerification'
+[1681187819.187967][12575:12577] CHIP:CTL: Performing next commissioning step 'AttestationVerification'
+[1681187819.187969][12575:12577] CHIP:CTL: Verifying attestation
+[1681187819.190687][12575:12577] CHIP:CTL: Successfully validated 'Attestation Information' command received from the device.
+[1681187819.190711][12575:12577] CHIP:CTL: Successfully finished commissioning step 'AttestationVerification'
+[1681187819.190714][12575:12577] CHIP:CTL: Commissioning stage next step: 'AttestationVerification' -> 'SendOpCertSigningRequest'
+[1681187819.190737][12575:12577] CHIP:CTL: Performing next commissioning step 'SendOpCertSigningRequest'
+[1681187819.190755][12575:12577] CHIP:CTL: Sending CSR request to 0x7f6e60028360 device
+[1681187819.190773][12575:12577] CHIP:DMG: ICR moving to [AddingComm]
+[1681187819.190794][12575:12577] CHIP:DMG: ICR moving to [AddedComma]
+[1681187819.190811][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.190826][12575:12577] CHIP:EM: <<< [E:32038i S:5966 M:226030732] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187819.190847][12575:12577] CHIP:IN: (S) Sending msg 226030732 on secure session with LSID: 5966
+[1681187819.190902][12575:12577] CHIP:DMG: ICR moving to [CommandSen]
+[1681187819.190920][12575:12577] CHIP:CTL: Sent CSR request, waiting for the CSR
+[1681187819.190934][12575:12577] CHIP:DMG: ICR moving to [AwaitingDe]
+[1681187819.190943][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.190947][12575:12577] CHIP:EM: <<< [E:32037i S:5966 M:226030733 (Ack:160249984)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.190952][12575:12577] CHIP:IN: (S) Sending msg 226030733 on secure session with LSID: 5966
+[1681187819.190964][12575:12577] CHIP:EM: Flushed pending ack for MessageCounter:160249984 on exchange 32037i
+[1681187819.191387][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.191418][12575:12577] CHIP:EM: >>> [E:32038i S:5966 M:160249985 (Ack:226030732)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.191438][12575:12577] CHIP:EM: Found matching exchange: 32038i, Delegate: 0x7f6e600205e8
+[1681187819.191459][12575:12577] CHIP:EM: Rxd Ack; Removing MessageCounter:226030732 from Retrans Table on exchange 32038i
+[1681187819.192350][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.192406][12575:12577] CHIP:EM: >>> [E:32038i S:5966 M:160249986 (Ack:226030732)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187819.192415][12575:12577] CHIP:EM: Found matching exchange: 32038i, Delegate: 0x7f6e600205e8
+[1681187819.192433][12575:12577] CHIP:EM: CHIP MessageCounter:226030732 not in RetransTable on exchange 32038i
+[1681187819.192464][12575:12577] CHIP:DMG: ICR moving to [ResponseRe]
+[1681187819.192479][12575:12577] CHIP:DMG: InvokeResponseMessage =
+[1681187819.192481][12575:12577] CHIP:DMG: {
+[1681187819.192485][12575:12577] CHIP:DMG:      suppressResponse = false,
+[1681187819.192487][12575:12577] CHIP:DMG:      InvokeResponseIBs =
+[1681187819.192493][12575:12577] CHIP:DMG:      [
+[1681187819.192519][12575:12577] CHIP:DMG:              InvokeResponseIB =
+[1681187819.192568][12575:12577] CHIP:DMG:              {
+[1681187819.192572][12575:12577] CHIP:DMG:                      CommandDataIB =
+[1681187819.192602][12575:12577] CHIP:DMG:                      {
+[1681187819.192660][12575:12577] CHIP:DMG:                              CommandPathIB =
+[1681187819.192683][12575:12577] CHIP:DMG:                              {
+[1681187819.192727][12575:12577] CHIP:DMG:                                      EndpointId = 0x0,
+[1681187819.192792][12575:12577] CHIP:DMG:                                      ClusterId = 0x3e,
+[1681187819.192819][12575:12577] CHIP:DMG:                                      CommandId = 0x5,
+[1681187819.192825][12575:12577] CHIP:DMG:                              },
+[1681187819.192847][12575:12577] CHIP:DMG:
+[1681187819.192852][12575:12577] CHIP:DMG:                              CommandFields =
+[1681187819.192856][12575:12577] CHIP:DMG:                              {
+[1681187819.192859][12575:12577] CHIP:DMG:                                      0x0 = [
+[1681187819.192895][12575:12577] CHIP:DMG:                                                      0x15, 0x30, 0x01, 0xcb, 0x30, 0x81, 0xc8, 0x30, 0x70, 0x02, 0x01, 0x00, 0x30, 0x0e, 0x31, 0x0c, 0x30, 0x0a, 0x06, 0x03, 0x55, 0x04, 0x0a, 0x0c, 0x03, 0x43, 0x53, 0x52, 0x30, 0x59, 0x30, 0x13, 0x06, 0x07, 0x2a, 0x86, 0x48, 0xce, 0x3d, 0x02, 0x01, 0x06, 0x08, 0x2a, 0x86, 0x48, 0xce, 0x3d, 0x03, 0x01, 0x07, 0x03, 0x42, 0x00, 0x04, 0x7b, 0xed, 0x39, 0x41, 0xd6, 0x84, 0xd4, 0xde, 0x8b, 0x45, 0xa3, 0x68, 0x78, 0xe9, 0xff, 0x62, 0xd7, 0x5f, 0xcf, 0xbc, 0x5e, 0x12, 0x96, 0xbd, 0xb4, 0xd9, 0xcf, 0xc4, 0xec, 0xaa, 0x4c, 0x3b, 0x89, 0x8f, 0x8b, 0x1d, 0x90, 0xf8, 0xdf, 0x77, 0x6c, 0x30, 0x46, 0xb6, 0xbe, 0x5a, 0xc8, 0xbc, 0x3a, 0x08, 0x5b, 0x04, 0x87, 0x5d, 0x23, 0xa3, 0xa7, 0xaa, 0x6c, 0x27, 0x7d, 0x1f, 0x67, 0xc7, 0xa0, 0x00, 0x30, 0x0a, 0x06, 0x08, 0x2a, 0x86, 0x48, 0xce, 0x3d, 0x04, 0x03, 0x02, 0x03, 0x48, 0x00, 0x30, 0x45, 0x02, 0x20, 0x17, 0x47, 0x9d, 0x71, 0x2c, 0x23, 0x59, 0x07, 0x0a, 0x6d, 0x6e, 0x48, 0xfa, 0x41, 0x99, 0x9a, 0x88, 0xc6, 0x5a, 0x96, 0xe1, 0x21, 0x95, 0x97, 0xb9, 0xe7, 0xb6, 0x3a, 0x2b, 0x72, 0x6f, 0x1f, 0x02, 0x21, 0x00, 0xfa, 0x2b, 0x43, 0xcf, 0x7b, 0xc7, 0x61, 0x46, 0xf8, 0x7a, 0x66, 0xcc, 0xc3, 0xbd, 0x2e, 0xaa, 0x7f, 0xe4, 0x59, 0x65, 0x72, 0xf3, 0x0d, 0xca, 0xc5, 0x0f, 0x57, 0x8f, 0x5d, 0xb0, 0xd4, 0x48, 0x30, 0x02, 0x20, 0x9d, 0xf6, 0x7d, 0xfa, 0x4e, 0x0c, 0x85, 0x3f, 0x03, 0x1e, 0x3f, 0x3a, 0xd5, 0x99, 0xdf, 0x6d, 0xbe, 0x3e, 0x6c, 0x3e, 0x99, 0xfb, 0xe6, 0x2a, 0x6b, 0x95, 0xd3, 0xe6, 0xb2, 0xca, 0x0b, 0x51, 0x18,
+[1681187819.192925][12575:12577] CHIP:DMG:                                      ] (243 bytes)
+[1681187819.192947][12575:12577] CHIP:DMG:                                      0x1 = [
+[1681187819.192961][12575:12577] CHIP:DMG:                                                      0x09, 0xae, 0x9c, 0xbd, 0xcd, 0x61, 0x24, 0x55, 0xd0, 0x6a, 0x25, 0xfd, 0xa2, 0x62, 0x71, 0x95, 0xcb, 0xbd, 0x47, 0xbf, 0x57, 0xd2, 0x69, 0xc1, 0x9b, 0xe2, 0xda, 0xc0, 0x50, 0xa8, 0xd0, 0xc3, 0xe3, 0x35, 0x4c, 0x0f, 0x03, 0xff, 0x1f, 0x53, 0xc5, 0x92, 0xdb, 0x30, 0x94, 0x8b, 0xf4, 0xbd, 0x59, 0x05, 0x1b, 0x8c, 0xcd, 0xa1, 0x82, 0xf4, 0xbe, 0x7b, 0x1f, 0x03, 0xad, 0xf5, 0xec, 0x0b,
+[1681187819.192986][12575:12577] CHIP:DMG:                                      ] (64 bytes)
+[1681187819.192994][12575:12577] CHIP:DMG:                              },
+[1681187819.193011][12575:12577] CHIP:DMG:                      },
+[1681187819.193026][12575:12577] CHIP:DMG:
+[1681187819.193047][12575:12577] CHIP:DMG:              },
+[1681187819.193057][12575:12577] CHIP:DMG:
+[1681187819.193077][12575:12577] CHIP:DMG:      ],
+[1681187819.193086][12575:12577] CHIP:DMG:
+[1681187819.193120][12575:12577] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.193125][12575:12577] CHIP:DMG: },
+[1681187819.193255][12575:12577] CHIP:DMG: Received Command Response Data, Endpoint=0 Cluster=0x0000_003E Command=0x0000_0005
+[1681187819.193331][12575:12577] CHIP:CTL: Received certificate signing request from the device
+[1681187819.193371][12575:12577] CHIP:CTL: Successfully finished commissioning step 'SendOpCertSigningRequest'
+[1681187819.193376][12575:12577] CHIP:CTL: Commissioning stage next step: 'SendOpCertSigningRequest' -> 'ValidateCSR'
+[1681187819.193386][12575:12577] CHIP:CTL: Performing next commissioning step 'ValidateCSR'
+[1681187819.193834][12575:12577] CHIP:CTL: Successfully finished commissioning step 'ValidateCSR'
+[1681187819.193854][12575:12577] CHIP:CTL: Commissioning stage next step: 'ValidateCSR' -> 'GenerateNOCChain'
+[1681187819.193860][12575:12577] CHIP:CTL: Performing next commissioning step 'GenerateNOCChain'
+[1681187819.193878][12575:12577] CHIP:CTL: Getting certificate chain for the device from the issuer
+[1681187819.193975][12575:12577] CHIP:CTL: Verifying Certificate Signing Request
+[1681187819.194469][12575:12577] CHIP:CTL: Generating NOC
+[1681187819.194596][12575:12577] CHIP:CTL: Providing certificate chain to the commissioner
+[1681187819.194628][12575:12577] CHIP:CTL: Received callback from the CA for NOC Chain generation. Status ../../examples/chip-tool/third_party/connectedhomeip/src/controller/ExampleOperationalCredentialsIssuer.cpp:396: Success
+[1681187819.194635][12575:12577] CHIP:CTL: Successfully finished commissioning step 'GenerateNOCChain'
+[1681187819.194708][12575:12577] CHIP:CTL: Performing next commissioning step 'SendTrustedRootCert'
+[1681187819.194730][12575:12577] CHIP:CTL: Sending root certificate to the device
+[1681187819.194768][12575:12577] CHIP:DMG: ICR moving to [AddingComm]
+[1681187819.194792][12575:12577] CHIP:DMG: ICR moving to [AddedComma]
+[1681187819.194813][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.194848][12575:12577] CHIP:EM: <<< [E:32039i S:5966 M:226030734] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187819.194914][12575:12577] CHIP:IN: (S) Sending msg 226030734 on secure session with LSID: 5966
+[1681187819.195012][12575:12577] CHIP:DMG: ICR moving to [CommandSen]
+[1681187819.195022][12575:12577] CHIP:CTL: Sent root certificate to the device
+[1681187819.195539][12575:12577] CHIP:DMG: ICR moving to [AwaitingDe]
+[1681187819.195574][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.195671][12575:12577] CHIP:EM: <<< [E:32038i S:5966 M:226030735 (Ack:160249986)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.195754][12575:12577] CHIP:IN: (S) Sending msg 226030735 on secure session with LSID: 5966
+[1681187819.195804][12575:12577] CHIP:EM: Flushed pending ack for MessageCounter:160249986 on exchange 32038i
+[1681187819.195851][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.195860][12575:12577] CHIP:EM: >>> [E:32039i S:5966 M:160249987 (Ack:226030734)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.195866][12575:12577] CHIP:EM: Found matching exchange: 32039i, Delegate: 0x7f6e60021468
+[1681187819.195872][12575:12577] CHIP:EM: Rxd Ack; Removing MessageCounter:226030734 from Retrans Table on exchange 32039i
+[1681187819.195927][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.195986][12575:12577] CHIP:EM: >>> [E:32039i S:5966 M:160249988 (Ack:226030734)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187819.196043][12575:12577] CHIP:EM: Found matching exchange: 32039i, Delegate: 0x7f6e60021468
+[1681187819.196139][12575:12577] CHIP:EM: CHIP MessageCounter:226030734 not in RetransTable on exchange 32039i
+[1681187819.196182][12575:12577] CHIP:DMG: ICR moving to [ResponseRe]
+[1681187819.196247][12575:12577] CHIP:DMG: InvokeResponseMessage =
+[1681187819.196266][12575:12577] CHIP:DMG: {
+[1681187819.196271][12575:12577] CHIP:DMG:      suppressResponse = false,
+[1681187819.196275][12575:12577] CHIP:DMG:      InvokeResponseIBs =
+[1681187819.196297][12575:12577] CHIP:DMG:      [
+[1681187819.196301][12575:12577] CHIP:DMG:              InvokeResponseIB =
+[1681187819.196307][12575:12577] CHIP:DMG:              {
+[1681187819.196310][12575:12577] CHIP:DMG:                      CommandStatusIB =
+[1681187819.196314][12575:12577] CHIP:DMG:                      {
+[1681187819.196317][12575:12577] CHIP:DMG:                              CommandPathIB =
+[1681187819.196320][12575:12577] CHIP:DMG:                              {
+[1681187819.196373][12575:12577] CHIP:DMG:                                      EndpointId = 0x0,
+[1681187819.196379][12575:12577] CHIP:DMG:                                      ClusterId = 0x3e,
+[1681187819.196401][12575:12577] CHIP:DMG:                                      CommandId = 0xb,
+[1681187819.196422][12575:12577] CHIP:DMG:                              },
+[1681187819.196430][12575:12577] CHIP:DMG:
+[1681187819.196456][12575:12577] CHIP:DMG:                              StatusIB =
+[1681187819.196539][12575:12577] CHIP:DMG:                              {
+[1681187819.196580][12575:12577] CHIP:DMG:                                      status = 0x00 (SUCCESS),
+[1681187819.196604][12575:12577] CHIP:DMG:                              },
+[1681187819.196610][12575:12577] CHIP:DMG:
+[1681187819.196613][12575:12577] CHIP:DMG:                      },
+[1681187819.196618][12575:12577] CHIP:DMG:
+[1681187819.196624][12575:12577] CHIP:DMG:              },
+[1681187819.196630][12575:12577] CHIP:DMG:
+[1681187819.196668][12575:12577] CHIP:DMG:      ],
+[1681187819.196676][12575:12577] CHIP:DMG:
+[1681187819.196729][12575:12577] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.196769][12575:12577] CHIP:DMG: },
+[1681187819.196795][12575:12577] CHIP:DMG: Received Command Response Status for Endpoint=0 Cluster=0x0000_003E Command=0x0000_000B Status=0x0
+[1681187819.196818][12575:12577] CHIP:CTL: Device confirmed that it has received the root certificate
+[1681187819.196823][12575:12577] CHIP:CTL: Successfully finished commissioning step 'SendTrustedRootCert'
+[1681187819.196826][12575:12577] CHIP:CTL: Commissioning stage next step: 'SendTrustedRootCert' -> 'SendNOC'
+[1681187819.196833][12575:12577] CHIP:CTL: Performing next commissioning step 'SendNOC'
+[1681187819.196865][12575:12577] CHIP:DMG: ICR moving to [AddingComm]
+[1681187819.196890][12575:12577] CHIP:DMG: ICR moving to [AddedComma]
+[1681187819.196925][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.196947][12575:12577] CHIP:EM: <<< [E:32040i S:5966 M:226030736] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187819.196955][12575:12577] CHIP:IN: (S) Sending msg 226030736 on secure session with LSID: 5966
+[1681187819.197016][12575:12577] CHIP:DMG: ICR moving to [CommandSen]
+[1681187819.197039][12575:12577] CHIP:CTL: Sent operational certificate to the device
+[1681187819.197069][12575:12577] CHIP:DMG: ICR moving to [AwaitingDe]
+[1681187819.197082][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.197086][12575:12577] CHIP:EM: <<< [E:32039i S:5966 M:226030737 (Ack:160249988)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.197105][12575:12577] CHIP:IN: (S) Sending msg 226030737 on secure session with LSID: 5966
+[1681187819.197123][12575:12577] CHIP:EM: Flushed pending ack for MessageCounter:160249988 on exchange 32039i
+[1681187819.198504][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.198543][12575:12577] CHIP:EM: >>> [E:32040i S:5966 M:160249989 (Ack:226030736)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.198549][12575:12577] CHIP:EM: Found matching exchange: 32040i, Delegate: 0x7f6e600205e8
+[1681187819.198557][12575:12577] CHIP:EM: Rxd Ack; Removing MessageCounter:226030736 from Retrans Table on exchange 32040i
+[1681187819.202086][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.202103][12575:12577] CHIP:EM: >>> [E:32040i S:5966 M:160249990 (Ack:226030736)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187819.202109][12575:12577] CHIP:EM: Found matching exchange: 32040i, Delegate: 0x7f6e600205e8
+[1681187819.202112][12575:12577] CHIP:EM: CHIP MessageCounter:226030736 not in RetransTable on exchange 32040i
+[1681187819.202119][12575:12577] CHIP:DMG: ICR moving to [ResponseRe]
+[1681187819.202130][12575:12577] CHIP:DMG: InvokeResponseMessage =
+[1681187819.202132][12575:12577] CHIP:DMG: {
+[1681187819.202134][12575:12577] CHIP:DMG:      suppressResponse = false,
+[1681187819.202136][12575:12577] CHIP:DMG:      InvokeResponseIBs =
+[1681187819.202140][12575:12577] CHIP:DMG:      [
+[1681187819.202142][12575:12577] CHIP:DMG:              InvokeResponseIB =
+[1681187819.202146][12575:12577] CHIP:DMG:              {
+[1681187819.202148][12575:12577] CHIP:DMG:                      CommandDataIB =
+[1681187819.202151][12575:12577] CHIP:DMG:                      {
+[1681187819.202154][12575:12577] CHIP:DMG:                              CommandPathIB =
+[1681187819.202158][12575:12577] CHIP:DMG:                              {
+[1681187819.202161][12575:12577] CHIP:DMG:                                      EndpointId = 0x0,
+[1681187819.202164][12575:12577] CHIP:DMG:                                      ClusterId = 0x3e,
+[1681187819.202167][12575:12577] CHIP:DMG:                                      CommandId = 0x8,
+[1681187819.202394][12575:12577] CHIP:DMG:                              },
+[1681187819.202442][12575:12577] CHIP:DMG:
+[1681187819.202449][12575:12577] CHIP:DMG:                              CommandFields =
+[1681187819.202453][12575:12577] CHIP:DMG:                              {
+[1681187819.202457][12575:12577] CHIP:DMG:                                      0x0 = 0,
+[1681187819.202479][12575:12577] CHIP:DMG:                                      0x1 = 1,
+[1681187819.202579][12575:12577] CHIP:DMG:                              },
+[1681187819.202610][12575:12577] CHIP:DMG:                      },
+[1681187819.202618][12575:12577] CHIP:DMG:
+[1681187819.202621][12575:12577] CHIP:DMG:              },
+[1681187819.202626][12575:12577] CHIP:DMG:
+[1681187819.202629][12575:12577] CHIP:DMG:      ],
+[1681187819.202655][12575:12577] CHIP:DMG:
+[1681187819.202705][12575:12577] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.202727][12575:12577] CHIP:DMG: },
+[1681187819.202798][12575:12577] CHIP:DMG: Received Command Response Data, Endpoint=0 Cluster=0x0000_003E Command=0x0000_0008
+[1681187819.202852][12575:12577] CHIP:CTL: Device returned status 0 on receiving the NOC
+[1681187819.202875][12575:12577] CHIP:CTL: Operational credentials provisioned on device 0x7f6e60028360
+[1681187819.202894][12575:12577] CHIP:TOO: Secure Pairing Success
+[1681187819.202914][12575:12577] CHIP:TOO: CASE establishment successful
+[1681187819.202936][12575:12577] CHIP:CTL: Successfully finished commissioning step 'SendNOC'
+[1681187819.202943][12575:12577] CHIP:CTL: Commissioning stage next step: 'SendNOC' -> 'FindOperational'
+[1681187819.202950][12575:12577] CHIP:CTL: Performing next commissioning step 'FindOperational'
+[1681187819.202954][12575:12577] CHIP:CSM: FindOrEstablishSession: PeerId = [1:000000000000006F]
+[1681187819.202958][12575:12577] CHIP:CSM: FindOrEstablishSession: No existing OperationalSessionSetup instance found
+[1681187819.202966][12575:12577] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 1 --> 2
+[1681187819.203151][12575:12577] CHIP:DMG: ICR moving to [AwaitingDe]
+[1681187819.203185][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.203212][12575:12577] CHIP:EM: <<< [E:32040i S:5966 M:226030738 (Ack:160249990)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.203236][12575:12577] CHIP:IN: (S) Sending msg 226030738 on secure session with LSID: 5966
+[1681187819.203262][12575:12577] CHIP:EM: Flushed pending ack for MessageCounter:160249990 on exchange 32040i
+[1681187819.203509][12575:12577] CHIP:DIS: UDP:[fe80::42:acff:fe11:3%eth0]:5540: new best score: 3
+[1681187819.203519][12575:12577] CHIP:DIS: UDP:172.17.0.3%eth0:5540: score has not improved: 2
+[1681187819.203521][12575:12577] CHIP:DIS: Checking node lookup status after 1 ms
+[1681187819.203523][12575:12577] CHIP:DIS: Keeping DNSSD lookup active
+[1681187819.203773][12575:12577] CHIP:DIS: UDP:[fe80::42:acff:fe11:3%eth0]:5540: score has not improved: 3
+[1681187819.203837][12575:12577] CHIP:DIS: UDP:172.17.0.3%eth0:5540: score has not improved: 2
+[1681187819.203841][12575:12577] CHIP:DIS: Checking node lookup status after 1 ms
+[1681187819.203843][12575:12577] CHIP:DIS: Keeping DNSSD lookup active
+[1681187819.402248][12575:12577] CHIP:DIS: Checking node lookup status after 200 ms
+[1681187819.402367][12575:12577] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: Updating device address to UDP:[fe80::42:acff:fe11:3%eth0]:5540 while in state 2
+[1681187819.402412][12575:12577] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 2 --> 3
+[1681187819.402507][12575:12577] CHIP:IN: SecureSession[0x7f6e60022160]: Allocated Type:2 LSID:5967
+[1681187819.402559][12575:12577] CHIP:SC: Initiating session on local FabricIndex 1 from 0x000000000001B669 -> 0x000000000000006F
+[1681187819.403146][12575:12577] CHIP:EM: <<< [E:32041i S:0 M:87329532] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:30 (SecureChannel:CASE_Sigma1)
+[1681187819.403223][12575:12577] CHIP:IN: (U) Sending msg 87329532 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187819.403349][12575:12577] CHIP:SC: Sent Sigma1 msg
+[1681187819.403456][12575:12577] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 3 --> 4
+[1681187819.406868][12575:12577] CHIP:EM: >>> [E:32041i S:0 M:88218463 (Ack:87329532)] (U) Msg RX from 0:0000000000000000 [0000] --- Type 0000:31 (SecureChannel:CASE_Sigma2)
+[1681187819.406920][12575:12577] CHIP:EM: Found matching exchange: 32041i, Delegate: 0x7f6e6002b328
+[1681187819.406964][12575:12577] CHIP:EM: Rxd Ack; Removing MessageCounter:87329532 from Retrans Table on exchange 32041i
+[1681187819.406986][12575:12577] CHIP:SC: Received Sigma2 msg
+[1681187819.407000][12575:12577] CHIP:SC: Peer assigned session session ID 50443
+[1681187819.409370][12575:12577] CHIP:SC: Sending Sigma3
+[1681187819.409744][12575:12577] CHIP:EM: <<< [E:32041i S:0 M:87329533 (Ack:88218463)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:32 (SecureChannel:CASE_Sigma3)
+[1681187819.409848][12575:12577] CHIP:IN: (U) Sending msg 87329533 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187819.409963][12575:12577] CHIP:SC: Sent Sigma3 msg
+[1681187819.416335][12575:12577] CHIP:EM: >>> [E:32041i S:0 M:88218464 (Ack:87329533)] (U) Msg RX from 0:0000000000000000 [0000] --- Type 0000:40 (SecureChannel:StatusReport)
+[1681187819.416367][12575:12577] CHIP:EM: Found matching exchange: 32041i, Delegate: 0x7f6e6002b328
+[1681187819.416403][12575:12577] CHIP:EM: Rxd Ack; Removing MessageCounter:87329533 from Retrans Table on exchange 32041i
+[1681187819.416429][12575:12577] CHIP:SC: Success status report received. Session was established
+[1681187819.419266][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_TEST_MODE=1 bypassing key negotiation... All sessions will use known, fixed test key, and NodeID=0 in NONCE. Node can only communicate with other nodes built with this flag set.
+[1681187819.419376][12575:12577] CHIP:SC: SecureSession[0x7f6e60022160]: Moving from state 'kEstablishing' --> 'kActive'
+[1681187819.419425][12575:12577] CHIP:IN: SecureSession[0x7f6e60022160]: Activated - Type:2 LSID:5967
+[1681187819.419468][12575:12577] CHIP:IN: New secure session activated for device <000000000000006F, 1>, LSID:5967 PSID:50443!
+[1681187819.419536][12575:12577] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 4 --> 5
+[1681187819.419632][12575:12577] CHIP:CTL: Successfully finished commissioning step 'FindOperational'
+[1681187819.419673][12575:12577] CHIP:CTL: Commissioning stage next step: 'FindOperational' -> 'SendComplete'
+[1681187819.419720][12575:12577] CHIP:CTL: Performing next commissioning step 'SendComplete'
+[1681187819.419807][12575:12577] CHIP:DMG: ICR moving to [AddingComm]
+[1681187819.419849][12575:12577] CHIP:DMG: ICR moving to [AddedComma]
+[1681187819.419924][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.419994][12575:12577] CHIP:EM: <<< [E:32042i S:5967 M:165256213] (S) Msg TX to 1:000000000000006F [952B] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187819.420025][12575:12577] CHIP:IN: (S) Sending msg 165256213 on secure session with LSID: 5967
+[1681187819.420191][12575:12577] CHIP:DMG: ICR moving to [CommandSen]
+[1681187819.420233][12575:12577] CHIP:EM: <<< [E:32041i S:0 M:87329534 (Ack:88218464)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.420281][12575:12577] CHIP:IN: (U) Sending msg 87329534 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187819.420329][12575:12577] CHIP:EM: Flushed pending ack for MessageCounter:88218464 on exchange 32041i
+[1681187819.427607][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.427680][12575:12577] CHIP:EM: >>> [E:32042i S:5967 M:7012080 (Ack:165256213)] (S) Msg RX from 1:000000000000006F [952B] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187819.427697][12575:12577] CHIP:EM: Found matching exchange: 32042i, Delegate: 0x7f6e600205e8
+[1681187819.427711][12575:12577] CHIP:EM: Rxd Ack; Removing MessageCounter:165256213 from Retrans Table on exchange 32042i
+[1681187819.427776][12575:12577] CHIP:DMG: ICR moving to [ResponseRe]
+[1681187819.427805][12575:12577] CHIP:DMG: InvokeResponseMessage =
+[1681187819.427849][12575:12577] CHIP:DMG: {
+[1681187819.427856][12575:12577] CHIP:DMG:      suppressResponse = false,
+[1681187819.427879][12575:12577] CHIP:DMG:      InvokeResponseIBs =
+[1681187819.427893][12575:12577] CHIP:DMG:      [
+[1681187819.427932][12575:12577] CHIP:DMG:              InvokeResponseIB =
+[1681187819.427945][12575:12577] CHIP:DMG:              {
+[1681187819.427949][12575:12577] CHIP:DMG:                      CommandDataIB =
+[1681187819.427955][12575:12577] CHIP:DMG:                      {
+[1681187819.427961][12575:12577] CHIP:DMG:                              CommandPathIB =
+[1681187819.427967][12575:12577] CHIP:DMG:                              {
+[1681187819.427972][12575:12577] CHIP:DMG:                                      EndpointId = 0x0,
+[1681187819.427977][12575:12577] CHIP:DMG:                                      ClusterId = 0x30,
+[1681187819.427983][12575:12577] CHIP:DMG:                                      CommandId = 0x5,
+[1681187819.427988][12575:12577] CHIP:DMG:                              },
+[1681187819.427995][12575:12577] CHIP:DMG:
+[1681187819.428020][12575:12577] CHIP:DMG:                              CommandFields =
+[1681187819.428030][12575:12577] CHIP:DMG:                              {
+[1681187819.428038][12575:12577] CHIP:DMG:                                      0x0 = 0,
+[1681187819.428046][12575:12577] CHIP:DMG:                                      0x1 = "" (0 chars),
+[1681187819.428057][12575:12577] CHIP:DMG:                              },
+[1681187819.428085][12575:12577] CHIP:DMG:                      },
+[1681187819.428098][12575:12577] CHIP:DMG:
+[1681187819.428104][12575:12577] CHIP:DMG:              },
+[1681187819.428112][12575:12577] CHIP:DMG:
+[1681187819.428116][12575:12577] CHIP:DMG:      ],
+[1681187819.428126][12575:12577] CHIP:DMG:
+[1681187819.428130][12575:12577] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.428134][12575:12577] CHIP:DMG: },
+[1681187819.428181][12575:12577] CHIP:DMG: Received Command Response Data, Endpoint=0 Cluster=0x0000_0030 Command=0x0000_0005
+[1681187819.428197][12575:12577] CHIP:CTL: Received CommissioningComplete response, errorCode=0
+[1681187819.428207][12575:12577] CHIP:CTL: Successfully finished commissioning step 'SendComplete'
+[1681187819.428238][12575:12577] CHIP:CTL: Commissioning stage next step: 'SendComplete' -> 'Cleanup'
+[1681187819.428250][12575:12577] CHIP:CTL: Performing next commissioning step 'Cleanup'
+[1681187819.428256][12575:12577] CHIP:IN: SecureSession[0x7f6e60022060]: MarkForEviction Type:1 LSID:5966
+[1681187819.428262][12575:12577] CHIP:SC: SecureSession[0x7f6e60022060]: Moving from state 'kActive' --> 'kPendingEviction'
+[1681187819.428286][12575:12577] CHIP:IN: SecureSession[0x7f6e60022060]: Released - Type:1 LSID:5966
+[1681187819.428303][12575:12577] CHIP:CTL: Successfully finished commissioning step 'Cleanup'
+[1681187819.428313][12575:12577] CHIP:TOO: Device commissioning completed with success
+[1681187819.428336][12575:12577] CHIP:DMG: ICR moving to [AwaitingDe]
+[1681187819.428354][12575:12577] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.428360][12575:12577] CHIP:EM: <<< [E:32042i S:5967 M:165256214 (Ack:7012080)] (S) Msg TX to 1:000000000000006F [952B] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.428371][12575:12577] CHIP:IN: (S) Sending msg 165256214 on secure session with LSID: 5967
+[1681187819.428413][12575:12577] CHIP:EM: Flushed pending ack for MessageCounter:7012080 on exchange 32042i
+[1681187819.428520][12575:12575] CHIP:CTL: Shutting down the commissioner
+[1681187819.428552][12575:12575] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187819.428601][12575:12575] CHIP:CTL: Shutting down the controller
+[1681187819.428702][12575:12575] CHIP:IN: Expiring all sessions for fabric 0x1!!
+[1681187819.428710][12575:12575] CHIP:IN: SecureSession[0x7f6e60022160]: MarkForEviction Type:2 LSID:5967
+[1681187819.428714][12575:12575] CHIP:SC: SecureSession[0x7f6e60022160]: Moving from state 'kActive' --> 'kPendingEviction'
+[1681187819.428719][12575:12575] CHIP:IN: SecureSession[0x7f6e60022160]: Released - Type:2 LSID:5967
+[1681187819.428751][12575:12575] CHIP:FP: Forgetting fabric 0x1
+[1681187819.428763][12575:12575] CHIP:TS: Pending Last Known Good Time: 2023-04-11T04:34:58
+[1681187819.428850][12575:12575] CHIP:TS: Previous Last Known Good Time: 2023-04-11T04:34:58
+[1681187819.428879][12575:12575] CHIP:TS: Reverted Last Known Good Time to previous value
+[1681187819.428895][12575:12575] CHIP:CTL: Shutting down the commissioner
+[1681187819.428899][12575:12575] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187819.428914][12575:12575] CHIP:CTL: Shutting down the controller
+[1681187819.428924][12575:12575] CHIP:CTL: Shutting down the System State, this will teardown the CHIP Stack
+[1681187819.428956][12575:12575] CHIP:DMG: All ReadHandler-s are clean, clear GlobalDirtySet
+[1681187819.428995][12575:12575] CHIP:BLE: BleConnectionDelegate::CancelConnection is not implemented.
+[1681187819.429008][12575:12575] CHIP:FP: Shutting down FabricTable
+[1681187819.429036][12575:12575] CHIP:TS: Pending Last Known Good Time: 2023-04-11T04:34:58
+[1681187819.429087][12575:12575] CHIP:TS: Previous Last Known Good Time: 2023-04-11T04:34:58
+[1681187819.429092][12575:12575] CHIP:TS: Reverted Last Known Good Time to previous value
+[1681187819.429225][12575:12575] CHIP:DL: writing settings to file (/tmp/chip_counters.ini-7rR5Y3)
+[1681187819.429426][12575:12575] CHIP:DL: renamed tmp file to file (/tmp/chip_counters.ini)
+[1681187819.429469][12575:12575] CHIP:DL: NVS set: chip-counters/total-operational-hours = 0 (0x0)
+[1681187819.429477][12575:12575] CHIP:DL: Inet Layer shutdown
+[1681187819.429480][12575:12575] CHIP:DL: BLE shutdown
+[1681187819.429485][12575:12575] CHIP:DL: System Layer shutdown
+ubuntu@a0a074ced910:~/connectedhomeip$ sudo ./out/chip-tool/chip-tool doorlock read lock-state 111 1
+[1681187851.912628][12579:12579] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_kvs
+[1681187851.912825][12579:12579] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_factory.ini
+[1681187851.912877][12579:12579] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_config.ini
+[1681187851.912894][12579:12579] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_counters.ini
+[1681187851.913004][12579:12579] CHIP:DL: writing settings to file (/tmp/chip_counters.ini-jDbovk)
+[1681187851.913251][12579:12579] CHIP:DL: renamed tmp file to file (/tmp/chip_counters.ini)
+[1681187851.913282][12579:12579] CHIP:DL: NVS set: chip-counters/reboot-count = 10 (0xA)
+[1681187851.913417][12579:12579] CHIP:DL: Got Ethernet interface: eth0
+[1681187851.913505][12579:12579] CHIP:DL: Found the primary Ethernet interface:eth0
+[1681187851.913646][12579:12579] CHIP:DL: Failed to get WiFi interface
+[1681187851.913673][12579:12579] CHIP:DL: Failed to reset WiFi statistic counts
+[1681187851.913700][12579:12579] CHIP:IN: UDP::Init bind&listen port=0
+[1681187851.913734][12579:12579] CHIP:IN: UDP::Init bound to port=59194
+[1681187851.913740][12579:12579] CHIP:IN: UDP::Init bind&listen port=0
+[1681187851.913754][12579:12579] CHIP:IN: UDP::Init bound to port=36122
+[1681187851.913783][12579:12579] CHIP:IN: BLEBase::Init - setting/overriding transport
+[1681187851.913788][12579:12579] CHIP:IN: TransportMgr initialized
+[1681187851.913797][12579:12579] CHIP:FP: Initializing FabricTable from persistent storage
+[1681187851.913874][12579:12579] CHIP:TS: Last Known Good Time: 2023-04-11T04:34:58
+[1681187851.914134][12579:12579] CHIP:FP: Fabric index 0x1 was retrieved from storage. Compressed FabricId 0x21190A9D7D12952B, FabricId 0x0000000000000001, NodeId 0x000000000001B669, VendorId 0xFFF1
+[1681187851.914691][12579:12579] CHIP:ZCL: Using ZAP configuration...
+[1681187851.915112][12579:12579] CHIP:CTL: System State Initialized...
+[1681187851.915144][12579:12579] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187851.915177][12579:12579] CHIP:CTL: Setting attestation nonce to random value
+[1681187851.915201][12579:12579] CHIP:CTL: Setting CSR nonce to random value
+[1681187851.915231][12579:12579] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187851.915261][12579:12579] CHIP:IN: UDP::Init bound to port=5550
+[1681187851.915286][12579:12579] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187851.915297][12579:12579] CHIP:IN: UDP::Init bound to port=5550
+[1681187851.915320][12579:12579] CHIP:IN: TransportMgr initialized
+[1681187851.915424][12579:12581] CHIP:DL: CHIP task running
+[1681187851.915464][12579:12581] CHIP:DL: HandlePlatformSpecificBLEEvent 32784
+[1681187851.915570][12579:12581] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187851.915601][12579:12581] CHIP:CTL: Setting attestation nonce to random value
+[1681187851.915640][12579:12581] CHIP:CTL: Setting CSR nonce to random value
+[1681187851.916779][12579:12581] CHIP:CTL: Generating NOC
+[1681187851.917136][12579:12581] CHIP:FP: Validating NOC chain
+[1681187851.917781][12579:12581] CHIP:FP: NOC chain validation successful
+[1681187851.917857][12579:12581] CHIP:FP: Updated fabric at index: 0x1, Node ID: 0x000000000001B669
+[1681187851.917886][12579:12581] CHIP:TS: Last Known Good Time: 2023-04-11T04:34:58
+[1681187851.917891][12579:12581] CHIP:TS: New proposed Last Known Good Time: 2021-01-01T00:00:00
+[1681187851.917893][12579:12581] CHIP:TS: Retaining current Last Known Good Time
+[1681187851.919674][12579:12581] CHIP:FP: Metadata for Fabric 0x1 persisted to storage.
+[1681187851.920269][12579:12581] CHIP:TS: Committing Last Known Good Time to storage: 2023-04-11T04:34:58
+[1681187851.920658][12579:12581] CHIP:CTL: Joined the fabric at index 1. Fabric ID is 0x0000000000000001 (Compressed Fabric ID: 21190A9D7D12952B)
+[1681187851.920690][12579:12581] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187851.920711][12579:12581] CHIP:IN: UDP::Init bound to port=5550
+[1681187851.920715][12579:12581] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187851.920737][12579:12581] CHIP:IN: UDP::Init bound to port=5550
+[1681187851.920761][12579:12581] CHIP:IN: TransportMgr initialized
+[1681187851.924408][12579:12581] CHIP:TOO: Sending command to node 0x6f
+[1681187851.924496][12579:12581] CHIP:CSM: FindOrEstablishSession: PeerId = [1:000000000000006F]
+[1681187851.924517][12579:12581] CHIP:CSM: FindOrEstablishSession: No existing OperationalSessionSetup instance found
+[1681187851.924538][12579:12581] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 1 --> 2
+[1681187851.925085][12579:12581] CHIP:DIS: UDP:[fe80::42:acff:fe11:3%eth0]:5540: new best score: 3
+[1681187851.925129][12579:12581] CHIP:DIS: UDP:172.17.0.3%eth0:5540: score has not improved: 2
+[1681187851.925133][12579:12581] CHIP:DIS: Checking node lookup status after 1 ms
+[1681187851.925152][12579:12581] CHIP:DIS: Keeping DNSSD lookup active
+[1681187851.925204][12579:12581] CHIP:DIS: UDP:[fe80::42:acff:fe11:3%eth0]:5540: score has not improved: 3
+[1681187851.925265][12579:12581] CHIP:DIS: UDP:172.17.0.3%eth0:5540: score has not improved: 2
+[1681187851.925267][12579:12581] CHIP:DIS: Checking node lookup status after 1 ms
+[1681187851.925269][12579:12581] CHIP:DIS: Keeping DNSSD lookup active
+[1681187852.124904][12579:12581] CHIP:DIS: Checking node lookup status after 201 ms
+[1681187852.125053][12579:12581] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: Updating device address to UDP:[fe80::42:acff:fe11:3%eth0]:5540 while in state 2
+[1681187852.125108][12579:12581] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 2 --> 3
+[1681187852.125190][12579:12581] CHIP:IN: SecureSession[0x7f79d4022410]: Allocated Type:2 LSID:49393
+[1681187852.125249][12579:12581] CHIP:SC: Initiating session on local FabricIndex 1 from 0x000000000001B669 -> 0x000000000000006F
+[1681187852.126043][12579:12581] CHIP:EM: <<< [E:41533i S:0 M:50907700] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:30 (SecureChannel:CASE_Sigma1)
+[1681187852.126182][12579:12581] CHIP:IN: (U) Sending msg 50907700 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187852.126685][12579:12581] CHIP:SC: Sent Sigma1 msg
+[1681187852.126713][12579:12581] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 3 --> 4
+[1681187852.128896][12579:12581] CHIP:EM: >>> [E:41533i S:0 M:88218465 (Ack:50907700)] (U) Msg RX from 0:0000000000000000 [0000] --- Type 0000:31 (SecureChannel:CASE_Sigma2)
+[1681187852.128991][12579:12581] CHIP:EM: Found matching exchange: 41533i, Delegate: 0x7f79d4024658
+[1681187852.129023][12579:12581] CHIP:EM: Rxd Ack; Removing MessageCounter:50907700 from Retrans Table on exchange 41533i
+[1681187852.129046][12579:12581] CHIP:SC: Received Sigma2 msg
+[1681187852.129065][12579:12581] CHIP:SC: Peer assigned session session ID 50444
+[1681187852.132155][12579:12581] CHIP:SC: Sending Sigma3
+[1681187852.132568][12579:12581] CHIP:EM: <<< [E:41533i S:0 M:50907701 (Ack:88218465)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:32 (SecureChannel:CASE_Sigma3)
+[1681187852.132699][12579:12581] CHIP:IN: (U) Sending msg 50907701 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187852.132849][12579:12581] CHIP:SC: Sent Sigma3 msg
+[1681187852.140044][12579:12581] CHIP:EM: >>> [E:41533i S:0 M:88218466 (Ack:50907701)] (U) Msg RX from 0:0000000000000000 [0000] --- Type 0000:40 (SecureChannel:StatusReport)
+[1681187852.140116][12579:12581] CHIP:EM: Found matching exchange: 41533i, Delegate: 0x7f79d4024658
+[1681187852.140142][12579:12581] CHIP:EM: Rxd Ack; Removing MessageCounter:50907701 from Retrans Table on exchange 41533i
+[1681187852.140168][12579:12581] CHIP:SC: Success status report received. Session was established
+[1681187852.142701][12579:12581] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_TEST_MODE=1 bypassing key negotiation... All sessions will use known, fixed test key, and NodeID=0 in NONCE. Node can only communicate with other nodes built with this flag set.
+[1681187852.142803][12579:12581] CHIP:SC: SecureSession[0x7f79d4022410]: Moving from state 'kEstablishing' --> 'kActive'
+[1681187852.142853][12579:12581] CHIP:IN: SecureSession[0x7f79d4022410]: Activated - Type:2 LSID:49393
+[1681187852.142894][12579:12581] CHIP:IN: New secure session activated for device <000000000000006F, 1>, LSID:49393 PSID:50444!
+[1681187852.142910][12579:12581] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 4 --> 5
+[1681187852.143002][12579:12581] CHIP:TOO:      cluster 0x0000_0101, attribute: 0x0000_0000, endpoint 1
+[1681187852.143042][12579:12581] CHIP:TOO: Sending ReadAttribute to:
+[1681187852.143057][12579:12581] CHIP:DMG: SendReadRequest ReadClient[0x7f79d4025e10]: Sending Read Request
+[1681187852.143126][12579:12581] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187852.143135][12579:12581] CHIP:EM: <<< [E:41534i S:49393 M:16655251] (S) Msg TX to 1:000000000000006F [952B] --- Type 0001:02 (IM:ReadRequest)
+[1681187852.143158][12579:12581] CHIP:IN: (S) Sending msg 16655251 on secure session with LSID: 49393
+[1681187852.145575][12579:12581] CHIP:DMG: MoveToState ReadClient[0x7f79d4025e10]: Moving to [AwaitingIn]
+[1681187852.145684][12579:12581] CHIP:EM: <<< [E:41533i S:0 M:50907702 (Ack:88218466)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187852.145786][12579:12581] CHIP:IN: (U) Sending msg 50907702 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187852.145917][12579:12581] CHIP:EM: Flushed pending ack for MessageCounter:88218466 on exchange 41533i
+[1681187852.146058][12579:12581] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187852.146180][12579:12581] CHIP:EM: >>> [E:41534i S:49393 M:146620948 (Ack:16655251)] (S) Msg RX from 1:000000000000006F [952B] --- Type 0001:05 (IM:ReportData)
+[1681187852.146195][12579:12581] CHIP:EM: Found matching exchange: 41534i, Delegate: 0x7f79d4025e20
+[1681187852.146208][12579:12581] CHIP:EM: Rxd Ack; Removing MessageCounter:16655251 from Retrans Table on exchange 41534i
+[1681187852.146268][12579:12581] CHIP:DMG: ReportDataMessage =
+[1681187852.146289][12579:12581] CHIP:DMG: {
+[1681187852.146298][12579:12581] CHIP:DMG:      AttributeReportIBs =
+[1681187852.146313][12579:12581] CHIP:DMG:      [
+[1681187852.146325][12579:12581] CHIP:DMG:              AttributeReportIB =
+[1681187852.146346][12579:12581] CHIP:DMG:              {
+[1681187852.146354][12579:12581] CHIP:DMG:                      AttributeDataIB =
+[1681187852.146361][12579:12581] CHIP:DMG:                      {
+[1681187852.146419][12579:12581] CHIP:DMG:                              DataVersion = 0xd4806a6e,
+[1681187852.146436][12579:12581] CHIP:DMG:                              AttributePathIB =
+[1681187852.146451][12579:12581] CHIP:DMG:                              {
+[1681187852.146459][12579:12581] CHIP:DMG:                                      Endpoint = 0x1,
+[1681187852.146467][12579:12581] CHIP:DMG:                                      Cluster = 0x101,
+[1681187852.146486][12579:12581] CHIP:DMG:                                      Attribute = 0x0000_0000,
+[1681187852.146534][12579:12581] CHIP:DMG:                              }
+[1681187852.146549][12579:12581] CHIP:DMG:
+[1681187852.146611][12579:12581] CHIP:DMG:                              Data = 1,
+[1681187852.146625][12579:12581] CHIP:DMG:                      },
+[1681187852.146715][12579:12581] CHIP:DMG:
+[1681187852.146786][12579:12581] CHIP:DMG:              },
+[1681187852.146846][12579:12581] CHIP:DMG:
+[1681187852.146912][12579:12581] CHIP:DMG:      ],
+[1681187852.146955][12579:12581] CHIP:DMG:
+[1681187852.147006][12579:12581] CHIP:DMG:      SuppressResponse = true,
+[1681187852.147015][12579:12581] CHIP:DMG:      InteractionModelRevision = 1
+[1681187852.147020][12579:12581] CHIP:DMG: }
+[1681187852.147173][12579:12581] CHIP:TOO: Endpoint: 1 Cluster: 0x0000_0101 Attribute 0x0000_0000 DataVersion: 3565185646
+[1681187852.147262][12579:12581] CHIP:TOO:   LockState: 1
+[1681187852.147394][12579:12581] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187852.147442][12579:12581] CHIP:EM: <<< [E:41534i S:49393 M:16655252 (Ack:146620948)] (S) Msg TX to 1:000000000000006F [952B] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187852.147507][12579:12581] CHIP:IN: (S) Sending msg 16655252 on secure session with LSID: 49393
+[1681187852.148208][12579:12581] CHIP:EM: Flushed pending ack for MessageCounter:146620948 on exchange 41534i
+[1681187852.148667][12579:12579] CHIP:CTL: Shutting down the commissioner
+[1681187852.148717][12579:12579] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187852.148765][12579:12579] CHIP:CTL: Shutting down the controller
+[1681187852.148815][12579:12579] CHIP:IN: Expiring all sessions for fabric 0x1!!
+[1681187852.148846][12579:12579] CHIP:IN: SecureSession[0x7f79d4022410]: MarkForEviction Type:2 LSID:49393
+[1681187852.148853][12579:12579] CHIP:SC: SecureSession[0x7f79d4022410]: Moving from state 'kActive' --> 'kPendingEviction'
+[1681187852.148860][12579:12579] CHIP:IN: SecureSession[0x7f79d4022410]: Released - Type:2 LSID:49393
+[1681187852.148870][12579:12579] CHIP:FP: Forgetting fabric 0x1
+[1681187852.148884][12579:12579] CHIP:TS: Pending Last Known Good Time: 2023-04-11T04:34:58
+[1681187852.148974][12579:12579] CHIP:TS: Previous Last Known Good Time: 2023-04-11T04:34:58
+[1681187852.148982][12579:12579] CHIP:TS: Reverted Last Known Good Time to previous value
+[1681187852.149004][12579:12579] CHIP:CTL: Shutting down the commissioner
+[1681187852.149010][12579:12579] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187852.149052][12579:12579] CHIP:CTL: Shutting down the controller
+[1681187852.149061][12579:12579] CHIP:CTL: Shutting down the System State, this will teardown the CHIP Stack
+[1681187852.149114][12579:12579] CHIP:DMG: All ReadHandler-s are clean, clear GlobalDirtySet
+[1681187852.149176][12579:12579] CHIP:BLE: BleConnectionDelegate::CancelConnection is not implemented.
+[1681187852.149195][12579:12579] CHIP:FP: Shutting down FabricTable
+[1681187852.149205][12579:12579] CHIP:TS: Pending Last Known Good Time: 2023-04-11T04:34:58
+[1681187852.149271][12579:12579] CHIP:TS: Previous Last Known Good Time: 2023-04-11T04:34:58
+[1681187852.149312][12579:12579] CHIP:TS: Reverted Last Known Good Time to previous value
+[1681187852.149602][12579:12579] CHIP:DL: writing settings to file (/tmp/chip_counters.ini-AMjewo)
+[1681187852.149990][12579:12579] CHIP:DL: renamed tmp file to file (/tmp/chip_counters.ini)
+[1681187852.150064][12579:12579] CHIP:DL: NVS set: chip-counters/total-operational-hours = 0 (0x0)
+[1681187852.150101][12579:12579] CHIP:DL: Inet Layer shutdown
+[1681187852.150110][12579:12579] CHIP:DL: BLE shutdown
+[1681187852.150156][12579:12579] CHIP:DL: System Layer shutdown
+ubuntu@a0a074ced910:~/connectedhomeip$ sudo ./out/chip-tool/chip-tool doorlock unlock-door 111 1 --timedInteractionTimeoutMs 2000
+[1681187896.932817][12583:12583] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_kvs
+[1681187896.933137][12583:12583] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_factory.ini
+[1681187896.933220][12583:12583] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_config.ini
+[1681187896.933289][12583:12583] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_counters.ini
+[1681187896.933485][12583:12583] CHIP:DL: writing settings to file (/tmp/chip_counters.ini-97KPsD)
+[1681187896.933763][12583:12583] CHIP:DL: renamed tmp file to file (/tmp/chip_counters.ini)
+[1681187896.933806][12583:12583] CHIP:DL: NVS set: chip-counters/reboot-count = 11 (0xB)
+[1681187896.934024][12583:12583] CHIP:DL: Got Ethernet interface: eth0
+[1681187896.934131][12583:12583] CHIP:DL: Found the primary Ethernet interface:eth0
+[1681187896.934313][12583:12583] CHIP:DL: Failed to get WiFi interface
+[1681187896.934345][12583:12583] CHIP:DL: Failed to reset WiFi statistic counts
+[1681187896.934370][12583:12583] CHIP:IN: UDP::Init bind&listen port=0
+[1681187896.934418][12583:12583] CHIP:IN: UDP::Init bound to port=35299
+[1681187896.934460][12583:12583] CHIP:IN: UDP::Init bind&listen port=0
+[1681187896.934502][12583:12583] CHIP:IN: UDP::Init bound to port=37980
+[1681187896.934507][12583:12583] CHIP:IN: BLEBase::Init - setting/overriding transport
+[1681187896.934511][12583:12583] CHIP:IN: TransportMgr initialized
+[1681187896.934522][12583:12583] CHIP:FP: Initializing FabricTable from persistent storage
+[1681187896.934587][12583:12583] CHIP:TS: Last Known Good Time: 2023-04-11T04:34:58
+[1681187896.934928][12583:12583] CHIP:FP: Fabric index 0x1 was retrieved from storage. Compressed FabricId 0x21190A9D7D12952B, FabricId 0x0000000000000001, NodeId 0x000000000001B669, VendorId 0xFFF1
+[1681187896.935805][12583:12583] CHIP:ZCL: Using ZAP configuration...
+[1681187896.936308][12583:12583] CHIP:CTL: System State Initialized...
+[1681187896.936354][12583:12583] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187896.936393][12583:12583] CHIP:CTL: Setting attestation nonce to random value
+[1681187896.936430][12583:12583] CHIP:CTL: Setting CSR nonce to random value
+[1681187896.936485][12583:12583] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187896.936546][12583:12583] CHIP:IN: UDP::Init bound to port=5550
+[1681187896.936580][12583:12583] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187896.936594][12583:12583] CHIP:IN: UDP::Init bound to port=5550
+[1681187896.936599][12583:12583] CHIP:IN: TransportMgr initialized
+[1681187896.936855][12583:12585] CHIP:DL: CHIP task running
+[1681187896.936959][12583:12585] CHIP:DL: HandlePlatformSpecificBLEEvent 32784
+[1681187896.937068][12583:12585] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187896.937115][12583:12585] CHIP:CTL: Setting attestation nonce to random value
+[1681187896.937138][12583:12585] CHIP:CTL: Setting CSR nonce to random value
+[1681187896.938414][12583:12585] CHIP:CTL: Generating NOC
+[1681187896.938851][12583:12585] CHIP:FP: Validating NOC chain
+[1681187896.939603][12583:12585] CHIP:FP: NOC chain validation successful
+[1681187896.939717][12583:12585] CHIP:FP: Updated fabric at index: 0x1, Node ID: 0x000000000001B669
+[1681187896.939778][12583:12585] CHIP:TS: Last Known Good Time: 2023-04-11T04:34:58
+[1681187896.939783][12583:12585] CHIP:TS: New proposed Last Known Good Time: 2021-01-01T00:00:00
+[1681187896.939787][12583:12585] CHIP:TS: Retaining current Last Known Good Time
+[1681187896.941622][12583:12585] CHIP:FP: Metadata for Fabric 0x1 persisted to storage.
+[1681187896.942376][12583:12585] CHIP:TS: Committing Last Known Good Time to storage: 2023-04-11T04:34:58
+[1681187896.943057][12583:12585] CHIP:CTL: Joined the fabric at index 1. Fabric ID is 0x0000000000000001 (Compressed Fabric ID: 21190A9D7D12952B)
+[1681187896.943089][12583:12585] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187896.943209][12583:12585] CHIP:IN: UDP::Init bound to port=5550
+[1681187896.943239][12583:12585] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187896.943391][12583:12585] CHIP:IN: UDP::Init bound to port=5550
+[1681187896.943397][12583:12585] CHIP:IN: TransportMgr initialized
+[1681187896.947763][12583:12585] CHIP:TOO: Sending command to node 0x6f
+[1681187896.947956][12583:12585] CHIP:CSM: FindOrEstablishSession: PeerId = [1:000000000000006F]
+[1681187896.948029][12583:12585] CHIP:CSM: FindOrEstablishSession: No existing OperationalSessionSetup instance found
+[1681187896.948039][12583:12585] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 1 --> 2
+[1681187896.948621][12583:12585] CHIP:DIS: UDP:[fe80::42:acff:fe11:3%eth0]:5540: new best score: 3
+[1681187896.948681][12583:12585] CHIP:DIS: UDP:172.17.0.3%eth0:5540: score has not improved: 2
+[1681187896.948688][12583:12585] CHIP:DIS: Checking node lookup status after 0 ms
+[1681187896.948691][12583:12585] CHIP:DIS: Keeping DNSSD lookup active
+[1681187896.948882][12583:12585] CHIP:DIS: UDP:[fe80::42:acff:fe11:3%eth0]:5540: score has not improved: 3
+[1681187896.948923][12583:12585] CHIP:DIS: UDP:172.17.0.3%eth0:5540: score has not improved: 2
+[1681187896.948948][12583:12585] CHIP:DIS: Checking node lookup status after 0 ms
+[1681187896.948974][12583:12585] CHIP:DIS: Keeping DNSSD lookup active
+[1681187897.148470][12583:12585] CHIP:DIS: Checking node lookup status after 200 ms
+[1681187897.148616][12583:12585] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: Updating device address to UDP:[fe80::42:acff:fe11:3%eth0]:5540 while in state 2
+[1681187897.148667][12583:12585] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 2 --> 3
+[1681187897.148749][12583:12585] CHIP:IN: SecureSession[0x7fb578022410]: Allocated Type:2 LSID:40129
+[1681187897.148810][12583:12585] CHIP:SC: Initiating session on local FabricIndex 1 from 0x000000000001B669 -> 0x000000000000006F
+[1681187897.149511][12583:12585] CHIP:EM: <<< [E:60786i S:0 M:4906593] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:30 (SecureChannel:CASE_Sigma1)
+[1681187897.149612][12583:12585] CHIP:IN: (U) Sending msg 4906593 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187897.149773][12583:12585] CHIP:SC: Sent Sigma1 msg
+[1681187897.149818][12583:12585] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 3 --> 4
+[1681187897.151998][12583:12585] CHIP:EM: >>> [E:60786i S:0 M:88218467 (Ack:4906593)] (U) Msg RX from 0:0000000000000000 [0000] --- Type 0000:31 (SecureChannel:CASE_Sigma2)
+[1681187897.152020][12583:12585] CHIP:EM: Found matching exchange: 60786i, Delegate: 0x7fb578024658
+[1681187897.152036][12583:12585] CHIP:EM: Rxd Ack; Removing MessageCounter:4906593 from Retrans Table on exchange 60786i
+[1681187897.152057][12583:12585] CHIP:SC: Received Sigma2 msg
+[1681187897.152071][12583:12585] CHIP:SC: Peer assigned session session ID 50445
+[1681187897.155318][12583:12585] CHIP:SC: Sending Sigma3
+[1681187897.155766][12583:12585] CHIP:EM: <<< [E:60786i S:0 M:4906594 (Ack:88218467)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:32 (SecureChannel:CASE_Sigma3)
+[1681187897.155863][12583:12585] CHIP:IN: (U) Sending msg 4906594 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187897.155997][12583:12585] CHIP:SC: Sent Sigma3 msg
+[1681187897.163342][12583:12585] CHIP:EM: >>> [E:60786i S:0 M:88218468 (Ack:4906594)] (U) Msg RX from 0:0000000000000000 [0000] --- Type 0000:40 (SecureChannel:StatusReport)
+[1681187897.163407][12583:12585] CHIP:EM: Found matching exchange: 60786i, Delegate: 0x7fb578024658
+[1681187897.163429][12583:12585] CHIP:EM: Rxd Ack; Removing MessageCounter:4906594 from Retrans Table on exchange 60786i
+[1681187897.163453][12583:12585] CHIP:SC: Success status report received. Session was established
+[1681187897.165410][12583:12585] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_TEST_MODE=1 bypassing key negotiation... All sessions will use known, fixed test key, and NodeID=0 in NONCE. Node can only communicate with other nodes built with this flag set.
+[1681187897.165551][12583:12585] CHIP:SC: SecureSession[0x7fb578022410]: Moving from state 'kEstablishing' --> 'kActive'
+[1681187897.165598][12583:12585] CHIP:IN: SecureSession[0x7fb578022410]: Activated - Type:2 LSID:40129
+[1681187897.165645][12583:12585] CHIP:IN: New secure session activated for device <000000000000006F, 1>, LSID:40129 PSID:50445!
+[1681187897.165662][12583:12585] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 4 --> 5
+[1681187897.165695][12583:12585] CHIP:TOO: Sending cluster (0x00000101) command (0x00000001) on endpoint 1
+[1681187897.165721][12583:12585] CHIP:DMG: ICR moving to [AddingComm]
+[1681187897.165785][12583:12585] CHIP:DMG: ICR moving to [AddedComma]
+[1681187897.165879][12583:12585] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187897.165947][12583:12585] CHIP:EM: <<< [E:60787i S:40129 M:85469043] (S) Msg TX to 1:000000000000006F [952B] --- Type 0001:0A (IM:TimedRequest)
+[1681187897.166008][12583:12585] CHIP:IN: (S) Sending msg 85469043 on secure session with LSID: 40129
+[1681187897.166151][12583:12585] CHIP:DMG: ICR moving to [AwaitingTi]
+[1681187897.166231][12583:12585] CHIP:EM: <<< [E:60786i S:0 M:4906595 (Ack:88218468)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187897.166281][12583:12585] CHIP:IN: (U) Sending msg 4906595 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187897.166323][12583:12585] CHIP:EM: Flushed pending ack for MessageCounter:88218468 on exchange 60786i
+[1681187897.167060][12583:12585] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187897.167124][12583:12585] CHIP:EM: >>> [E:60787i S:40129 M:250238350 (Ack:85469043)] (S) Msg RX from 1:000000000000006F [952B] --- Type 0001:01 (IM:StatusResponse)
+[1681187897.167140][12583:12585] CHIP:EM: Found matching exchange: 60787i, Delegate: 0x7fb578021698
+[1681187897.167155][12583:12585] CHIP:EM: Rxd Ack; Removing MessageCounter:85469043 from Retrans Table on exchange 60787i
+[1681187897.167182][12583:12585] CHIP:DMG: StatusResponseMessage =
+[1681187897.167256][12583:12585] CHIP:DMG: {
+[1681187897.167267][12583:12585] CHIP:DMG:      Status = 0x00 (SUCCESS),
+[1681187897.167274][12583:12585] CHIP:DMG:      InteractionModelRevision = 1
+[1681187897.167279][12583:12585] CHIP:DMG: }
+[1681187897.167287][12583:12585] CHIP:IM: Received status response, status is 0x00 (SUCCESS)
+[1681187897.167361][12583:12585] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187897.167446][12583:12585] CHIP:EM: <<< [E:60787i S:40129 M:85469044 (Ack:250238350)] (S) Msg TX to 1:000000000000006F [952B] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187897.167506][12583:12585] CHIP:IN: (S) Sending msg 85469044 on secure session with LSID: 40129
+[1681187897.167616][12583:12585] CHIP:DMG: ICR moving to [CommandSen]
+[1681187897.169492][12583:12585] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187897.169523][12583:12585] CHIP:EM: >>> [E:60787i S:40129 M:250238351 (Ack:85469044)] (S) Msg RX from 1:000000000000006F [952B] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187897.169536][12583:12585] CHIP:EM: Found matching exchange: 60787i, Delegate: 0x7fb578021698
+[1681187897.169551][12583:12585] CHIP:EM: Rxd Ack; Removing MessageCounter:85469044 from Retrans Table on exchange 60787i
+[1681187897.169565][12583:12585] CHIP:DMG: ICR moving to [ResponseRe]
+[1681187897.169591][12583:12585] CHIP:DMG: InvokeResponseMessage =
+[1681187897.169599][12583:12585] CHIP:DMG: {
+[1681187897.169606][12583:12585] CHIP:DMG:      suppressResponse = false,
+[1681187897.169611][12583:12585] CHIP:DMG:      InvokeResponseIBs =
+[1681187897.169625][12583:12585] CHIP:DMG:      [
+[1681187897.169667][12583:12585] CHIP:DMG:              InvokeResponseIB =
+[1681187897.169716][12583:12585] CHIP:DMG:              {
+[1681187897.169729][12583:12585] CHIP:DMG:                      CommandStatusIB =
+[1681187897.169737][12583:12585] CHIP:DMG:                      {
+[1681187897.169744][12583:12585] CHIP:DMG:                              CommandPathIB =
+[1681187897.169751][12583:12585] CHIP:DMG:                              {
+[1681187897.169759][12583:12585] CHIP:DMG:                                      EndpointId = 0x1,
+[1681187897.169767][12583:12585] CHIP:DMG:                                      ClusterId = 0x101,
+[1681187897.169774][12583:12585] CHIP:DMG:                                      CommandId = 0x1,
+[1681187897.169780][12583:12585] CHIP:DMG:                              },
+[1681187897.169831][12583:12585] CHIP:DMG:
+[1681187897.169844][12583:12585] CHIP:DMG:                              StatusIB =
+[1681187897.169857][12583:12585] CHIP:DMG:                              {
+[1681187897.169867][12583:12585] CHIP:DMG:                                      status = 0x00 (SUCCESS),
+[1681187897.169910][12583:12585] CHIP:DMG:                              },
+[1681187897.169922][12583:12585] CHIP:DMG:
+[1681187897.169951][12583:12585] CHIP:DMG:                      },
+[1681187897.169968][12583:12585] CHIP:DMG:
+[1681187897.169975][12583:12585] CHIP:DMG:              },
+[1681187897.170008][12583:12585] CHIP:DMG:
+[1681187897.170017][12583:12585] CHIP:DMG:      ],
+[1681187897.170032][12583:12585] CHIP:DMG:
+[1681187897.170039][12583:12585] CHIP:DMG:      InteractionModelRevision = 1
+[1681187897.170045][12583:12585] CHIP:DMG: },
+[1681187897.170127][12583:12585] CHIP:DMG: Received Command Response Status for Endpoint=1 Cluster=0x0000_0101 Command=0x0000_0001 Status=0x0
+[1681187897.170162][12583:12585] CHIP:DMG: ICR moving to [AwaitingDe]
+[1681187897.170294][12583:12585] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187897.170310][12583:12585] CHIP:EM: <<< [E:60787i S:40129 M:85469045 (Ack:250238351)] (S) Msg TX to 1:000000000000006F [952B] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187897.170334][12583:12585] CHIP:IN: (S) Sending msg 85469045 on secure session with LSID: 40129
+[1681187897.170395][12583:12585] CHIP:EM: Flushed pending ack for MessageCounter:250238351 on exchange 60787i
+[1681187897.170567][12583:12583] CHIP:CTL: Shutting down the commissioner
+[1681187897.170585][12583:12583] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187897.170627][12583:12583] CHIP:CTL: Shutting down the controller
+[1681187897.170674][12583:12583] CHIP:IN: Expiring all sessions for fabric 0x1!!
+[1681187897.170719][12583:12583] CHIP:IN: SecureSession[0x7fb578022410]: MarkForEviction Type:2 LSID:40129
+[1681187897.170787][12583:12583] CHIP:SC: SecureSession[0x7fb578022410]: Moving from state 'kActive' --> 'kPendingEviction'
+[1681187897.170797][12583:12583] CHIP:IN: SecureSession[0x7fb578022410]: Released - Type:2 LSID:40129
+[1681187897.170808][12583:12583] CHIP:FP: Forgetting fabric 0x1
+[1681187897.170822][12583:12583] CHIP:TS: Pending Last Known Good Time: 2023-04-11T04:34:58
+[1681187897.170941][12583:12583] CHIP:TS: Previous Last Known Good Time: 2023-04-11T04:34:58
+[1681187897.170985][12583:12583] CHIP:TS: Reverted Last Known Good Time to previous value
+[1681187897.171010][12583:12583] CHIP:CTL: Shutting down the commissioner
+[1681187897.171016][12583:12583] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187897.171038][12583:12583] CHIP:CTL: Shutting down the controller
+[1681187897.171112][12583:12583] CHIP:CTL: Shutting down the System State, this will teardown the CHIP Stack
+[1681187897.171175][12583:12583] CHIP:DMG: All ReadHandler-s are clean, clear GlobalDirtySet
+[1681187897.171239][12583:12583] CHIP:BLE: BleConnectionDelegate::CancelConnection is not implemented.
+[1681187897.171305][12583:12583] CHIP:FP: Shutting down FabricTable
+[1681187897.171357][12583:12583] CHIP:TS: Pending Last Known Good Time: 2023-04-11T04:34:58
+[1681187897.171483][12583:12583] CHIP:TS: Previous Last Known Good Time: 2023-04-11T04:34:58
+[1681187897.171529][12583:12583] CHIP:TS: Reverted Last Known Good Time to previous value
+[1681187897.171761][12583:12583] CHIP:DL: writing settings to file (/tmp/chip_counters.ini-CxxrCG)
+[1681187897.172319][12583:12583] CHIP:DL: renamed tmp file to file (/tmp/chip_counters.ini)
+[1681187897.172431][12583:12583] CHIP:DL: NVS set: chip-counters/total-operational-hours = 0 (0x0)
+[1681187897.172475][12583:12583] CHIP:DL: Inet Layer shutdown
+[1681187897.172523][12583:12583] CHIP:DL: BLE shutdown
+[1681187897.172560][12583:12583] CHIP:DL: System Layer shutdown
+ubuntu@a0a074ced910:~/connectedhomeip$ sudo ./out/chip-tool/chip-tool doorlock read lock-state 111 1
+[1681187928.022072][12587:12587] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_kvs
+[1681187928.022247][12587:12587] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_factory.ini
+[1681187928.022298][12587:12587] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_config.ini
+[1681187928.022338][12587:12587] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_counters.ini
+[1681187928.022448][12587:12587] CHIP:DL: writing settings to file (/tmp/chip_counters.ini-d623pY)
+[1681187928.022706][12587:12587] CHIP:DL: renamed tmp file to file (/tmp/chip_counters.ini)
+[1681187928.022743][12587:12587] CHIP:DL: NVS set: chip-counters/reboot-count = 12 (0xC)
+[1681187928.022944][12587:12587] CHIP:DL: Got Ethernet interface: eth0
+[1681187928.023026][12587:12587] CHIP:DL: Found the primary Ethernet interface:eth0
+[1681187928.023109][12587:12587] CHIP:DL: Failed to get WiFi interface
+[1681187928.023128][12587:12587] CHIP:DL: Failed to reset WiFi statistic counts
+[1681187928.023153][12587:12587] CHIP:IN: UDP::Init bind&listen port=0
+[1681187928.023184][12587:12587] CHIP:IN: UDP::Init bound to port=35408
+[1681187928.023203][12587:12587] CHIP:IN: UDP::Init bind&listen port=0
+[1681187928.023216][12587:12587] CHIP:IN: UDP::Init bound to port=54825
+[1681187928.023219][12587:12587] CHIP:IN: BLEBase::Init - setting/overriding transport
+[1681187928.023221][12587:12587] CHIP:IN: TransportMgr initialized
+[1681187928.023229][12587:12587] CHIP:FP: Initializing FabricTable from persistent storage
+[1681187928.023277][12587:12587] CHIP:TS: Last Known Good Time: 2023-04-11T04:34:58
+[1681187928.023506][12587:12587] CHIP:FP: Fabric index 0x1 was retrieved from storage. Compressed FabricId 0x21190A9D7D12952B, FabricId 0x0000000000000001, NodeId 0x000000000001B669, VendorId 0xFFF1
+[1681187928.025372][12587:12587] CHIP:ZCL: Using ZAP configuration...
+[1681187928.025774][12587:12587] CHIP:CTL: System State Initialized...
+[1681187928.025809][12587:12587] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187928.025821][12587:12587] CHIP:CTL: Setting attestation nonce to random value
+[1681187928.025828][12587:12587] CHIP:CTL: Setting CSR nonce to random value
+[1681187928.025859][12587:12587] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187928.025867][12587:12587] CHIP:IN: UDP::Init bound to port=5550
+[1681187928.025871][12587:12587] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187928.025876][12587:12587] CHIP:IN: UDP::Init bound to port=5550
+[1681187928.025881][12587:12587] CHIP:IN: TransportMgr initialized
+[1681187928.025976][12587:12589] CHIP:DL: CHIP task running
+[1681187928.026012][12587:12589] CHIP:DL: HandlePlatformSpecificBLEEvent 32784
+[1681187928.026102][12587:12589] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187928.026113][12587:12589] CHIP:CTL: Setting attestation nonce to random value
+[1681187928.026130][12587:12589] CHIP:CTL: Setting CSR nonce to random value
+[1681187928.027238][12587:12589] CHIP:CTL: Generating NOC
+[1681187928.027627][12587:12589] CHIP:FP: Validating NOC chain
+[1681187928.028167][12587:12589] CHIP:FP: NOC chain validation successful
+[1681187928.028269][12587:12589] CHIP:FP: Updated fabric at index: 0x1, Node ID: 0x000000000001B669
+[1681187928.028288][12587:12589] CHIP:TS: Last Known Good Time: 2023-04-11T04:34:58
+[1681187928.028304][12587:12589] CHIP:TS: New proposed Last Known Good Time: 2021-01-01T00:00:00
+[1681187928.028335][12587:12589] CHIP:TS: Retaining current Last Known Good Time
+[1681187928.029912][12587:12589] CHIP:FP: Metadata for Fabric 0x1 persisted to storage.
+[1681187928.030309][12587:12589] CHIP:TS: Committing Last Known Good Time to storage: 2023-04-11T04:34:58
+[1681187928.030679][12587:12589] CHIP:CTL: Joined the fabric at index 1. Fabric ID is 0x0000000000000001 (Compressed Fabric ID: 21190A9D7D12952B)
+[1681187928.030708][12587:12589] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187928.030760][12587:12589] CHIP:IN: UDP::Init bound to port=5550
+[1681187928.030782][12587:12589] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187928.030813][12587:12589] CHIP:IN: UDP::Init bound to port=5550
+[1681187928.030833][12587:12589] CHIP:IN: TransportMgr initialized
+[1681187928.034450][12587:12589] CHIP:TOO: Sending command to node 0x6f
+[1681187928.034581][12587:12589] CHIP:CSM: FindOrEstablishSession: PeerId = [1:000000000000006F]
+[1681187928.034638][12587:12589] CHIP:CSM: FindOrEstablishSession: No existing OperationalSessionSetup instance found
+[1681187928.034649][12587:12589] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 1 --> 2
+[1681187928.035242][12587:12589] CHIP:DIS: UDP:[fe80::42:acff:fe11:3%eth0]:5540: new best score: 3
+[1681187928.035274][12587:12589] CHIP:DIS: UDP:172.17.0.3%eth0:5540: score has not improved: 2
+[1681187928.035277][12587:12589] CHIP:DIS: Checking node lookup status after 1 ms
+[1681187928.035279][12587:12589] CHIP:DIS: Keeping DNSSD lookup active
+[1681187928.035306][12587:12589] CHIP:DIS: UDP:[fe80::42:acff:fe11:3%eth0]:5540: score has not improved: 3
+[1681187928.035365][12587:12589] CHIP:DIS: UDP:172.17.0.3%eth0:5540: score has not improved: 2
+[1681187928.035380][12587:12589] CHIP:DIS: Checking node lookup status after 1 ms
+[1681187928.035383][12587:12589] CHIP:DIS: Keeping DNSSD lookup active
+[1681187928.234890][12587:12589] CHIP:DIS: Checking node lookup status after 200 ms
+[1681187928.235076][12587:12589] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: Updating device address to UDP:[fe80::42:acff:fe11:3%eth0]:5540 while in state 2
+[1681187928.235140][12587:12589] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 2 --> 3
+[1681187928.235213][12587:12589] CHIP:IN: SecureSession[0x7f848c022410]: Allocated Type:2 LSID:45540
+[1681187928.235265][12587:12589] CHIP:SC: Initiating session on local FabricIndex 1 from 0x000000000001B669 -> 0x000000000000006F
+[1681187928.235990][12587:12589] CHIP:EM: <<< [E:12301i S:0 M:73263449] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:30 (SecureChannel:CASE_Sigma1)
+[1681187928.236088][12587:12589] CHIP:IN: (U) Sending msg 73263449 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187928.236274][12587:12589] CHIP:SC: Sent Sigma1 msg
+[1681187928.236323][12587:12589] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 3 --> 4
+[1681187928.238631][12587:12589] CHIP:EM: >>> [E:12301i S:0 M:88218469 (Ack:73263449)] (U) Msg RX from 0:0000000000000000 [0000] --- Type 0000:31 (SecureChannel:CASE_Sigma2)
+[1681187928.238719][12587:12589] CHIP:EM: Found matching exchange: 12301i, Delegate: 0x7f848c024658
+[1681187928.238761][12587:12589] CHIP:EM: Rxd Ack; Removing MessageCounter:73263449 from Retrans Table on exchange 12301i
+[1681187928.238815][12587:12589] CHIP:SC: Received Sigma2 msg
+[1681187928.238838][12587:12589] CHIP:SC: Peer assigned session session ID 50446
+[1681187928.241422][12587:12589] CHIP:SC: Sending Sigma3
+[1681187928.241819][12587:12589] CHIP:EM: <<< [E:12301i S:0 M:73263450 (Ack:88218469)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:32 (SecureChannel:CASE_Sigma3)
+[1681187928.241911][12587:12589] CHIP:IN: (U) Sending msg 73263450 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187928.242040][12587:12589] CHIP:SC: Sent Sigma3 msg
+[1681187928.248140][12587:12589] CHIP:EM: >>> [E:12301i S:0 M:88218470 (Ack:73263450)] (U) Msg RX from 0:0000000000000000 [0000] --- Type 0000:40 (SecureChannel:StatusReport)
+[1681187928.248213][12587:12589] CHIP:EM: Found matching exchange: 12301i, Delegate: 0x7f848c024658
+[1681187928.248242][12587:12589] CHIP:EM: Rxd Ack; Removing MessageCounter:73263450 from Retrans Table on exchange 12301i
+[1681187928.248270][12587:12589] CHIP:SC: Success status report received. Session was established
+[1681187928.250457][12587:12589] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_TEST_MODE=1 bypassing key negotiation... All sessions will use known, fixed test key, and NodeID=0 in NONCE. Node can only communicate with other nodes built with this flag set.
+[1681187928.250542][12587:12589] CHIP:SC: SecureSession[0x7f848c022410]: Moving from state 'kEstablishing' --> 'kActive'
+[1681187928.250590][12587:12589] CHIP:IN: SecureSession[0x7f848c022410]: Activated - Type:2 LSID:45540
+[1681187928.250600][12587:12589] CHIP:IN: New secure session activated for device <000000000000006F, 1>, LSID:45540 PSID:50446!
+[1681187928.250613][12587:12589] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 4 --> 5
+[1681187928.250813][12587:12589] CHIP:TOO:      cluster 0x0000_0101, attribute: 0x0000_0000, endpoint 1
+[1681187928.250863][12587:12589] CHIP:TOO: Sending ReadAttribute to:
+[1681187928.250880][12587:12589] CHIP:DMG: SendReadRequest ReadClient[0x7f848c025e10]: Sending Read Request
+[1681187928.250943][12587:12589] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187928.250993][12587:12589] CHIP:EM: <<< [E:12302i S:45540 M:250993880] (S) Msg TX to 1:000000000000006F [952B] --- Type 0001:02 (IM:ReadRequest)
+[1681187928.251015][12587:12589] CHIP:IN: (S) Sending msg 250993880 on secure session with LSID: 45540
+[1681187928.251279][12587:12589] CHIP:DMG: MoveToState ReadClient[0x7f848c025e10]: Moving to [AwaitingIn]
+[1681187928.251412][12587:12589] CHIP:EM: <<< [E:12301i S:0 M:73263451 (Ack:88218470)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187928.251493][12587:12589] CHIP:IN: (U) Sending msg 73263451 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187928.251562][12587:12589] CHIP:EM: Flushed pending ack for MessageCounter:88218470 on exchange 12301i
+[1681187928.252652][12587:12589] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187928.252717][12587:12589] CHIP:EM: >>> [E:12302i S:45540 M:249493634 (Ack:250993880)] (S) Msg RX from 1:000000000000006F [952B] --- Type 0001:05 (IM:ReportData)
+[1681187928.252730][12587:12589] CHIP:EM: Found matching exchange: 12302i, Delegate: 0x7f848c025e20
+[1681187928.252745][12587:12589] CHIP:EM: Rxd Ack; Removing MessageCounter:250993880 from Retrans Table on exchange 12302i
+[1681187928.252782][12587:12589] CHIP:DMG: ReportDataMessage =
+[1681187928.252795][12587:12589] CHIP:DMG: {
+[1681187928.252802][12587:12589] CHIP:DMG:      AttributeReportIBs =
+[1681187928.252816][12587:12589] CHIP:DMG:      [
+[1681187928.252865][12587:12589] CHIP:DMG:              AttributeReportIB =
+[1681187928.252905][12587:12589] CHIP:DMG:              {
+[1681187928.252940][12587:12589] CHIP:DMG:                      AttributeDataIB =
+[1681187928.252949][12587:12589] CHIP:DMG:                      {
+[1681187928.252959][12587:12589] CHIP:DMG:                              DataVersion = 0xd4806a6f,
+[1681187928.252967][12587:12589] CHIP:DMG:                              AttributePathIB =
+[1681187928.252976][12587:12589] CHIP:DMG:                              {
+[1681187928.252984][12587:12589] CHIP:DMG:                                      Endpoint = 0x1,
+[1681187928.252995][12587:12589] CHIP:DMG:                                      Cluster = 0x101,
+[1681187928.253004][12587:12589] CHIP:DMG:                                      Attribute = 0x0000_0000,
+[1681187928.253011][12587:12589] CHIP:DMG:                              }
+[1681187928.253022][12587:12589] CHIP:DMG:
+[1681187928.253032][12587:12589] CHIP:DMG:                              Data = 2,
+[1681187928.253039][12587:12589] CHIP:DMG:                      },
+[1681187928.253051][12587:12589] CHIP:DMG:
+[1681187928.253057][12587:12589] CHIP:DMG:              },
+[1681187928.253071][12587:12589] CHIP:DMG:
+[1681187928.253077][12587:12589] CHIP:DMG:      ],
+[1681187928.253091][12587:12589] CHIP:DMG:
+[1681187928.253098][12587:12589] CHIP:DMG:      SuppressResponse = true,
+[1681187928.253106][12587:12589] CHIP:DMG:      InteractionModelRevision = 1
+[1681187928.253112][12587:12589] CHIP:DMG: }
+[1681187928.253226][12587:12589] CHIP:TOO: Endpoint: 1 Cluster: 0x0000_0101 Attribute 0x0000_0000 DataVersion: 3565185647
+[1681187928.253270][12587:12589] CHIP:TOO:   LockState: 2
+[1681187928.253340][12587:12589] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187928.253399][12587:12589] CHIP:EM: <<< [E:12302i S:45540 M:250993881 (Ack:249493634)] (S) Msg TX to 1:000000000000006F [952B] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187928.253460][12587:12589] CHIP:IN: (S) Sending msg 250993881 on secure session with LSID: 45540
+[1681187928.253556][12587:12589] CHIP:EM: Flushed pending ack for MessageCounter:249493634 on exchange 12302i
+[1681187928.253721][12587:12587] CHIP:CTL: Shutting down the commissioner
+[1681187928.253787][12587:12587] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187928.253875][12587:12587] CHIP:CTL: Shutting down the controller
+[1681187928.253948][12587:12587] CHIP:IN: Expiring all sessions for fabric 0x1!!
+[1681187928.253957][12587:12587] CHIP:IN: SecureSession[0x7f848c022410]: MarkForEviction Type:2 LSID:45540
+[1681187928.253978][12587:12587] CHIP:SC: SecureSession[0x7f848c022410]: Moving from state 'kActive' --> 'kPendingEviction'
+[1681187928.254025][12587:12587] CHIP:IN: SecureSession[0x7f848c022410]: Released - Type:2 LSID:45540
+[1681187928.254039][12587:12587] CHIP:FP: Forgetting fabric 0x1
+[1681187928.254054][12587:12587] CHIP:TS: Pending Last Known Good Time: 2023-04-11T04:34:58
+[1681187928.254143][12587:12587] CHIP:TS: Previous Last Known Good Time: 2023-04-11T04:34:58
+[1681187928.254156][12587:12587] CHIP:TS: Reverted Last Known Good Time to previous value
+[1681187928.254178][12587:12587] CHIP:CTL: Shutting down the commissioner
+[1681187928.254185][12587:12587] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187928.254209][12587:12587] CHIP:CTL: Shutting down the controller
+[1681187928.254245][12587:12587] CHIP:CTL: Shutting down the System State, this will teardown the CHIP Stack
+[1681187928.254296][12587:12587] CHIP:DMG: All ReadHandler-s are clean, clear GlobalDirtySet
+[1681187928.254316][12587:12587] CHIP:BLE: BleConnectionDelegate::CancelConnection is not implemented.
+[1681187928.254379][12587:12587] CHIP:FP: Shutting down FabricTable
+[1681187928.254457][12587:12587] CHIP:TS: Pending Last Known Good Time: 2023-04-11T04:34:58
+[1681187928.254589][12587:12587] CHIP:TS: Previous Last Known Good Time: 2023-04-11T04:34:58
+[1681187928.254603][12587:12587] CHIP:TS: Reverted Last Known Good Time to previous value
+[1681187928.254798][12587:12587] CHIP:DL: writing settings to file (/tmp/chip_counters.ini-O5xLAX)
+[1681187928.255161][12587:12587] CHIP:DL: renamed tmp file to file (/tmp/chip_counters.ini)
+[1681187928.255238][12587:12587] CHIP:DL: NVS set: chip-counters/total-operational-hours = 0 (0x0)
+[1681187928.255290][12587:12587] CHIP:DL: Inet Layer shutdown
+[1681187928.255341][12587:12587] CHIP:DL: BLE shutdown
+[1681187928.255407][12587:12587] CHIP:DL: System Layer shutdown
+ubuntu@a0a074ced910:~/connectedhomeip$ sudo ./out/chip-tool/chip-tool doorlock lock-door 111 1 --timedInteractionTimeoutMs 2000
+[1681187951.689794][12591:12591] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_kvs
+[1681187951.689956][12591:12591] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_factory.ini
+[1681187951.690015][12591:12591] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_config.ini
+[1681187951.690069][12591:12591] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_counters.ini
+[1681187951.690282][12591:12591] CHIP:DL: writing settings to file (/tmp/chip_counters.ini-Rrxsfi)
+[1681187951.690645][12591:12591] CHIP:DL: renamed tmp file to file (/tmp/chip_counters.ini)
+[1681187951.690686][12591:12591] CHIP:DL: NVS set: chip-counters/reboot-count = 13 (0xD)
+[1681187951.690910][12591:12591] CHIP:DL: Got Ethernet interface: eth0
+[1681187951.690986][12591:12591] CHIP:DL: Found the primary Ethernet interface:eth0
+[1681187951.691108][12591:12591] CHIP:DL: Failed to get WiFi interface
+[1681187951.691140][12591:12591] CHIP:DL: Failed to reset WiFi statistic counts
+[1681187951.691168][12591:12591] CHIP:IN: UDP::Init bind&listen port=0
+[1681187951.691203][12591:12591] CHIP:IN: UDP::Init bound to port=48275
+[1681187951.691220][12591:12591] CHIP:IN: UDP::Init bind&listen port=0
+[1681187951.691249][12591:12591] CHIP:IN: UDP::Init bound to port=49359
+[1681187951.691272][12591:12591] CHIP:IN: BLEBase::Init - setting/overriding transport
+[1681187951.691277][12591:12591] CHIP:IN: TransportMgr initialized
+[1681187951.691286][12591:12591] CHIP:FP: Initializing FabricTable from persistent storage
+[1681187951.691355][12591:12591] CHIP:TS: Last Known Good Time: 2023-04-11T04:34:58
+[1681187951.691743][12591:12591] CHIP:FP: Fabric index 0x1 was retrieved from storage. Compressed FabricId 0x21190A9D7D12952B, FabricId 0x0000000000000001, NodeId 0x000000000001B669, VendorId 0xFFF1
+[1681187951.692535][12591:12591] CHIP:ZCL: Using ZAP configuration...
+[1681187951.692907][12591:12591] CHIP:CTL: System State Initialized...
+[1681187951.692990][12591:12591] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187951.693003][12591:12591] CHIP:CTL: Setting attestation nonce to random value
+[1681187951.693011][12591:12591] CHIP:CTL: Setting CSR nonce to random value
+[1681187951.693048][12591:12591] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187951.693096][12591:12591] CHIP:IN: UDP::Init bound to port=5550
+[1681187951.693102][12591:12591] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187951.693130][12591:12591] CHIP:IN: UDP::Init bound to port=5550
+[1681187951.693153][12591:12591] CHIP:IN: TransportMgr initialized
+[1681187951.693254][12591:12593] CHIP:DL: CHIP task running
+[1681187951.693337][12591:12593] CHIP:DL: HandlePlatformSpecificBLEEvent 32784
+[1681187951.693423][12591:12593] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187951.693449][12591:12593] CHIP:CTL: Setting attestation nonce to random value
+[1681187951.693469][12591:12593] CHIP:CTL: Setting CSR nonce to random value
+[1681187951.694440][12591:12593] CHIP:CTL: Generating NOC
+[1681187951.694880][12591:12593] CHIP:FP: Validating NOC chain
+[1681187951.695422][12591:12593] CHIP:FP: NOC chain validation successful
+[1681187951.695527][12591:12593] CHIP:FP: Updated fabric at index: 0x1, Node ID: 0x000000000001B669
+[1681187951.695552][12591:12593] CHIP:TS: Last Known Good Time: 2023-04-11T04:34:58
+[1681187951.695573][12591:12593] CHIP:TS: New proposed Last Known Good Time: 2021-01-01T00:00:00
+[1681187951.695578][12591:12593] CHIP:TS: Retaining current Last Known Good Time
+[1681187951.697257][12591:12593] CHIP:FP: Metadata for Fabric 0x1 persisted to storage.
+[1681187951.697976][12591:12593] CHIP:TS: Committing Last Known Good Time to storage: 2023-04-11T04:34:58
+[1681187951.698942][12591:12593] CHIP:CTL: Joined the fabric at index 1. Fabric ID is 0x0000000000000001 (Compressed Fabric ID: 21190A9D7D12952B)
+[1681187951.698975][12591:12593] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187951.699056][12591:12593] CHIP:IN: UDP::Init bound to port=5550
+[1681187951.699079][12591:12593] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187951.699090][12591:12593] CHIP:IN: UDP::Init bound to port=5550
+[1681187951.699113][12591:12593] CHIP:IN: TransportMgr initialized
+[1681187951.702967][12591:12593] CHIP:TOO: Sending command to node 0x6f
+[1681187951.703093][12591:12593] CHIP:CSM: FindOrEstablishSession: PeerId = [1:000000000000006F]
+[1681187951.703098][12591:12593] CHIP:CSM: FindOrEstablishSession: No existing OperationalSessionSetup instance found
+[1681187951.703104][12591:12593] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 1 --> 2
+[1681187951.703770][12591:12593] CHIP:DIS: UDP:[fe80::42:acff:fe11:3%eth0]:5540: new best score: 3
+[1681187951.703851][12591:12593] CHIP:DIS: UDP:172.17.0.3%eth0:5540: score has not improved: 2
+[1681187951.703870][12591:12593] CHIP:DIS: Checking node lookup status after 0 ms
+[1681187951.703885][12591:12593] CHIP:DIS: Keeping DNSSD lookup active
+[1681187951.703948][12591:12593] CHIP:DIS: UDP:[fe80::42:acff:fe11:3%eth0]:5540: score has not improved: 3
+[1681187951.703972][12591:12593] CHIP:DIS: UDP:172.17.0.3%eth0:5540: score has not improved: 2
+[1681187951.703975][12591:12593] CHIP:DIS: Checking node lookup status after 0 ms
+[1681187951.703976][12591:12593] CHIP:DIS: Keeping DNSSD lookup active
+[1681187951.904614][12591:12593] CHIP:DIS: Checking node lookup status after 201 ms
+[1681187951.904736][12591:12593] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: Updating device address to UDP:[fe80::42:acff:fe11:3%eth0]:5540 while in state 2
+[1681187951.904746][12591:12593] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 2 --> 3
+[1681187951.904799][12591:12593] CHIP:IN: SecureSession[0x7fd754022410]: Allocated Type:2 LSID:40737
+[1681187951.904812][12591:12593] CHIP:SC: Initiating session on local FabricIndex 1 from 0x000000000001B669 -> 0x000000000000006F
+[1681187951.905280][12591:12593] CHIP:EM: <<< [E:438i S:0 M:18203258] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:30 (SecureChannel:CASE_Sigma1)
+[1681187951.905361][12591:12593] CHIP:IN: (U) Sending msg 18203258 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187951.905537][12591:12593] CHIP:SC: Sent Sigma1 msg
+[1681187951.905585][12591:12593] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 3 --> 4
+[1681187951.907632][12591:12593] CHIP:EM: >>> [E:438i S:0 M:88218471 (Ack:18203258)] (U) Msg RX from 0:0000000000000000 [0000] --- Type 0000:31 (SecureChannel:CASE_Sigma2)
+[1681187951.907655][12591:12593] CHIP:EM: Found matching exchange: 438i, Delegate: 0x7fd754024658
+[1681187951.907674][12591:12593] CHIP:EM: Rxd Ack; Removing MessageCounter:18203258 from Retrans Table on exchange 438i
+[1681187951.907739][12591:12593] CHIP:SC: Received Sigma2 msg
+[1681187951.907761][12591:12593] CHIP:SC: Peer assigned session session ID 50447
+[1681187951.910297][12591:12593] CHIP:SC: Sending Sigma3
+[1681187951.910683][12591:12593] CHIP:EM: <<< [E:438i S:0 M:18203259 (Ack:88218471)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:32 (SecureChannel:CASE_Sigma3)
+[1681187951.910780][12591:12593] CHIP:IN: (U) Sending msg 18203259 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187951.910947][12591:12593] CHIP:SC: Sent Sigma3 msg
+[1681187951.918526][12591:12593] CHIP:EM: >>> [E:438i S:0 M:88218472 (Ack:18203259)] (U) Msg RX from 0:0000000000000000 [0000] --- Type 0000:40 (SecureChannel:StatusReport)
+[1681187951.918591][12591:12593] CHIP:EM: Found matching exchange: 438i, Delegate: 0x7fd754024658
+[1681187951.918632][12591:12593] CHIP:EM: Rxd Ack; Removing MessageCounter:18203259 from Retrans Table on exchange 438i
+[1681187951.918660][12591:12593] CHIP:SC: Success status report received. Session was established
+[1681187951.920828][12591:12593] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_TEST_MODE=1 bypassing key negotiation... All sessions will use known, fixed test key, and NodeID=0 in NONCE. Node can only communicate with other nodes built with this flag set.
+[1681187951.920926][12591:12593] CHIP:SC: SecureSession[0x7fd754022410]: Moving from state 'kEstablishing' --> 'kActive'
+[1681187951.921001][12591:12593] CHIP:IN: SecureSession[0x7fd754022410]: Activated - Type:2 LSID:40737
+[1681187951.921046][12591:12593] CHIP:IN: New secure session activated for device <000000000000006F, 1>, LSID:40737 PSID:50447!
+[1681187951.921063][12591:12593] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 4 --> 5
+[1681187951.921116][12591:12593] CHIP:TOO: Sending cluster (0x00000101) command (0x00000000) on endpoint 1
+[1681187951.921145][12591:12593] CHIP:DMG: ICR moving to [AddingComm]
+[1681187951.921170][12591:12593] CHIP:DMG: ICR moving to [AddedComma]
+[1681187951.921215][12591:12593] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187951.921225][12591:12593] CHIP:EM: <<< [E:439i S:40737 M:176126507] (S) Msg TX to 1:000000000000006F [952B] --- Type 0001:0A (IM:TimedRequest)
+[1681187951.921243][12591:12593] CHIP:IN: (S) Sending msg 176126507 on secure session with LSID: 40737
+[1681187951.921392][12591:12593] CHIP:DMG: ICR moving to [AwaitingTi]
+[1681187951.921434][12591:12593] CHIP:EM: <<< [E:438i S:0 M:18203260 (Ack:88218472)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187951.921545][12591:12593] CHIP:IN: (U) Sending msg 18203260 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187951.921629][12591:12593] CHIP:EM: Flushed pending ack for MessageCounter:88218472 on exchange 438i
+[1681187951.922192][12591:12593] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187951.922257][12591:12593] CHIP:EM: >>> [E:439i S:40737 M:170058979 (Ack:176126507)] (S) Msg RX from 1:000000000000006F [952B] --- Type 0001:01 (IM:StatusResponse)
+[1681187951.922272][12591:12593] CHIP:EM: Found matching exchange: 439i, Delegate: 0x7fd754021698
+[1681187951.922286][12591:12593] CHIP:EM: Rxd Ack; Removing MessageCounter:176126507 from Retrans Table on exchange 439i
+[1681187951.922310][12591:12593] CHIP:DMG: StatusResponseMessage =
+[1681187951.922352][12591:12593] CHIP:DMG: {
+[1681187951.922361][12591:12593] CHIP:DMG:      Status = 0x00 (SUCCESS),
+[1681187951.922369][12591:12593] CHIP:DMG:      InteractionModelRevision = 1
+[1681187951.922411][12591:12593] CHIP:DMG: }
+[1681187951.922422][12591:12593] CHIP:IM: Received status response, status is 0x00 (SUCCESS)
+[1681187951.922448][12591:12593] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187951.922489][12591:12593] CHIP:EM: <<< [E:439i S:40737 M:176126508 (Ack:170058979)] (S) Msg TX to 1:000000000000006F [952B] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187951.922506][12591:12593] CHIP:IN: (S) Sending msg 176126508 on secure session with LSID: 40737
+[1681187951.922581][12591:12593] CHIP:DMG: ICR moving to [CommandSen]
+[1681187951.925330][12591:12593] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187951.925402][12591:12593] CHIP:EM: >>> [E:439i S:40737 M:170058980 (Ack:176126508)] (S) Msg RX from 1:000000000000006F [952B] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187951.925417][12591:12593] CHIP:EM: Found matching exchange: 439i, Delegate: 0x7fd754021698
+[1681187951.925433][12591:12593] CHIP:EM: Rxd Ack; Removing MessageCounter:176126508 from Retrans Table on exchange 439i
+[1681187951.925455][12591:12593] CHIP:DMG: ICR moving to [ResponseRe]
+[1681187951.925506][12591:12593] CHIP:DMG: InvokeResponseMessage =
+[1681187951.925516][12591:12593] CHIP:DMG: {
+[1681187951.925524][12591:12593] CHIP:DMG:      suppressResponse = false,
+[1681187951.925530][12591:12593] CHIP:DMG:      InvokeResponseIBs =
+[1681187951.925547][12591:12593] CHIP:DMG:      [
+[1681187951.925555][12591:12593] CHIP:DMG:              InvokeResponseIB =
+[1681187951.925609][12591:12593] CHIP:DMG:              {
+[1681187951.925618][12591:12593] CHIP:DMG:                      CommandStatusIB =
+[1681187951.925627][12591:12593] CHIP:DMG:                      {
+[1681187951.925633][12591:12593] CHIP:DMG:                              CommandPathIB =
+[1681187951.925685][12591:12593] CHIP:DMG:                              {
+[1681187951.925697][12591:12593] CHIP:DMG:                                      EndpointId = 0x1,
+[1681187951.925747][12591:12593] CHIP:DMG:                                      ClusterId = 0x101,
+[1681187951.925763][12591:12593] CHIP:DMG:                                      CommandId = 0x0,
+[1681187951.925770][12591:12593] CHIP:DMG:                              },
+[1681187951.925783][12591:12593] CHIP:DMG:
+[1681187951.925789][12591:12593] CHIP:DMG:                              StatusIB =
+[1681187951.925798][12591:12593] CHIP:DMG:                              {
+[1681187951.925806][12591:12593] CHIP:DMG:                                      status = 0x00 (SUCCESS),
+[1681187951.925812][12591:12593] CHIP:DMG:                              },
+[1681187951.925820][12591:12593] CHIP:DMG:
+[1681187951.925826][12591:12593] CHIP:DMG:                      },
+[1681187951.925837][12591:12593] CHIP:DMG:
+[1681187951.925843][12591:12593] CHIP:DMG:              },
+[1681187951.925855][12591:12593] CHIP:DMG:
+[1681187951.925860][12591:12593] CHIP:DMG:      ],
+[1681187951.925873][12591:12593] CHIP:DMG:
+[1681187951.925879][12591:12593] CHIP:DMG:      InteractionModelRevision = 1
+[1681187951.925883][12591:12593] CHIP:DMG: },
+[1681187951.925923][12591:12593] CHIP:DMG: Received Command Response Status for Endpoint=1 Cluster=0x0000_0101 Command=0x0000_0000 Status=0x0
+[1681187951.925948][12591:12593] CHIP:DMG: ICR moving to [AwaitingDe]
+[1681187951.926035][12591:12593] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187951.926080][12591:12593] CHIP:EM: <<< [E:439i S:40737 M:176126509 (Ack:170058980)] (S) Msg TX to 1:000000000000006F [952B] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187951.926099][12591:12593] CHIP:IN: (S) Sending msg 176126509 on secure session with LSID: 40737
+[1681187951.926155][12591:12593] CHIP:EM: Flushed pending ack for MessageCounter:170058980 on exchange 439i
+[1681187951.926397][12591:12591] CHIP:CTL: Shutting down the commissioner
+[1681187951.926415][12591:12591] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187951.926499][12591:12591] CHIP:CTL: Shutting down the controller
+[1681187951.926511][12591:12591] CHIP:IN: Expiring all sessions for fabric 0x1!!
+[1681187951.926517][12591:12591] CHIP:IN: SecureSession[0x7fd754022410]: MarkForEviction Type:2 LSID:40737
+[1681187951.926523][12591:12591] CHIP:SC: SecureSession[0x7fd754022410]: Moving from state 'kActive' --> 'kPendingEviction'
+[1681187951.926530][12591:12591] CHIP:IN: SecureSession[0x7fd754022410]: Released - Type:2 LSID:40737
+[1681187951.926540][12591:12591] CHIP:FP: Forgetting fabric 0x1
+[1681187951.926554][12591:12591] CHIP:TS: Pending Last Known Good Time: 2023-04-11T04:34:58
+[1681187951.926639][12591:12591] CHIP:TS: Previous Last Known Good Time: 2023-04-11T04:34:58
+[1681187951.926679][12591:12591] CHIP:TS: Reverted Last Known Good Time to previous value
+[1681187951.926706][12591:12591] CHIP:CTL: Shutting down the commissioner
+[1681187951.926711][12591:12591] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187951.926732][12591:12591] CHIP:CTL: Shutting down the controller
+[1681187951.926741][12591:12591] CHIP:CTL: Shutting down the System State, this will teardown the CHIP Stack
+[1681187951.926790][12591:12591] CHIP:DMG: All ReadHandler-s are clean, clear GlobalDirtySet
+[1681187951.926850][12591:12591] CHIP:BLE: BleConnectionDelegate::CancelConnection is not implemented.
+[1681187951.926868][12591:12591] CHIP:FP: Shutting down FabricTable
+[1681187951.926877][12591:12591] CHIP:TS: Pending Last Known Good Time: 2023-04-11T04:34:58
+[1681187951.926943][12591:12591] CHIP:TS: Previous Last Known Good Time: 2023-04-11T04:34:58
+[1681187951.926988][12591:12591] CHIP:TS: Reverted Last Known Good Time to previous value
+[1681187951.927162][12591:12591] CHIP:DL: writing settings to file (/tmp/chip_counters.ini-ty9VSg)
+[1681187951.927510][12591:12591] CHIP:DL: renamed tmp file to file (/tmp/chip_counters.ini)
+[1681187951.927544][12591:12591] CHIP:DL: NVS set: chip-counters/total-operational-hours = 0 (0x0)
+[1681187951.927551][12591:12591] CHIP:DL: Inet Layer shutdown
+[1681187951.927559][12591:12591] CHIP:DL: BLE shutdown
+[1681187951.927565][12591:12591] CHIP:DL: System Layer shutdown
+ubuntu@a0a074ced910:~/connectedhomeip$ sudo ./out/chip-tool/chip-tool doorlock read lock-state 111 1
+[1681187964.737857][12595:12595] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_kvs
+[1681187964.737986][12595:12595] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_factory.ini
+[1681187964.738027][12595:12595] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_config.ini
+[1681187964.738067][12595:12595] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_counters.ini
+[1681187964.738216][12595:12595] CHIP:DL: writing settings to file (/tmp/chip_counters.ini-NzkiNz)
+[1681187964.738355][12595:12595] CHIP:DL: renamed tmp file to file (/tmp/chip_counters.ini)
+[1681187964.738379][12595:12595] CHIP:DL: NVS set: chip-counters/reboot-count = 14 (0xE)
+[1681187964.738527][12595:12595] CHIP:DL: Got Ethernet interface: eth0
+[1681187964.738582][12595:12595] CHIP:DL: Found the primary Ethernet interface:eth0
+[1681187964.738644][12595:12595] CHIP:DL: Failed to get WiFi interface
+[1681187964.738734][12595:12595] CHIP:DL: Failed to reset WiFi statistic counts
+[1681187964.738863][12595:12595] CHIP:IN: UDP::Init bind&listen port=0
+[1681187964.738932][12595:12595] CHIP:IN: UDP::Init bound to port=39959
+[1681187964.739006][12595:12595] CHIP:IN: UDP::Init bind&listen port=0
+[1681187964.739081][12595:12595] CHIP:IN: UDP::Init bound to port=52273
+[1681187964.739121][12595:12595] CHIP:IN: BLEBase::Init - setting/overriding transport
+[1681187964.739141][12595:12595] CHIP:IN: TransportMgr initialized
+[1681187964.739150][12595:12595] CHIP:FP: Initializing FabricTable from persistent storage
+[1681187964.739481][12595:12595] CHIP:TS: Last Known Good Time: 2023-04-11T04:34:58
+[1681187964.739773][12595:12595] CHIP:FP: Fabric index 0x1 was retrieved from storage. Compressed FabricId 0x21190A9D7D12952B, FabricId 0x0000000000000001, NodeId 0x000000000001B669, VendorId 0xFFF1
+[1681187964.740358][12595:12595] CHIP:ZCL: Using ZAP configuration...
+[1681187964.740957][12595:12595] CHIP:CTL: System State Initialized...
+[1681187964.741002][12595:12595] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187964.741040][12595:12595] CHIP:CTL: Setting attestation nonce to random value
+[1681187964.741071][12595:12595] CHIP:CTL: Setting CSR nonce to random value
+[1681187964.741108][12595:12595] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187964.741152][12595:12595] CHIP:IN: UDP::Init bound to port=5550
+[1681187964.741178][12595:12595] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187964.741214][12595:12595] CHIP:IN: UDP::Init bound to port=5550
+[1681187964.741240][12595:12595] CHIP:IN: TransportMgr initialized
+[1681187964.741433][12595:12597] CHIP:DL: CHIP task running
+[1681187964.741527][12595:12597] CHIP:DL: HandlePlatformSpecificBLEEvent 32784
+[1681187964.741660][12595:12597] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187964.741690][12595:12597] CHIP:CTL: Setting attestation nonce to random value
+[1681187964.741710][12595:12597] CHIP:CTL: Setting CSR nonce to random value
+[1681187964.742738][12595:12597] CHIP:CTL: Generating NOC
+[1681187964.743181][12595:12597] CHIP:FP: Validating NOC chain
+[1681187964.743798][12595:12597] CHIP:FP: NOC chain validation successful
+[1681187964.743878][12595:12597] CHIP:FP: Updated fabric at index: 0x1, Node ID: 0x000000000001B669
+[1681187964.743901][12595:12597] CHIP:TS: Last Known Good Time: 2023-04-11T04:34:58
+[1681187964.743905][12595:12597] CHIP:TS: New proposed Last Known Good Time: 2021-01-01T00:00:00
+[1681187964.743936][12595:12597] CHIP:TS: Retaining current Last Known Good Time
+[1681187964.745162][12595:12597] CHIP:FP: Metadata for Fabric 0x1 persisted to storage.
+[1681187964.745806][12595:12597] CHIP:TS: Committing Last Known Good Time to storage: 2023-04-11T04:34:58
+[1681187964.746190][12595:12597] CHIP:CTL: Joined the fabric at index 1. Fabric ID is 0x0000000000000001 (Compressed Fabric ID: 21190A9D7D12952B)
+[1681187964.746222][12595:12597] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187964.746264][12595:12597] CHIP:IN: UDP::Init bound to port=5550
+[1681187964.746284][12595:12597] CHIP:IN: UDP::Init bind&listen port=5550
+[1681187964.746307][12595:12597] CHIP:IN: UDP::Init bound to port=5550
+[1681187964.746312][12595:12597] CHIP:IN: TransportMgr initialized
+[1681187964.749005][12595:12597] CHIP:TOO: Sending command to node 0x6f
+[1681187964.749120][12595:12597] CHIP:CSM: FindOrEstablishSession: PeerId = [1:000000000000006F]
+[1681187964.749140][12595:12597] CHIP:CSM: FindOrEstablishSession: No existing OperationalSessionSetup instance found
+[1681187964.749150][12595:12597] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 1 --> 2
+[1681187964.749641][12595:12597] CHIP:DIS: UDP:[fe80::42:acff:fe11:3%eth0]:5540: new best score: 3
+[1681187964.749673][12595:12597] CHIP:DIS: UDP:172.17.0.3%eth0:5540: score has not improved: 2
+[1681187964.749689][12595:12597] CHIP:DIS: Checking node lookup status after 0 ms
+[1681187964.749707][12595:12597] CHIP:DIS: Keeping DNSSD lookup active
+[1681187964.749819][12595:12597] CHIP:DIS: UDP:[fe80::42:acff:fe11:3%eth0]:5540: score has not improved: 3
+[1681187964.749849][12595:12597] CHIP:DIS: UDP:172.17.0.3%eth0:5540: score has not improved: 2
+[1681187964.750018][12595:12597] CHIP:DIS: Checking node lookup status after 1 ms
+[1681187964.750036][12595:12597] CHIP:DIS: Keeping DNSSD lookup active
+[1681187964.949430][12595:12597] CHIP:DIS: Checking node lookup status after 200 ms
+[1681187964.949560][12595:12597] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: Updating device address to UDP:[fe80::42:acff:fe11:3%eth0]:5540 while in state 2
+[1681187964.949572][12595:12597] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 2 --> 3
+[1681187964.949638][12595:12597] CHIP:IN: SecureSession[0x7f374c022410]: Allocated Type:2 LSID:21362
+[1681187964.949701][12595:12597] CHIP:SC: Initiating session on local FabricIndex 1 from 0x000000000001B669 -> 0x000000000000006F
+[1681187964.950412][12595:12597] CHIP:EM: <<< [E:20485i S:0 M:244295589] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:30 (SecureChannel:CASE_Sigma1)
+[1681187964.950593][12595:12597] CHIP:IN: (U) Sending msg 244295589 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187964.950736][12595:12597] CHIP:SC: Sent Sigma1 msg
+[1681187964.950779][12595:12597] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 3 --> 4
+[1681187964.953042][12595:12597] CHIP:EM: >>> [E:20485i S:0 M:88218473 (Ack:244295589)] (U) Msg RX from 0:0000000000000000 [0000] --- Type 0000:31 (SecureChannel:CASE_Sigma2)
+[1681187964.953069][12595:12597] CHIP:EM: Found matching exchange: 20485i, Delegate: 0x7f374c024658
+[1681187964.953085][12595:12597] CHIP:EM: Rxd Ack; Removing MessageCounter:244295589 from Retrans Table on exchange 20485i
+[1681187964.953105][12595:12597] CHIP:SC: Received Sigma2 msg
+[1681187964.953121][12595:12597] CHIP:SC: Peer assigned session session ID 50448
+[1681187964.955594][12595:12597] CHIP:SC: Sending Sigma3
+[1681187964.956038][12595:12597] CHIP:EM: <<< [E:20485i S:0 M:244295590 (Ack:88218473)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:32 (SecureChannel:CASE_Sigma3)
+[1681187964.956142][12595:12597] CHIP:IN: (U) Sending msg 244295590 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187964.956301][12595:12597] CHIP:SC: Sent Sigma3 msg
+[1681187964.962958][12595:12597] CHIP:EM: >>> [E:20485i S:0 M:88218474 (Ack:244295590)] (U) Msg RX from 0:0000000000000000 [0000] --- Type 0000:40 (SecureChannel:StatusReport)
+[1681187964.962992][12595:12597] CHIP:EM: Found matching exchange: 20485i, Delegate: 0x7f374c024658
+[1681187964.963010][12595:12597] CHIP:EM: Rxd Ack; Removing MessageCounter:244295590 from Retrans Table on exchange 20485i
+[1681187964.963033][12595:12597] CHIP:SC: Success status report received. Session was established
+[1681187964.964443][12595:12597] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_TEST_MODE=1 bypassing key negotiation... All sessions will use known, fixed test key, and NodeID=0 in NONCE. Node can only communicate with other nodes built with this flag set.
+[1681187964.964555][12595:12597] CHIP:SC: SecureSession[0x7f374c022410]: Moving from state 'kEstablishing' --> 'kActive'
+[1681187964.964563][12595:12597] CHIP:IN: SecureSession[0x7f374c022410]: Activated - Type:2 LSID:21362
+[1681187964.964568][12595:12597] CHIP:IN: New secure session activated for device <000000000000006F, 1>, LSID:21362 PSID:50448!
+[1681187964.964577][12595:12597] CHIP:DIS: OperationalSessionSetup[1:000000000000006F]: State change 4 --> 5
+[1681187964.964626][12595:12597] CHIP:TOO:      cluster 0x0000_0101, attribute: 0x0000_0000, endpoint 1
+[1681187964.964634][12595:12597] CHIP:TOO: Sending ReadAttribute to:
+[1681187964.964646][12595:12597] CHIP:DMG: SendReadRequest ReadClient[0x7f374c025e10]: Sending Read Request
+[1681187964.964694][12595:12597] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187964.964702][12595:12597] CHIP:EM: <<< [E:20486i S:21362 M:63772180] (S) Msg TX to 1:000000000000006F [952B] --- Type 0001:02 (IM:ReadRequest)
+[1681187964.964716][12595:12597] CHIP:IN: (S) Sending msg 63772180 on secure session with LSID: 21362
+[1681187964.964857][12595:12597] CHIP:DMG: MoveToState ReadClient[0x7f374c025e10]: Moving to [AwaitingIn]
+[1681187964.964951][12595:12597] CHIP:EM: <<< [E:20485i S:0 M:244295591 (Ack:88218474)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187964.965004][12595:12597] CHIP:IN: (U) Sending msg 244295591 to IP address 'UDP:[fe80::42:acff:fe11:3%eth0]:5540'
+[1681187964.965043][12595:12597] CHIP:EM: Flushed pending ack for MessageCounter:88218474 on exchange 20485i
+[1681187964.965863][12595:12597] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187964.965913][12595:12597] CHIP:EM: >>> [E:20486i S:21362 M:214517159 (Ack:63772180)] (S) Msg RX from 1:000000000000006F [952B] --- Type 0001:05 (IM:ReportData)
+[1681187964.965928][12595:12597] CHIP:EM: Found matching exchange: 20486i, Delegate: 0x7f374c025e20
+[1681187964.965942][12595:12597] CHIP:EM: Rxd Ack; Removing MessageCounter:63772180 from Retrans Table on exchange 20486i
+[1681187964.966015][12595:12597] CHIP:DMG: ReportDataMessage =
+[1681187964.966027][12595:12597] CHIP:DMG: {
+[1681187964.966078][12595:12597] CHIP:DMG:      AttributeReportIBs =
+[1681187964.966128][12595:12597] CHIP:DMG:      [
+[1681187964.966136][12595:12597] CHIP:DMG:              AttributeReportIB =
+[1681187964.966148][12595:12597] CHIP:DMG:              {
+[1681187964.966154][12595:12597] CHIP:DMG:                      AttributeDataIB =
+[1681187964.966162][12595:12597] CHIP:DMG:                      {
+[1681187964.966174][12595:12597] CHIP:DMG:                              DataVersion = 0xd4806a70,
+[1681187964.966212][12595:12597] CHIP:DMG:                              AttributePathIB =
+[1681187964.966226][12595:12597] CHIP:DMG:                              {
+[1681187964.966237][12595:12597] CHIP:DMG:                                      Endpoint = 0x1,
+[1681187964.966247][12595:12597] CHIP:DMG:                                      Cluster = 0x101,
+[1681187964.966264][12595:12597] CHIP:DMG:                                      Attribute = 0x0000_0000,
+[1681187964.966301][12595:12597] CHIP:DMG:                              }
+[1681187964.966343][12595:12597] CHIP:DMG:
+[1681187964.966355][12595:12597] CHIP:DMG:                              Data = 1,
+[1681187964.966361][12595:12597] CHIP:DMG:                      },
+[1681187964.966374][12595:12597] CHIP:DMG:
+[1681187964.966379][12595:12597] CHIP:DMG:              },
+[1681187964.966393][12595:12597] CHIP:DMG:
+[1681187964.966405][12595:12597] CHIP:DMG:      ],
+[1681187964.966419][12595:12597] CHIP:DMG:
+[1681187964.966425][12595:12597] CHIP:DMG:      SuppressResponse = true,
+[1681187964.966431][12595:12597] CHIP:DMG:      InteractionModelRevision = 1
+[1681187964.966436][12595:12597] CHIP:DMG: }
+[1681187964.966569][12595:12597] CHIP:TOO: Endpoint: 1 Cluster: 0x0000_0101 Attribute 0x0000_0000 DataVersion: 3565185648
+[1681187964.966690][12595:12597] CHIP:TOO:   LockState: 1
+[1681187964.966807][12595:12597] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187964.966821][12595:12597] CHIP:EM: <<< [E:20486i S:21362 M:63772181 (Ack:214517159)] (S) Msg TX to 1:000000000000006F [952B] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187964.966838][12595:12597] CHIP:IN: (S) Sending msg 63772181 on secure session with LSID: 21362
+[1681187964.966890][12595:12597] CHIP:EM: Flushed pending ack for MessageCounter:214517159 on exchange 20486i
+[1681187964.967108][12595:12595] CHIP:CTL: Shutting down the commissioner
+[1681187964.967198][12595:12595] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187964.967321][12595:12595] CHIP:CTL: Shutting down the controller
+[1681187964.967365][12595:12595] CHIP:IN: Expiring all sessions for fabric 0x1!!
+[1681187964.967373][12595:12595] CHIP:IN: SecureSession[0x7f374c022410]: MarkForEviction Type:2 LSID:21362
+[1681187964.967391][12595:12595] CHIP:SC: SecureSession[0x7f374c022410]: Moving from state 'kActive' --> 'kPendingEviction'
+[1681187964.967398][12595:12595] CHIP:IN: SecureSession[0x7f374c022410]: Released - Type:2 LSID:21362
+[1681187964.967408][12595:12595] CHIP:FP: Forgetting fabric 0x1
+[1681187964.967421][12595:12595] CHIP:TS: Pending Last Known Good Time: 2023-04-11T04:34:58
+[1681187964.967503][12595:12595] CHIP:TS: Previous Last Known Good Time: 2023-04-11T04:34:58
+[1681187964.967542][12595:12595] CHIP:TS: Reverted Last Known Good Time to previous value
+[1681187964.967566][12595:12595] CHIP:CTL: Shutting down the commissioner
+[1681187964.967572][12595:12595] CHIP:CTL: Stopping commissioning discovery over DNS-SD
+[1681187964.967593][12595:12595] CHIP:CTL: Shutting down the controller
+[1681187964.967598][12595:12595] CHIP:CTL: Shutting down the System State, this will teardown the CHIP Stack
+[1681187964.967671][12595:12595] CHIP:DMG: All ReadHandler-s are clean, clear GlobalDirtySet
+[1681187964.967719][12595:12595] CHIP:BLE: BleConnectionDelegate::CancelConnection is not implemented.
+[1681187964.967737][12595:12595] CHIP:FP: Shutting down FabricTable
+[1681187964.967746][12595:12595] CHIP:TS: Pending Last Known Good Time: 2023-04-11T04:34:58
+[1681187964.967812][12595:12595] CHIP:TS: Previous Last Known Good Time: 2023-04-11T04:34:58
+[1681187964.967852][12595:12595] CHIP:TS: Reverted Last Known Good Time to previous value
+[1681187964.968052][12595:12595] CHIP:DL: writing settings to file (/tmp/chip_counters.ini-JDHwCy)
+[1681187964.968377][12595:12595] CHIP:DL: renamed tmp file to file (/tmp/chip_counters.ini)
+[1681187964.968447][12595:12595] CHIP:DL: NVS set: chip-counters/total-operational-hours = 0 (0x0)
+[1681187964.968489][12595:12595] CHIP:DL: Inet Layer shutdown
+[1681187964.968526][12595:12595] CHIP:DL: BLE shutdown
+[1681187964.968567][12595:12595] CHIP:DL: System Layer shutdown

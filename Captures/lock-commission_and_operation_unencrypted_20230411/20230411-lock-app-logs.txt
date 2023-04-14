@@ -1,0 +1,1290 @@
+ubuntu@78beb14879f1:~/connectedhomeip$ sudo ./out/lock-app/chip-lock-app
+[1681187811.679362][12175:12175] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_kvs
+[1681187811.681075][12175:12175] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_kvs
+[1681187811.681101][12175:12175] CHIP:DL: ChipLinuxStorage::Init: Attempt to re-initialize with KVS config file: /tmp/chip_kvs
+[1681187811.681183][12175:12175] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_factory.ini
+[1681187811.681522][12175:12175] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_config.ini
+[1681187811.681893][12175:12175] CHIP:DL: ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_counters.ini
+[1681187811.682679][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_counters.ini-j9ftIN)
+[1681187811.682895][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_counters.ini)
+[1681187811.682923][12175:12175] CHIP:DL: NVS set: chip-counters/reboot-count = 5 (0x5)
+[1681187811.683065][12175:12175] CHIP:DL: Got Ethernet interface: eth0
+[1681187811.683144][12175:12175] CHIP:DL: Found the primary Ethernet interface:eth0
+[1681187811.683225][12175:12175] CHIP:DL: Failed to get WiFi interface
+[1681187811.683247][12175:12175] CHIP:DL: Failed to reset WiFi statistic counts
+[1681187811.683257][12175:12175] CHIP:SPT: *** WARNING: Using temporary passcode 20202021 due to no neither --passcode or --spake2p-verifier-base64 given on command line. This is temporary and will disappear. Please update your scripts to explicitly configure onboarding credentials. ***
+[1681187811.683277][12175:12175] CHIP:SPT: *** WARNING: Using temporary test discriminator 3840 due to --discriminator not given on command line. This is temporary and will disappear. Please update your scripts to explicitly configure discriminator. ***
+[1681187811.683280][12175:12175] CHIP:SPT: PASE PBKDF iterations set to 1000
+[1681187811.683285][12175:12175] CHIP:SPT: LinuxCommissionableDataProvider didn't get a PASE salt, generating one.
+[1681187811.685240][12175:12175] CHIP:DL: Device Configuration:
+[1681187811.685276][12175:12175] CHIP:DL:   Serial Number: TEST_SN
+[1681187811.685299][12175:12175] CHIP:DL:   Vendor Id: 65521 (0xFFF1)
+[1681187811.685328][12175:12175] CHIP:DL:   Product Id: 32769 (0x8001)
+[1681187811.685346][12175:12175] CHIP:DL:   Product Name: TEST_PRODUCT
+[1681187811.685353][12175:12175] CHIP:DL:   Hardware Version: 0
+[1681187811.685370][12175:12175] CHIP:DL:   Setup Pin Code (0 for UNKNOWN/ERROR): 20202021
+[1681187811.685373][12175:12175] CHIP:DL:   Setup Discriminator (0xFFFF for UNKNOWN/ERROR): 3840 (0xF00)
+[1681187811.685380][12175:12175] CHIP:DL:   Manufacturing Date: (not set)
+[1681187811.685399][12175:12175] CHIP:DL:   Device Type: 65535 (0xFFFF)
+[1681187811.685420][12175:12175] CHIP:-: ==== Onboarding payload for Standard Commissioning Flow ====
+[1681187811.685447][12175:12175] CHIP:SVR: SetupQRCode: [MT:-24J0AFN00KA0648G00]
+[1681187811.685453][12175:12175] CHIP:SVR: Copy/paste the below URL in a browser to see the QR Code:
+[1681187811.685455][12175:12175] CHIP:SVR: https://project-chip.github.io/connectedhomeip/qrcode.html?data=MT%3A-24J0AFN00KA0648G00
+[1681187811.685460][12175:12175] CHIP:SVR: Manual pairing code: [34970112332]
+[1681187811.685466][12175:12175] CHIP:SVR: Initializing subscription resumption storage...
+[1681187811.685624][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-2JrlRO)
+[1681187811.686115][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187811.686136][12175:12175] CHIP:SVR: Server initializing...
+[1681187811.686160][12175:12175] CHIP:FP: Initializing FabricTable from persistent storage
+[1681187811.686571][12175:12175] CHIP:TS: Last Known Good Time: 2023-04-11T04:28:35
+[1681187811.686602][12175:12175] CHIP:TS: Setting Last Known Good Time to firmware build time 2023-04-11T04:35:44
+[1681187811.686769][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-7QKROO)
+[1681187811.686932][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187811.686970][12175:12175] CHIP:DMG: AccessControl: initializing
+[1681187811.687000][12175:12175] CHIP:DMG: Examples::AccessControlDelegate::Init
+[1681187811.687023][12175:12175] CHIP:DMG: AccessControl: setting
+[1681187811.687040][12175:12175] CHIP:DMG: DefaultAclStorage: initializing
+[1681187811.687043][12175:12175] CHIP:DMG: DefaultAclStorage: 0 entries loaded
+[1681187811.687050][12175:12175] CHIP:IN: UDP::Init bind&listen port=5540
+[1681187811.687078][12175:12175] CHIP:IN: UDP::Init bound to port=5540
+[1681187811.687097][12175:12175] CHIP:IN: UDP::Init bind&listen port=5540
+[1681187811.687109][12175:12175] CHIP:IN: UDP::Init bound to port=5540
+[1681187811.687112][12175:12175] CHIP:IN: TransportMgr initialized
+[1681187811.687202][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-NPrIaN)
+[1681187811.687296][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187811.687365][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-jSLxIP)
+[1681187811.687602][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187811.688020][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-hhS4pM)
+[1681187811.688171][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187811.688196][12175:12175] CHIP:ZCL: Using ZAP configuration...
+[1681187811.688221][12175:12175] CHIP:DMG: Failed to read stored attribute (0, 0x0000_0028, 0x0000_0005: ../../examples/lock-app/linux/third_party/connectedhomeip/src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage
+[1681187811.688252][12175:12175] CHIP:DMG: Failed to read stored attribute (0, 0x0000_0028, 0x0000_0010: ../../examples/lock-app/linux/third_party/connectedhomeip/src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage
+[1681187811.688275][12175:12175] CHIP:DMG: Failed to read stored attribute (0, 0x0000_002C, 0x0000_0000: ../../examples/lock-app/linux/third_party/connectedhomeip/src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage
+[1681187811.688284][12175:12175] CHIP:DMG: Failed to read stored attribute (0, 0x0000_002C, 0x0000_0001: ../../examples/lock-app/linux/third_party/connectedhomeip/src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage
+[1681187811.688333][12175:12175] CHIP:DMG: AccessControlCluster: initializing
+[1681187811.688337][12175:12175] CHIP:ZCL: Initiating Admin Commissioning cluster.
+[1681187811.688340][12175:12175] CHIP:ZCL: Door Lock server initialized
+[1681187811.688346][12175:12175] CHIP:DMG: Endpoint 0, Cluster 0x0000_0030 update version to 4424b6a1
+[1681187811.688361][12175:12175] CHIP:ZCL: GeneralDiagnostics: OnDeviceReboot
+[1681187811.688363][12175:12175] CHIP:DMG: Endpoint 0, Cluster 0x0000_0033 update version to 627e9bd7
+[1681187811.688388][12175:12175] CHIP:EVL: LogEvent event number: 0x0000000000010000 priority: 2, endpoint id:  0x0 cluster id: 0x0000_0033 event id: 0x3 Epoch timestamp: 0x000001876E9A3168
+[1681187811.688464][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-TZOD0P)
+[1681187811.688761][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187811.688792][12175:12175] CHIP:DMG: Endpoint 0, Cluster 0x0000_002B update version to c7145ddf
+[1681187811.688814][12175:12175] CHIP:ZCL: Door Lock cluster initialized at endpoint #1
+[1681187811.688920][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-1CcJoN)
+[1681187811.689551][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187811.689591][12175:12175] CHIP:DMG: Endpoint 1, Cluster 0x0000_0101 update version to d4806a6b
+[1681187811.689611][12175:12175] CHIP:ZCL: Door Lock attribute changed
+[1681187811.689632][12175:12175] CHIP:DMG: Endpoint 1, Cluster 0x0000_0101 update version to d4806a6c
+[1681187811.689637][12175:12175] CHIP:ZCL: Door Lock attribute changed
+[1681187811.689664][12175:12175] CHIP:DMG: Endpoint 1, Cluster 0x0000_0101 update version to d4806a6d
+[1681187811.689667][12175:12175] CHIP:ZCL: Door Lock attribute changed
+[1681187811.689686][12175:12175] CHIP:EVL: LogEvent event number: 0x0000000000010001 priority: 2, endpoint id:  0x1 cluster id: 0x0000_0101 event id: 0x1 Epoch timestamp: 0x000001876E9A3169
+[1681187811.689762][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-4CpQgN)
+[1681187811.689907][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187811.689931][12175:12175] CHIP:DMG: Endpoint 1, Cluster 0x0000_0101 update version to d4806a6e
+[1681187811.689935][12175:12175] CHIP:ZCL: Door Lock attribute changed
+[1681187811.689938][12175:12175] CHIP:ZCL: Initialized new lock door endpoint [id=1,users=10,credentials=10,weekDaySchedulesPerUser=10,yearDaySchedulesPerUser=10,numberOfCredentialsSupportedPerUser=5,holidaySchedules=10]
+[1681187811.689965][12175:12175] CHIP:DL: Cannot get device role with Thread api client:
+[1681187811.689983][12175:12175] CHIP:IN: SecureSession[0x56536fc5f990]: Allocated Type:1 LSID:50442
+[1681187811.689993][12175:12175] CHIP:SC: Assigned local session key ID 50442
+[1681187811.689996][12175:12175] CHIP:SC: Waiting for PBKDF param request
+[1681187811.689998][12175:12175] CHIP:DIS: Updating services using commissioning mode 1
+[1681187811.690320][12175:12175] CHIP:DIS: CHIP minimal mDNS started advertising.
+[1681187811.690873][12175:12175] CHIP:DL: Using wifi MAC for hostname
+[1681187811.690933][12175:12175] CHIP:DIS: Advertise commission parameter vendorID=65521 productID=32769 discriminator=3840/15 cm=1
+[1681187811.690963][12175:12175] CHIP:DIS: Responding with _matterc._udp.local
+[1681187811.690969][12175:12175] CHIP:DIS: Responding with 0946B80314538150._matterc._udp.local
+[1681187811.690972][12175:12175] CHIP:DIS: Responding with 0000000000000000.local
+[1681187811.690974][12175:12175] CHIP:DIS: Responding with 0000000000000000.local
+[1681187811.690978][12175:12175] CHIP:DIS: Responding with _V65521._sub._matterc._udp.local
+[1681187811.690983][12175:12175] CHIP:DIS: Responding with _T65535._sub._matterc._udp.local
+[1681187811.690987][12175:12175] CHIP:DIS: Responding with _S15._sub._matterc._udp.local
+[1681187811.690991][12175:12175] CHIP:DIS: Responding with _L3840._sub._matterc._udp.local
+[1681187811.690995][12175:12175] CHIP:DIS: Responding with _CM._sub._matterc._udp.local
+[1681187811.691002][12175:12175] CHIP:DIS: Responding with 0946B80314538150._matterc._udp.local
+[1681187811.691004][12175:12175] CHIP:DIS: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 0946B80314538150.
+[1681187811.691855][12175:12175] CHIP:DIS: mDNS service published: _matterc._udp
+[1681187811.691926][12175:12175] CHIP:DIS: Updating services using commissioning mode 1
+[1681187811.692139][12175:12175] CHIP:DIS: CHIP minimal mDNS started advertising.
+[1681187811.693528][12175:12175] CHIP:DL: Using wifi MAC for hostname
+[1681187811.693590][12175:12175] CHIP:DIS: Advertise commission parameter vendorID=65521 productID=32769 discriminator=3840/15 cm=1
+[1681187811.693604][12175:12175] CHIP:DIS: Responding with _matterc._udp.local
+[1681187811.693607][12175:12175] CHIP:DIS: Responding with 0946B80314538150._matterc._udp.local
+[1681187811.693609][12175:12175] CHIP:DIS: Responding with 0000000000000000.local
+[1681187811.693612][12175:12175] CHIP:DIS: Responding with 0000000000000000.local
+[1681187811.693616][12175:12175] CHIP:DIS: Responding with _V65521._sub._matterc._udp.local
+[1681187811.693620][12175:12175] CHIP:DIS: Responding with _T65535._sub._matterc._udp.local
+[1681187811.693623][12175:12175] CHIP:DIS: Responding with _S15._sub._matterc._udp.local
+[1681187811.693626][12175:12175] CHIP:DIS: Responding with _L3840._sub._matterc._udp.local
+[1681187811.693630][12175:12175] CHIP:DIS: Responding with _CM._sub._matterc._udp.local
+[1681187811.693636][12175:12175] CHIP:DIS: Responding with 0946B80314538150._matterc._udp.local
+[1681187811.693638][12175:12175] CHIP:DIS: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 0946B80314538150.
+[1681187811.694430][12175:12175] CHIP:DIS: mDNS service published: _matterc._udp
+[1681187811.694459][12175:12175] CHIP:IN: CASE Server enabling CASE session setups
+[1681187811.694494][12175:12175] CHIP:IN: SecureSession[0x56536fc602e0]: Allocated Type:2 LSID:50443
+[1681187811.694518][12175:12175] CHIP:SC: Allocated SecureSession (0x56536fc602e0) - waiting for Sigma1 msg
+[1681187811.694538][12175:12175] CHIP:SVR: Joining Multicast groups
+[1681187811.694558][12175:12175] CHIP:ZCL: Emitting StartUp event
+[1681187811.694587][12175:12175] CHIP:EVL: LogEvent event number: 0x0000000000010002 priority: 2, endpoint id:  0x0 cluster id: 0x0000_0028 event id: 0x0 Epoch timestamp: 0x000001876E9A316E
+[1681187811.694611][12175:12175] CHIP:SVR: Server initialization complete
+[1681187811.694619][12175:12175] CHIP:SVR: Server Listening...
+[1681187811.694621][12175:12175] CHIP:DL: Device Configuration:
+[1681187811.694632][12175:12175] CHIP:DL:   Serial Number: TEST_SN
+[1681187811.694660][12175:12175] CHIP:DL:   Vendor Id: 65521 (0xFFF1)
+[1681187811.694666][12175:12175] CHIP:DL:   Product Id: 32769 (0x8001)
+[1681187811.694669][12175:12175] CHIP:DL:   Product Name: TEST_PRODUCT
+[1681187811.694674][12175:12175] CHIP:DL:   Hardware Version: 0
+[1681187811.694691][12175:12175] CHIP:DL:   Setup Pin Code (0 for UNKNOWN/ERROR): 20202021
+[1681187811.694694][12175:12175] CHIP:DL:   Setup Discriminator (0xFFFF for UNKNOWN/ERROR): 3840 (0xF00)
+[1681187811.694701][12175:12175] CHIP:DL:   Manufacturing Date: (not set)
+[1681187811.694703][12175:12175] CHIP:DL:   Device Type: 65535 (0xFFFF)
+[1681187811.694711][12175:12175] CHIP:SVR: SetupQRCode: [MT:-24J0AFN00KA0648G00]
+[1681187811.694715][12175:12175] CHIP:SVR: Copy/paste the below URL in a browser to see the QR Code:
+[1681187811.694732][12175:12175] CHIP:SVR: https://project-chip.github.io/connectedhomeip/qrcode.html?data=MT%3A-24J0AFN00KA0648G00
+[1681187811.694739][12175:12175] CHIP:SVR: Manual pairing code: [34970112332]
+[1681187811.695002][12175:12175] CHIP:DIS: Updating services using commissioning mode 1
+[1681187811.695241][12175:12175] CHIP:DIS: CHIP minimal mDNS started advertising.
+[1681187811.696609][12175:12175] CHIP:DL: Using wifi MAC for hostname
+[1681187811.696665][12175:12175] CHIP:DIS: Advertise commission parameter vendorID=65521 productID=32769 discriminator=3840/15 cm=1
+[1681187811.696677][12175:12175] CHIP:DIS: Responding with _matterc._udp.local
+[1681187811.696680][12175:12175] CHIP:DIS: Responding with 0946B80314538150._matterc._udp.local
+[1681187811.696683][12175:12175] CHIP:DIS: Responding with 0000000000000000.local
+[1681187811.696685][12175:12175] CHIP:DIS: Responding with 0000000000000000.local
+[1681187811.696689][12175:12175] CHIP:DIS: Responding with _V65521._sub._matterc._udp.local
+[1681187811.696692][12175:12175] CHIP:DIS: Responding with _T65535._sub._matterc._udp.local
+[1681187811.696695][12175:12175] CHIP:DIS: Responding with _S15._sub._matterc._udp.local
+[1681187811.696699][12175:12175] CHIP:DIS: Responding with _L3840._sub._matterc._udp.local
+[1681187811.696702][12175:12175] CHIP:DIS: Responding with _CM._sub._matterc._udp.local
+[1681187811.696708][12175:12175] CHIP:DIS: Responding with 0946B80314538150._matterc._udp.local
+[1681187811.696727][12175:12175] CHIP:DIS: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 0946B80314538150.
+[1681187811.697370][12175:12175] CHIP:DIS: mDNS service published: _matterc._udp
+[1681187811.697606][12175:12175] CHIP:IM: No subscriptions to resume
+[1681187819.165532][12175:12175] CHIP:EM: >>> [E:32031r S:0 M:87329528] (U) Msg RX from 0:CAFE1C59FA8ADB13 [0000] --- Type 0000:20 (SecureChannel:PBKDFParamRequest)
+[1681187819.165590][12175:12175] CHIP:EM: Handling via exchange: 32031r, Delegate: 0x56536fb531e0
+[1681187819.165613][12175:12175] CHIP:SC: Received PBKDF param request
+[1681187819.165630][12175:12175] CHIP:SC: Peer assigned session ID 5966
+[1681187819.165786][12175:12175] CHIP:EM: <<< [E:32031r S:0 M:88218460 (Ack:87329528)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:21 (SecureChannel:PBKDFParamResponse)
+[1681187819.165844][12175:12175] CHIP:IN: (U) Sending msg 88218460 to IP address 'UDP:[fe80::42:acff:fe11:2%eth0]:51374'
+[1681187819.166510][12175:12175] CHIP:SC: Sent PBKDF param response
+[1681187819.168722][12175:12175] CHIP:EM: >>> [E:32031r S:0 M:87329529 (Ack:88218460)] (U) Msg RX from 0:CAFE1C59FA8ADB13 [0000] --- Type 0000:22 (SecureChannel:PASE_Pake1)
+[1681187819.168788][12175:12175] CHIP:EM: Found matching exchange: 32031r, Delegate: 0x56536fb531e0
+[1681187819.168827][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:88218460 from Retrans Table on exchange 32031r
+[1681187819.168869][12175:12175] CHIP:SC: Received spake2p msg1
+[1681187819.169693][12175:12175] CHIP:EM: <<< [E:32031r S:0 M:88218461 (Ack:87329529)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:23 (SecureChannel:PASE_Pake2)
+[1681187819.169749][12175:12175] CHIP:IN: (U) Sending msg 88218461 to IP address 'UDP:[fe80::42:acff:fe11:2%eth0]:51374'
+[1681187819.169853][12175:12175] CHIP:SC: Sent spake2p msg2
+[1681187819.170884][12175:12175] CHIP:EM: >>> [E:32031r S:0 M:87329530 (Ack:88218461)] (U) Msg RX from 0:CAFE1C59FA8ADB13 [0000] --- Type 0000:24 (SecureChannel:PASE_Pake3)
+[1681187819.170922][12175:12175] CHIP:EM: Found matching exchange: 32031r, Delegate: 0x56536fb531e0
+[1681187819.170960][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:88218461 from Retrans Table on exchange 32031r
+[1681187819.171002][12175:12175] CHIP:SC: Received spake2p msg3
+[1681187819.171062][12175:12175] CHIP:SC: Sending status report. Protocol code 0, exchange 32031
+[1681187819.171111][12175:12175] CHIP:EM: <<< [E:32031r S:0 M:88218462 (Ack:87329530)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:40 (SecureChannel:StatusReport)
+[1681187819.171192][12175:12175] CHIP:IN: (U) Sending msg 88218462 to IP address 'UDP:[fe80::42:acff:fe11:2%eth0]:51374'
+[1681187819.171276][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_TEST_MODE=1 bypassing key negotiation... All sessions will use known, fixed test key, and NodeID=0 in NONCE. Node can only communicate with other nodes built with this flag set.
+[1681187819.171301][12175:12175] CHIP:SC: SecureSession[0x56536fc5f990]: Moving from state 'kEstablishing' --> 'kActive'
+[1681187819.171306][12175:12175] CHIP:IN: SecureSession[0x56536fc5f990]: Activated - Type:1 LSID:50442
+[1681187819.171310][12175:12175] CHIP:IN: New secure session activated for device <FFFFFFFB00000000, 0>, LSID:50442 PSID:5966!
+[1681187819.171316][12175:12175] CHIP:SVR: Commissioning completed session establishment step
+[1681187819.171334][12175:12175] CHIP:DIS: Updating services using commissioning mode 0
+[1681187819.171898][12175:12175] CHIP:DIS: CHIP minimal mDNS started advertising.
+[1681187819.174061][12175:12175] CHIP:SVR: Device completed Rendezvous process
+[1681187819.174820][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.174837][12175:12175] CHIP:EM: >>> [E:32032r S:50442 M:226030721] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:02 (IM:ReadRequest)
+[1681187819.174851][12175:12175] CHIP:EM: Handling via exchange: 32032r, Delegate: 0x56536fb4b2c8
+[1681187819.174862][12175:12175] CHIP:IM: Received Read request
+[1681187819.174941][12175:12175] CHIP:DMG: ReadRequestMessage =
+[1681187819.174976][12175:12175] CHIP:DMG: {
+[1681187819.174984][12175:12175] CHIP:DMG:      AttributePathIBs =
+[1681187819.174990][12175:12175] CHIP:DMG:      [
+[1681187819.174994][12175:12175] CHIP:DMG:              AttributePathIB =
+[1681187819.174999][12175:12175] CHIP:DMG:              {
+[1681187819.175004][12175:12175] CHIP:DMG:                      Cluster = 0x31,
+[1681187819.175009][12175:12175] CHIP:DMG:                      Attribute = 0x0000_FFFC,
+[1681187819.175013][12175:12175] CHIP:DMG:              }
+[1681187819.175046][12175:12175] CHIP:DMG:
+[1681187819.175077][12175:12175] CHIP:DMG:              AttributePathIB =
+[1681187819.175084][12175:12175] CHIP:DMG:              {
+[1681187819.175092][12175:12175] CHIP:DMG:                      Endpoint = 0x0,
+[1681187819.175135][12175:12175] CHIP:DMG:                      Cluster = 0x30,
+[1681187819.175142][12175:12175] CHIP:DMG:                      Attribute = 0x0000_0000,
+[1681187819.175146][12175:12175] CHIP:DMG:              }
+[1681187819.175153][12175:12175] CHIP:DMG:
+[1681187819.175160][12175:12175] CHIP:DMG:              AttributePathIB =
+[1681187819.175191][12175:12175] CHIP:DMG:              {
+[1681187819.175231][12175:12175] CHIP:DMG:                      Endpoint = 0x0,
+[1681187819.175262][12175:12175] CHIP:DMG:                      Cluster = 0x30,
+[1681187819.175269][12175:12175] CHIP:DMG:                      Attribute = 0x0000_0001,
+[1681187819.175276][12175:12175] CHIP:DMG:              }
+[1681187819.175282][12175:12175] CHIP:DMG:
+[1681187819.175286][12175:12175] CHIP:DMG:              AttributePathIB =
+[1681187819.175290][12175:12175] CHIP:DMG:              {
+[1681187819.175294][12175:12175] CHIP:DMG:                      Endpoint = 0x0,
+[1681187819.175302][12175:12175] CHIP:DMG:                      Cluster = 0x30,
+[1681187819.175307][12175:12175] CHIP:DMG:                      Attribute = 0x0000_0002,
+[1681187819.175311][12175:12175] CHIP:DMG:              }
+[1681187819.175321][12175:12175] CHIP:DMG:
+[1681187819.175326][12175:12175] CHIP:DMG:              AttributePathIB =
+[1681187819.175330][12175:12175] CHIP:DMG:              {
+[1681187819.175334][12175:12175] CHIP:DMG:                      Endpoint = 0x0,
+[1681187819.175338][12175:12175] CHIP:DMG:                      Cluster = 0x30,
+[1681187819.175343][12175:12175] CHIP:DMG:                      Attribute = 0x0000_0003,
+[1681187819.175347][12175:12175] CHIP:DMG:              }
+[1681187819.175352][12175:12175] CHIP:DMG:
+[1681187819.175355][12175:12175] CHIP:DMG:              AttributePathIB =
+[1681187819.175360][12175:12175] CHIP:DMG:              {
+[1681187819.175392][12175:12175] CHIP:DMG:                      Endpoint = 0x0,
+[1681187819.175400][12175:12175] CHIP:DMG:                      Cluster = 0x28,
+[1681187819.175430][12175:12175] CHIP:DMG:                      Attribute = 0x0000_0002,
+[1681187819.175436][12175:12175] CHIP:DMG:              }
+[1681187819.175442][12175:12175] CHIP:DMG:
+[1681187819.175446][12175:12175] CHIP:DMG:              AttributePathIB =
+[1681187819.175450][12175:12175] CHIP:DMG:              {
+[1681187819.175454][12175:12175] CHIP:DMG:                      Endpoint = 0x0,
+[1681187819.175459][12175:12175] CHIP:DMG:                      Cluster = 0x28,
+[1681187819.175463][12175:12175] CHIP:DMG:                      Attribute = 0x0000_0004,
+[1681187819.175467][12175:12175] CHIP:DMG:              }
+[1681187819.175472][12175:12175] CHIP:DMG:
+[1681187819.175475][12175:12175] CHIP:DMG:              AttributePathIB =
+[1681187819.175479][12175:12175] CHIP:DMG:              {
+[1681187819.175483][12175:12175] CHIP:DMG:                      Cluster = 0x31,
+[1681187819.175487][12175:12175] CHIP:DMG:                      Attribute = 0x0000_0003,
+[1681187819.175491][12175:12175] CHIP:DMG:              }
+[1681187819.175496][12175:12175] CHIP:DMG:
+[1681187819.175500][12175:12175] CHIP:DMG:      ],
+[1681187819.175516][12175:12175] CHIP:DMG:
+[1681187819.175520][12175:12175] CHIP:DMG:      isFabricFiltered = false,
+[1681187819.175525][12175:12175] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.175528][12175:12175] CHIP:DMG: },
+[1681187819.175677][12175:12175] CHIP:DMG: IM RH moving to [GeneratingReports]
+[1681187819.175732][12175:12175] CHIP:DMG: Building Reports for ReadHandler with LastReportGeneration = 0 DirtyGeneration = 0
+[1681187819.175744][12175:12175] CHIP:DMG: <RE:Run> Cluster 31, Attribute 3 is dirty
+[1681187819.175773][12175:12175] CHIP:DMG: Reading attribute: Cluster=0x0000_0031 Endpoint=0 AttributeId=0x0000_0003 (expanded=1)
+[1681187819.175784][12175:12175] CHIP:DMG: AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0031 e=0 p=v
+[1681187819.175789][12175:12175] CHIP:DMG: AccessControl: implicit admin (PASE)
+[1681187819.175804][12175:12175] CHIP:DMG: <RE:Run> Cluster 28, Attribute 4 is dirty
+[1681187819.175831][12175:12175] CHIP:DMG: Reading attribute: Cluster=0x0000_0028 Endpoint=0 AttributeId=0x0000_0004 (expanded=0)
+[1681187819.175840][12175:12175] CHIP:DMG: AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0028 e=0 p=v
+[1681187819.175845][12175:12175] CHIP:DMG: AccessControl: implicit admin (PASE)
+[1681187819.175885][12175:12175] CHIP:DMG: <RE:Run> Cluster 28, Attribute 2 is dirty
+[1681187819.175913][12175:12175] CHIP:DMG: Reading attribute: Cluster=0x0000_0028 Endpoint=0 AttributeId=0x0000_0002 (expanded=0)
+[1681187819.175922][12175:12175] CHIP:DMG: AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0028 e=0 p=v
+[1681187819.175927][12175:12175] CHIP:DMG: AccessControl: implicit admin (PASE)
+[1681187819.175947][12175:12175] CHIP:DMG: <RE:Run> Cluster 30, Attribute 3 is dirty
+[1681187819.175974][12175:12175] CHIP:DMG: Reading attribute: Cluster=0x0000_0030 Endpoint=0 AttributeId=0x0000_0003 (expanded=0)
+[1681187819.175982][12175:12175] CHIP:DMG: AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=v
+[1681187819.176012][12175:12175] CHIP:DMG: AccessControl: implicit admin (PASE)
+[1681187819.176040][12175:12175] CHIP:DMG: <RE:Run> Cluster 30, Attribute 2 is dirty
+[1681187819.176069][12175:12175] CHIP:DMG: Reading attribute: Cluster=0x0000_0030 Endpoint=0 AttributeId=0x0000_0002 (expanded=0)
+[1681187819.176077][12175:12175] CHIP:DMG: AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=v
+[1681187819.176082][12175:12175] CHIP:DMG: AccessControl: implicit admin (PASE)
+[1681187819.176103][12175:12175] CHIP:DMG: <RE:Run> Cluster 30, Attribute 1 is dirty
+[1681187819.176107][12175:12175] CHIP:DMG: Reading attribute: Cluster=0x0000_0030 Endpoint=0 AttributeId=0x0000_0001 (expanded=0)
+[1681187819.176112][12175:12175] CHIP:DMG: AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=v
+[1681187819.176157][12175:12175] CHIP:DMG: AccessControl: implicit admin (PASE)
+[1681187819.176169][12175:12175] CHIP:DMG: <RE:Run> Cluster 30, Attribute 0 is dirty
+[1681187819.176176][12175:12175] CHIP:DMG: Reading attribute: Cluster=0x0000_0030 Endpoint=0 AttributeId=0x0000_0000 (expanded=0)
+[1681187819.176182][12175:12175] CHIP:DMG: AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=v
+[1681187819.176187][12175:12175] CHIP:DMG: AccessControl: implicit admin (PASE)
+[1681187819.176197][12175:12175] CHIP:DMG: <RE:Run> Cluster 31, Attribute fffc is dirty
+[1681187819.176200][12175:12175] CHIP:DMG: Reading attribute: Cluster=0x0000_0031 Endpoint=0 AttributeId=0x0000_FFFC (expanded=1)
+[1681187819.176205][12175:12175] CHIP:DMG: AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0031 e=0 p=v
+[1681187819.176209][12175:12175] CHIP:DMG: AccessControl: implicit admin (PASE)
+[1681187819.176221][12175:12175] CHIP:DMG: <RE> Sending report (payload has 228 bytes)...
+[1681187819.176242][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.176248][12175:12175] CHIP:EM: <<< [E:32032r S:50442 M:160249978 (Ack:226030721)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0001:05 (IM:ReportData)
+[1681187819.176259][12175:12175] CHIP:IN: (S) Sending msg 160249978 on secure session with LSID: 50442
+[1681187819.176338][12175:12175] CHIP:DMG: <RE> OnReportConfirm: NumReports = 0
+[1681187819.176346][12175:12175] CHIP:DMG: <RE> ReportsInFlight = 0 with readHandler 0, RE has no more messages
+[1681187819.176788][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-Add6fQ)
+[1681187819.176989][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187819.177001][12175:12175] CHIP:DMG: IM RH moving to [AwaitingDestruction]
+[1681187819.177012][12175:12175] CHIP:DMG: All ReadHandler-s are clean, clear GlobalDirtySet
+[1681187819.177040][12175:12175] CHIP:EM: >>> [E:32031r S:0 M:87329531 (Ack:88218462)] (U) Msg RX from 0:CAFE1C59FA8ADB13 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.177048][12175:12175] CHIP:EM: Found matching exchange: 32031r, Delegate: (nil)
+[1681187819.177059][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:88218462 from Retrans Table on exchange 32031r
+[1681187819.178594][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.178640][12175:12175] CHIP:EM: >>> [E:32033r S:50442 M:226030722] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187819.178662][12175:12175] CHIP:EM: Handling via exchange: 32033r, Delegate: 0x56536fb4b2c8
+[1681187819.178694][12175:12175] CHIP:DMG: InvokeRequestMessage =
+[1681187819.178707][12175:12175] CHIP:DMG: {
+[1681187819.178714][12175:12175] CHIP:DMG:      suppressResponse = false,
+[1681187819.178724][12175:12175] CHIP:DMG:      timedRequest = false,
+[1681187819.178751][12175:12175] CHIP:DMG:      InvokeRequests =
+[1681187819.178770][12175:12175] CHIP:DMG:      [
+[1681187819.178797][12175:12175] CHIP:DMG:              CommandDataIB =
+[1681187819.178809][12175:12175] CHIP:DMG:              {
+[1681187819.178838][12175:12175] CHIP:DMG:                      CommandPathIB =
+[1681187819.178847][12175:12175] CHIP:DMG:                      {
+[1681187819.178876][12175:12175] CHIP:DMG:                              EndpointId = 0x0,
+[1681187819.178883][12175:12175] CHIP:DMG:                              ClusterId = 0x30,
+[1681187819.178887][12175:12175] CHIP:DMG:                              CommandId = 0x0,
+[1681187819.178891][12175:12175] CHIP:DMG:                      },
+[1681187819.178898][12175:12175] CHIP:DMG:
+[1681187819.178902][12175:12175] CHIP:DMG:                      CommandFields =
+[1681187819.178907][12175:12175] CHIP:DMG:                      {
+[1681187819.178919][12175:12175] CHIP:DMG:                              0x0 = 60,
+[1681187819.178923][12175:12175] CHIP:DMG:                              0x1 = 3,
+[1681187819.178928][12175:12175] CHIP:DMG:                      },
+[1681187819.178931][12175:12175] CHIP:DMG:              },
+[1681187819.178938][12175:12175] CHIP:DMG:
+[1681187819.178941][12175:12175] CHIP:DMG:      ],
+[1681187819.178949][12175:12175] CHIP:DMG:
+[1681187819.178952][12175:12175] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.178955][12175:12175] CHIP:DMG: },
+[1681187819.178982][12175:12175] CHIP:DMG: AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=a
+[1681187819.179017][12175:12175] CHIP:DMG: AccessControl: implicit admin (PASE)
+[1681187819.179048][12175:12175] CHIP:DMG: Received command for Endpoint=0 Cluster=0x0000_0030 Command=0x0000_0000
+[1681187819.179061][12175:12175] CHIP:FS: GeneralCommissioning: Received ArmFailSafe (60s)
+[1681187819.179095][12175:12175] CHIP:DMG: Endpoint 0, Cluster 0x0000_0030 update version to 4424b6a2
+[1681187819.179137][12175:12175] CHIP:DMG: Command handler moving to [ Preparing]
+[1681187819.179152][12175:12175] CHIP:DMG: Command handler moving to [AddingComm]
+[1681187819.179178][12175:12175] CHIP:DMG: Command handler moving to [AddedComma]
+[1681187819.179195][12175:12175] CHIP:DMG: Decreasing reference count for CommandHandler, remaining 0
+[1681187819.179210][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.179214][12175:12175] CHIP:EM: <<< [E:32033r S:50442 M:160249979 (Ack:226030722)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187819.179224][12175:12175] CHIP:IN: (S) Sending msg 160249979 on secure session with LSID: 50442
+[1681187819.179276][12175:12175] CHIP:DMG: Command handler moving to [CommandSen]
+[1681187819.180135][12175:12175] CHIP:DMG: Command handler moving to [AwaitingDe]
+[1681187819.180189][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.180221][12175:12175] CHIP:EM: >>> [E:32032r S:50442 M:226030723 (Ack:160249978)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.180229][12175:12175] CHIP:EM: Found matching exchange: 32032r, Delegate: (nil)
+[1681187819.180241][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:160249978 from Retrans Table on exchange 32032r
+[1681187819.180265][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.180273][12175:12175] CHIP:EM: >>> [E:32034r S:50442 M:226030724] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187819.180283][12175:12175] CHIP:EM: Handling via exchange: 32034r, Delegate: 0x56536fb4b2c8
+[1681187819.180303][12175:12175] CHIP:DMG: InvokeRequestMessage =
+[1681187819.180307][12175:12175] CHIP:DMG: {
+[1681187819.180312][12175:12175] CHIP:DMG:      suppressResponse = false,
+[1681187819.180316][12175:12175] CHIP:DMG:      timedRequest = false,
+[1681187819.180341][12175:12175] CHIP:DMG:      InvokeRequests =
+[1681187819.180351][12175:12175] CHIP:DMG:      [
+[1681187819.180355][12175:12175] CHIP:DMG:              CommandDataIB =
+[1681187819.180359][12175:12175] CHIP:DMG:              {
+[1681187819.180363][12175:12175] CHIP:DMG:                      CommandPathIB =
+[1681187819.180368][12175:12175] CHIP:DMG:                      {
+[1681187819.180372][12175:12175] CHIP:DMG:                              EndpointId = 0x0,
+[1681187819.180377][12175:12175] CHIP:DMG:                              ClusterId = 0x30,
+[1681187819.180381][12175:12175] CHIP:DMG:                              CommandId = 0x2,
+[1681187819.180410][12175:12175] CHIP:DMG:                      },
+[1681187819.180419][12175:12175] CHIP:DMG:
+[1681187819.180446][12175:12175] CHIP:DMG:                      CommandFields =
+[1681187819.180452][12175:12175] CHIP:DMG:                      {
+[1681187819.180459][12175:12175] CHIP:DMG:                              0x0 = 0,
+[1681187819.180465][12175:12175] CHIP:DMG:                              0x1 = "XX" (2 chars),
+[1681187819.180492][12175:12175] CHIP:DMG:                              0x2 = 4,
+[1681187819.180501][12175:12175] CHIP:DMG:                      },
+[1681187819.180509][12175:12175] CHIP:DMG:              },
+[1681187819.180521][12175:12175] CHIP:DMG:
+[1681187819.180526][12175:12175] CHIP:DMG:      ],
+[1681187819.180534][12175:12175] CHIP:DMG:
+[1681187819.180537][12175:12175] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.180540][12175:12175] CHIP:DMG: },
+[1681187819.180566][12175:12175] CHIP:DMG: AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=a
+[1681187819.180591][12175:12175] CHIP:DMG: AccessControl: implicit admin (PASE)
+[1681187819.180599][12175:12175] CHIP:DMG: Received command for Endpoint=0 Cluster=0x0000_0030 Command=0x0000_0002
+[1681187819.180752][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_config.ini-8CDwSP)
+[1681187819.180981][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_config.ini)
+[1681187819.181012][12175:12175] CHIP:DL: NVS set: chip-config/regulatory-location = 0 (0x0)
+[1681187819.181076][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_config.ini-ry6PUP)
+[1681187819.181368][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_config.ini)
+[1681187819.181419][12175:12175] CHIP:DL: NVS set: chip-config/country-code = "XX"
+[1681187819.181463][12175:12175] CHIP:DMG: Endpoint 0, Cluster 0x0000_0030 update version to 4424b6a3
+[1681187819.181573][12175:12175] CHIP:DMG: Command handler moving to [ Preparing]
+[1681187819.181605][12175:12175] CHIP:DMG: Command handler moving to [AddingComm]
+[1681187819.181627][12175:12175] CHIP:DMG: Command handler moving to [AddedComma]
+[1681187819.181688][12175:12175] CHIP:DMG: Decreasing reference count for CommandHandler, remaining 0
+[1681187819.181732][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.181783][12175:12175] CHIP:EM: <<< [E:32034r S:50442 M:160249980 (Ack:226030724)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187819.181794][12175:12175] CHIP:IN: (S) Sending msg 160249980 on secure session with LSID: 50442
+[1681187819.181860][12175:12175] CHIP:DMG: Command handler moving to [CommandSen]
+[1681187819.181882][12175:12175] CHIP:DMG: Command handler moving to [AwaitingDe]
+[1681187819.181906][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.181926][12175:12175] CHIP:EM: >>> [E:32033r S:50442 M:226030725 (Ack:160249979)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.181932][12175:12175] CHIP:EM: Found matching exchange: 32033r, Delegate: (nil)
+[1681187819.181940][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:160249979 from Retrans Table on exchange 32033r
+[1681187819.182553][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.182577][12175:12175] CHIP:EM: >>> [E:32035r S:50442 M:226030726] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187819.182584][12175:12175] CHIP:EM: Handling via exchange: 32035r, Delegate: 0x56536fb4b2c8
+[1681187819.182626][12175:12175] CHIP:DMG: InvokeRequestMessage =
+[1681187819.182631][12175:12175] CHIP:DMG: {
+[1681187819.182633][12175:12175] CHIP:DMG:      suppressResponse = false,
+[1681187819.182636][12175:12175] CHIP:DMG:      timedRequest = false,
+[1681187819.182644][12175:12175] CHIP:DMG:      InvokeRequests =
+[1681187819.182664][12175:12175] CHIP:DMG:      [
+[1681187819.182667][12175:12175] CHIP:DMG:              CommandDataIB =
+[1681187819.182670][12175:12175] CHIP:DMG:              {
+[1681187819.182689][12175:12175] CHIP:DMG:                      CommandPathIB =
+[1681187819.182699][12175:12175] CHIP:DMG:                      {
+[1681187819.182706][12175:12175] CHIP:DMG:                              EndpointId = 0x0,
+[1681187819.182709][12175:12175] CHIP:DMG:                              ClusterId = 0x3e,
+[1681187819.182712][12175:12175] CHIP:DMG:                              CommandId = 0x2,
+[1681187819.182715][12175:12175] CHIP:DMG:                      },
+[1681187819.182718][12175:12175] CHIP:DMG:
+[1681187819.182724][12175:12175] CHIP:DMG:                      CommandFields =
+[1681187819.182730][12175:12175] CHIP:DMG:                      {
+[1681187819.182751][12175:12175] CHIP:DMG:                              0x0 = 2,
+[1681187819.182756][12175:12175] CHIP:DMG:                      },
+[1681187819.182759][12175:12175] CHIP:DMG:              },
+[1681187819.182764][12175:12175] CHIP:DMG:
+[1681187819.182769][12175:12175] CHIP:DMG:      ],
+[1681187819.182774][12175:12175] CHIP:DMG:
+[1681187819.182780][12175:12175] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.182782][12175:12175] CHIP:DMG: },
+[1681187819.182820][12175:12175] CHIP:DMG: AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_003E e=0 p=a
+[1681187819.182827][12175:12175] CHIP:DMG: AccessControl: implicit admin (PASE)
+[1681187819.182833][12175:12175] CHIP:DMG: Received command for Endpoint=0 Cluster=0x0000_003E Command=0x0000_0002
+[1681187819.182843][12175:12175] CHIP:ZCL: OpCreds: Certificate Chain request received for PAI
+[1681187819.182878][12175:12175] CHIP:DMG: Command handler moving to [ Preparing]
+[1681187819.182884][12175:12175] CHIP:DMG: Command handler moving to [AddingComm]
+[1681187819.182908][12175:12175] CHIP:DMG: Command handler moving to [AddedComma]
+[1681187819.183092][12175:12175] CHIP:DMG: Decreasing reference count for CommandHandler, remaining 0
+[1681187819.183148][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.183154][12175:12175] CHIP:EM: <<< [E:32035r S:50442 M:160249981 (Ack:226030726)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187819.183179][12175:12175] CHIP:IN: (S) Sending msg 160249981 on secure session with LSID: 50442
+[1681187819.183243][12175:12175] CHIP:DMG: Command handler moving to [CommandSen]
+[1681187819.183251][12175:12175] CHIP:DMG: Command handler moving to [AwaitingDe]
+[1681187819.183271][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.183295][12175:12175] CHIP:EM: >>> [E:32034r S:50442 M:226030727 (Ack:160249980)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.183301][12175:12175] CHIP:EM: Found matching exchange: 32034r, Delegate: (nil)
+[1681187819.183308][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:160249980 from Retrans Table on exchange 32034r
+[1681187819.183896][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.183923][12175:12175] CHIP:EM: >>> [E:32036r S:50442 M:226030728] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187819.183931][12175:12175] CHIP:EM: Handling via exchange: 32036r, Delegate: 0x56536fb4b2c8
+[1681187819.183950][12175:12175] CHIP:DMG: InvokeRequestMessage =
+[1681187819.183953][12175:12175] CHIP:DMG: {
+[1681187819.183957][12175:12175] CHIP:DMG:      suppressResponse = false,
+[1681187819.183960][12175:12175] CHIP:DMG:      timedRequest = false,
+[1681187819.183964][12175:12175] CHIP:DMG:      InvokeRequests =
+[1681187819.183987][12175:12175] CHIP:DMG:      [
+[1681187819.184006][12175:12175] CHIP:DMG:              CommandDataIB =
+[1681187819.184010][12175:12175] CHIP:DMG:              {
+[1681187819.184013][12175:12175] CHIP:DMG:                      CommandPathIB =
+[1681187819.184018][12175:12175] CHIP:DMG:                      {
+[1681187819.184039][12175:12175] CHIP:DMG:                              EndpointId = 0x0,
+[1681187819.184045][12175:12175] CHIP:DMG:                              ClusterId = 0x3e,
+[1681187819.184049][12175:12175] CHIP:DMG:                              CommandId = 0x2,
+[1681187819.184052][12175:12175] CHIP:DMG:                      },
+[1681187819.184056][12175:12175] CHIP:DMG:
+[1681187819.184059][12175:12175] CHIP:DMG:                      CommandFields =
+[1681187819.184081][12175:12175] CHIP:DMG:                      {
+[1681187819.184086][12175:12175] CHIP:DMG:                              0x0 = 1,
+[1681187819.184136][12175:12175] CHIP:DMG:                      },
+[1681187819.184145][12175:12175] CHIP:DMG:              },
+[1681187819.184158][12175:12175] CHIP:DMG:
+[1681187819.184178][12175:12175] CHIP:DMG:      ],
+[1681187819.184186][12175:12175] CHIP:DMG:
+[1681187819.184189][12175:12175] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.184192][12175:12175] CHIP:DMG: },
+[1681187819.184244][12175:12175] CHIP:DMG: AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_003E e=0 p=a
+[1681187819.184260][12175:12175] CHIP:DMG: AccessControl: implicit admin (PASE)
+[1681187819.184271][12175:12175] CHIP:DMG: Received command for Endpoint=0 Cluster=0x0000_003E Command=0x0000_0002
+[1681187819.184291][12175:12175] CHIP:ZCL: OpCreds: Certificate Chain request received for DAC
+[1681187819.184338][12175:12175] CHIP:DMG: Command handler moving to [ Preparing]
+[1681187819.184388][12175:12175] CHIP:DMG: Command handler moving to [AddingComm]
+[1681187819.184396][12175:12175] CHIP:DMG: Command handler moving to [AddedComma]
+[1681187819.184409][12175:12175] CHIP:DMG: Decreasing reference count for CommandHandler, remaining 0
+[1681187819.184429][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.184435][12175:12175] CHIP:EM: <<< [E:32036r S:50442 M:160249982 (Ack:226030728)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187819.184445][12175:12175] CHIP:IN: (S) Sending msg 160249982 on secure session with LSID: 50442
+[1681187819.184585][12175:12175] CHIP:DMG: Command handler moving to [CommandSen]
+[1681187819.184611][12175:12175] CHIP:DMG: Command handler moving to [AwaitingDe]
+[1681187819.184659][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.184670][12175:12175] CHIP:EM: >>> [E:32035r S:50442 M:226030729 (Ack:160249981)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.184679][12175:12175] CHIP:EM: Found matching exchange: 32035r, Delegate: (nil)
+[1681187819.184688][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:160249981 from Retrans Table on exchange 32035r
+[1681187819.185234][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.185248][12175:12175] CHIP:EM: >>> [E:32037r S:50442 M:226030730] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187819.185257][12175:12175] CHIP:EM: Handling via exchange: 32037r, Delegate: 0x56536fb4b2c8
+[1681187819.185281][12175:12175] CHIP:DMG: InvokeRequestMessage =
+[1681187819.185284][12175:12175] CHIP:DMG: {
+[1681187819.185288][12175:12175] CHIP:DMG:      suppressResponse = false,
+[1681187819.185291][12175:12175] CHIP:DMG:      timedRequest = false,
+[1681187819.185295][12175:12175] CHIP:DMG:      InvokeRequests =
+[1681187819.185329][12175:12175] CHIP:DMG:      [
+[1681187819.185334][12175:12175] CHIP:DMG:              CommandDataIB =
+[1681187819.185338][12175:12175] CHIP:DMG:              {
+[1681187819.185343][12175:12175] CHIP:DMG:                      CommandPathIB =
+[1681187819.185366][12175:12175] CHIP:DMG:                      {
+[1681187819.185371][12175:12175] CHIP:DMG:                              EndpointId = 0x0,
+[1681187819.185374][12175:12175] CHIP:DMG:                              ClusterId = 0x3e,
+[1681187819.185377][12175:12175] CHIP:DMG:                              CommandId = 0x0,
+[1681187819.185399][12175:12175] CHIP:DMG:                      },
+[1681187819.185405][12175:12175] CHIP:DMG:
+[1681187819.185428][12175:12175] CHIP:DMG:                      CommandFields =
+[1681187819.185434][12175:12175] CHIP:DMG:                      {
+[1681187819.185456][12175:12175] CHIP:DMG:                              0x0 = [
+[1681187819.185466][12175:12175] CHIP:DMG:                                              0x4a, 0xef, 0xfe, 0xef, 0xa9, 0x22, 0xbd, 0xcc, 0x8b, 0x88, 0x2d, 0x26, 0xe4, 0xd7, 0x5d, 0x77, 0xf2, 0xe4, 0xe7, 0x80, 0x35, 0x56, 0xb0, 0x46, 0xd2, 0x83, 0x52, 0x8c, 0x3c, 0x8c, 0x9e, 0x7b,
+[1681187819.185472][12175:12175] CHIP:DMG:                              ] (32 bytes)
+[1681187819.185475][12175:12175] CHIP:DMG:                      },
+[1681187819.185478][12175:12175] CHIP:DMG:              },
+[1681187819.185483][12175:12175] CHIP:DMG:
+[1681187819.185505][12175:12175] CHIP:DMG:      ],
+[1681187819.185512][12175:12175] CHIP:DMG:
+[1681187819.185535][12175:12175] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.185539][12175:12175] CHIP:DMG: },
+[1681187819.185561][12175:12175] CHIP:DMG: AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_003E e=0 p=a
+[1681187819.185565][12175:12175] CHIP:DMG: AccessControl: implicit admin (PASE)
+[1681187819.185570][12175:12175] CHIP:DMG: Received command for Endpoint=0 Cluster=0x0000_003E Command=0x0000_0000
+[1681187819.185577][12175:12175] CHIP:ZCL: OpCreds: Received an AttestationRequest command
+[1681187819.185587][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.185591][12175:12175] CHIP:EM: <<< [E:32037r S:50442 M:160249983 (Ack:226030730)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.185624][12175:12175] CHIP:IN: (S) Sending msg 160249983 on secure session with LSID: 50442
+[1681187819.185669][12175:12175] CHIP:EM: Flushed pending ack for MessageCounter:226030730 on exchange 32037r
+[1681187819.186565][12175:12175] CHIP:ZCL: OpCreds: AttestationRequest successful.
+[1681187819.186591][12175:12175] CHIP:DMG: Command handler moving to [ Preparing]
+[1681187819.186595][12175:12175] CHIP:DMG: Command handler moving to [AddingComm]
+[1681187819.186599][12175:12175] CHIP:DMG: Command handler moving to [AddedComma]
+[1681187819.186607][12175:12175] CHIP:DMG: Decreasing reference count for CommandHandler, remaining 0
+[1681187819.186625][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.186644][12175:12175] CHIP:EM: <<< [E:32037r S:50442 M:160249984 (Ack:226030730)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187819.186665][12175:12175] CHIP:IN: (S) Sending msg 160249984 on secure session with LSID: 50442
+[1681187819.186729][12175:12175] CHIP:DMG: Command handler moving to [CommandSen]
+[1681187819.186749][12175:12175] CHIP:DMG: Command handler moving to [AwaitingDe]
+[1681187819.186768][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.186789][12175:12175] CHIP:EM: >>> [E:32036r S:50442 M:226030731 (Ack:160249982)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.186794][12175:12175] CHIP:EM: Found matching exchange: 32036r, Delegate: (nil)
+[1681187819.186801][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:160249982 from Retrans Table on exchange 32036r
+[1681187819.190921][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.190933][12175:12175] CHIP:EM: >>> [E:32038r S:50442 M:226030732] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187819.190939][12175:12175] CHIP:EM: Handling via exchange: 32038r, Delegate: 0x56536fb4b2c8
+[1681187819.190959][12175:12175] CHIP:DMG: InvokeRequestMessage =
+[1681187819.190962][12175:12175] CHIP:DMG: {
+[1681187819.190965][12175:12175] CHIP:DMG:      suppressResponse = false,
+[1681187819.190968][12175:12175] CHIP:DMG:      timedRequest = false,
+[1681187819.190970][12175:12175] CHIP:DMG:      InvokeRequests =
+[1681187819.190976][12175:12175] CHIP:DMG:      [
+[1681187819.190979][12175:12175] CHIP:DMG:              CommandDataIB =
+[1681187819.190986][12175:12175] CHIP:DMG:              {
+[1681187819.191007][12175:12175] CHIP:DMG:                      CommandPathIB =
+[1681187819.191012][12175:12175] CHIP:DMG:                      {
+[1681187819.191015][12175:12175] CHIP:DMG:                              EndpointId = 0x0,
+[1681187819.191019][12175:12175] CHIP:DMG:                              ClusterId = 0x3e,
+[1681187819.191023][12175:12175] CHIP:DMG:                              CommandId = 0x4,
+[1681187819.191026][12175:12175] CHIP:DMG:                      },
+[1681187819.191033][12175:12175] CHIP:DMG:
+[1681187819.191056][12175:12175] CHIP:DMG:                      CommandFields =
+[1681187819.191061][12175:12175] CHIP:DMG:                      {
+[1681187819.191066][12175:12175] CHIP:DMG:                              0x0 = [
+[1681187819.191092][12175:12175] CHIP:DMG:                                              0x9d, 0xf6, 0x7d, 0xfa, 0x4e, 0x0c, 0x85, 0x3f, 0x03, 0x1e, 0x3f, 0x3a, 0xd5, 0x99, 0xdf, 0x6d, 0xbe, 0x3e, 0x6c, 0x3e, 0x99, 0xfb, 0xe6, 0x2a, 0x6b, 0x95, 0xd3, 0xe6, 0xb2, 0xca, 0x0b, 0x51,
+[1681187819.191134][12175:12175] CHIP:DMG:                              ] (32 bytes)
+[1681187819.191138][12175:12175] CHIP:DMG:                      },
+[1681187819.191142][12175:12175] CHIP:DMG:              },
+[1681187819.191147][12175:12175] CHIP:DMG:
+[1681187819.191149][12175:12175] CHIP:DMG:      ],
+[1681187819.191155][12175:12175] CHIP:DMG:
+[1681187819.191196][12175:12175] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.191221][12175:12175] CHIP:DMG: },
+[1681187819.191243][12175:12175] CHIP:DMG: AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_003E e=0 p=a
+[1681187819.191251][12175:12175] CHIP:DMG: AccessControl: implicit admin (PASE)
+[1681187819.191256][12175:12175] CHIP:DMG: Received command for Endpoint=0 Cluster=0x0000_003E Command=0x0000_0004
+[1681187819.191277][12175:12175] CHIP:ZCL: OpCreds: Received a CSRRequest command
+[1681187819.191283][12175:12175] CHIP:ZCL: OpCreds: Finding fabric with fabricIndex 0x0
+[1681187819.191293][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.191297][12175:12175] CHIP:EM: <<< [E:32038r S:50442 M:160249985 (Ack:226030732)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.191304][12175:12175] CHIP:IN: (S) Sending msg 160249985 on secure session with LSID: 50442
+[1681187819.191349][12175:12175] CHIP:EM: Flushed pending ack for MessageCounter:226030732 on exchange 32038r
+[1681187819.191712][12175:12175] CHIP:ZCL: OpCreds: AllocatePendingOperationalKey succeeded
+[1681187819.191923][12175:12175] CHIP:ZCL: OpCreds: CSRRequest successful.
+[1681187819.191965][12175:12175] CHIP:DMG: Command handler moving to [ Preparing]
+[1681187819.191972][12175:12175] CHIP:DMG: Command handler moving to [AddingComm]
+[1681187819.191982][12175:12175] CHIP:DMG: Command handler moving to [AddedComma]
+[1681187819.191994][12175:12175] CHIP:DMG: Decreasing reference count for CommandHandler, remaining 0
+[1681187819.192031][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.192063][12175:12175] CHIP:EM: <<< [E:32038r S:50442 M:160249986 (Ack:226030732)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187819.192090][12175:12175] CHIP:IN: (S) Sending msg 160249986 on secure session with LSID: 50442
+[1681187819.192133][12175:12175] CHIP:DMG: Command handler moving to [CommandSen]
+[1681187819.192137][12175:12175] CHIP:DMG: Command handler moving to [AwaitingDe]
+[1681187819.192240][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.192267][12175:12175] CHIP:EM: >>> [E:32037r S:50442 M:226030733 (Ack:160249984)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.192306][12175:12175] CHIP:EM: Found matching exchange: 32037r, Delegate: (nil)
+[1681187819.192316][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:160249984 from Retrans Table on exchange 32037r
+[1681187819.195018][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.195030][12175:12175] CHIP:EM: >>> [E:32039r S:50442 M:226030734] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187819.195038][12175:12175] CHIP:EM: Handling via exchange: 32039r, Delegate: 0x56536fb4b2c8
+[1681187819.195056][12175:12175] CHIP:DMG: InvokeRequestMessage =
+[1681187819.195059][12175:12175] CHIP:DMG: {
+[1681187819.195061][12175:12175] CHIP:DMG:      suppressResponse = false,
+[1681187819.195064][12175:12175] CHIP:DMG:      timedRequest = false,
+[1681187819.195066][12175:12175] CHIP:DMG:      InvokeRequests =
+[1681187819.195071][12175:12175] CHIP:DMG:      [
+[1681187819.195073][12175:12175] CHIP:DMG:              CommandDataIB =
+[1681187819.195076][12175:12175] CHIP:DMG:              {
+[1681187819.195078][12175:12175] CHIP:DMG:                      CommandPathIB =
+[1681187819.195081][12175:12175] CHIP:DMG:                      {
+[1681187819.195084][12175:12175] CHIP:DMG:                              EndpointId = 0x0,
+[1681187819.195087][12175:12175] CHIP:DMG:                              ClusterId = 0x3e,
+[1681187819.195089][12175:12175] CHIP:DMG:                              CommandId = 0xb,
+[1681187819.195092][12175:12175] CHIP:DMG:                      },
+[1681187819.195096][12175:12175] CHIP:DMG:
+[1681187819.195114][12175:12175] CHIP:DMG:                      CommandFields =
+[1681187819.195119][12175:12175] CHIP:DMG:                      {
+[1681187819.195123][12175:12175] CHIP:DMG:                              0x0 = [
+[1681187819.195154][12175:12175] CHIP:DMG:                                              0x15, 0x30, 0x01, 0x01, 0x01, 0x24, 0x02, 0x01, 0x37, 0x03, 0x24, 0x14, 0x01, 0x18, 0x26, 0x04, 0x80, 0x22, 0x81, 0x27, 0x26, 0x05, 0x80, 0x25, 0x4d, 0x3a, 0x37, 0x06, 0x24, 0x14, 0x01, 0x18, 0x24, 0x07, 0x01, 0x24, 0x08, 0x01, 0x30, 0x09, 0x41, 0x04, 0x2c, 0x9d, 0x66, 0xca, 0x96, 0x20, 0xd8, 0xeb, 0x7e, 0x97, 0xb1, 0x62, 0xc4, 0xea, 0x9d, 0x0f, 0x31, 0x89, 0x7b, 0xc8, 0x8b, 0x1e, 0xd4, 0xe5, 0xc9, 0x7c, 0x90, 0xeb, 0x81, 0xcb, 0x38, 0x91, 0xe6, 0x8b, 0xec, 0x67, 0x27, 0x51, 0x1a, 0xb6, 0xe7, 0x5f, 0x67, 0xa7, 0x5a, 0x81, 0x2a, 0x05, 0xf8, 0x70, 0xa5, 0x54, 0x89, 0xad, 0x28, 0x20, 0x56, 0xfc, 0xb3, 0x3d, 0x05, 0x61, 0x7b, 0x35, 0x37, 0x0a, 0x35, 0x01, 0x29, 0x01, 0x18, 0x24, 0x02, 0x60, 0x30, 0x04, 0x14, 0x83, 0x03, 0x8d, 0xf5, 0x16, 0x82, 0x58, 0x4b, 0x21, 0x6f, 0xbf, 0x47, 0xde, 0x84, 0x52, 0x15, 0x7a, 0x27, 0x96, 0x4d, 0x30, 0x05, 0x14, 0x83, 0x03, 0x8d, 0xf5, 0x16, 0x82, 0x58, 0x4b, 0x21, 0x6f, 0xbf, 0x47, 0xde, 0x84, 0x52, 0x15, 0x7a, 0x27, 0x96, 0x4d, 0x18, 0x30, 0x0b, 0x40, 0x27, 0x92, 0xb1, 0xd7, 0xf4, 0xc7, 0xa4, 0xa9, 0xf2, 0xa7, 0x20, 0xab, 0xf0, 0x28, 0xd2, 0x7f, 0x7e, 0x26, 0x77, 0x8e, 0xf1, 0x29, 0xa1, 0xdd, 0x36, 0x1b, 0xb5, 0x8c, 0x11, 0xe6, 0x22, 0x52, 0xba, 0x0e, 0x74, 0xaf, 0x74, 0x21, 0x19, 0xbc, 0x12, 0xa9, 0xb0, 0xcb, 0x2e, 0xe9, 0x40, 0x8a, 0x5f, 0x60, 0xfa, 0xfa, 0x1f, 0xcb, 0xe4, 0x8f, 0x7e, 0x7d, 0x9a, 0x46, 0x35, 0xa8, 0xc0, 0x59, 0x18,
+[1681187819.195173][12175:12175] CHIP:DMG:                              ] (231 bytes)
+[1681187819.195176][12175:12175] CHIP:DMG:                      },
+[1681187819.195179][12175:12175] CHIP:DMG:              },
+[1681187819.195186][12175:12175] CHIP:DMG:
+[1681187819.195207][12175:12175] CHIP:DMG:      ],
+[1681187819.195240][12175:12175] CHIP:DMG:
+[1681187819.195260][12175:12175] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.195263][12175:12175] CHIP:DMG: },
+[1681187819.195296][12175:12175] CHIP:DMG: AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_003E e=0 p=a
+[1681187819.195316][12175:12175] CHIP:DMG: AccessControl: implicit admin (PASE)
+[1681187819.195321][12175:12175] CHIP:DMG: Received command for Endpoint=0 Cluster=0x0000_003E Command=0x0000_000B
+[1681187819.195343][12175:12175] CHIP:ZCL: OpCreds: Received an AddTrustedRootCertificate command
+[1681187819.195354][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.195372][12175:12175] CHIP:EM: <<< [E:32039r S:50442 M:160249987 (Ack:226030734)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.195380][12175:12175] CHIP:IN: (S) Sending msg 160249987 on secure session with LSID: 50442
+[1681187819.195405][12175:12175] CHIP:EM: Flushed pending ack for MessageCounter:226030734 on exchange 32039r
+[1681187819.195698][12175:12175] CHIP:ZCL: OpCreds: AddTrustedRootCertificate successful.
+[1681187819.195723][12175:12175] CHIP:DMG: Command handler moving to [ Preparing]
+[1681187819.195728][12175:12175] CHIP:DMG: Command handler moving to [AddingComm]
+[1681187819.195731][12175:12175] CHIP:DMG: Command handler moving to [AddedComma]
+[1681187819.195741][12175:12175] CHIP:DMG: Decreasing reference count for CommandHandler, remaining 0
+[1681187819.195750][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.195754][12175:12175] CHIP:EM: <<< [E:32039r S:50442 M:160249988 (Ack:226030734)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187819.195760][12175:12175] CHIP:IN: (S) Sending msg 160249988 on secure session with LSID: 50442
+[1681187819.195786][12175:12175] CHIP:DMG: Command handler moving to [CommandSen]
+[1681187819.195790][12175:12175] CHIP:DMG: Command handler moving to [AwaitingDe]
+[1681187819.195818][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.195829][12175:12175] CHIP:EM: >>> [E:32038r S:50442 M:226030735 (Ack:160249986)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.195833][12175:12175] CHIP:EM: Found matching exchange: 32038r, Delegate: (nil)
+[1681187819.195840][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:160249986 from Retrans Table on exchange 32038r
+[1681187819.197042][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.197064][12175:12175] CHIP:EM: >>> [E:32040r S:50442 M:226030736] (S) Msg RX from 0:FFFFFFFB00000000 [0000] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187819.197075][12175:12175] CHIP:EM: Handling via exchange: 32040r, Delegate: 0x56536fb4b2c8
+[1681187819.197157][12175:12175] CHIP:DMG: InvokeRequestMessage =
+[1681187819.197284][12175:12175] CHIP:DMG: {
+[1681187819.197287][12175:12175] CHIP:DMG:      suppressResponse = false,
+[1681187819.197414][12175:12175] CHIP:DMG:      timedRequest = false,
+[1681187819.197493][12175:12175] CHIP:DMG:      InvokeRequests =
+[1681187819.197507][12175:12175] CHIP:DMG:      [
+[1681187819.197528][12175:12175] CHIP:DMG:              CommandDataIB =
+[1681187819.197533][12175:12175] CHIP:DMG:              {
+[1681187819.197538][12175:12175] CHIP:DMG:                      CommandPathIB =
+[1681187819.197542][12175:12175] CHIP:DMG:                      {
+[1681187819.197583][12175:12175] CHIP:DMG:                              EndpointId = 0x0,
+[1681187819.197701][12175:12175] CHIP:DMG:                              ClusterId = 0x3e,
+[1681187819.197770][12175:12175] CHIP:DMG:                              CommandId = 0x6,
+[1681187819.197793][12175:12175] CHIP:DMG:                      },
+[1681187819.197817][12175:12175] CHIP:DMG:
+[1681187819.197822][12175:12175] CHIP:DMG:                      CommandFields =
+[1681187819.197827][12175:12175] CHIP:DMG:                      {
+[1681187819.197848][12175:12175] CHIP:DMG:                              0x0 = [
+[1681187819.197900][12175:12175] CHIP:DMG:                                              0x15, 0x30, 0x01, 0x01, 0x01, 0x24, 0x02, 0x01, 0x37, 0x03, 0x24, 0x13, 0x02, 0x18, 0x26, 0x04, 0x80, 0x22, 0x81, 0x27, 0x26, 0x05, 0x80, 0x25, 0x4d, 0x3a, 0x37, 0x06, 0x24, 0x15, 0x01, 0x24, 0x11, 0x6f, 0x18, 0x24, 0x07, 0x01, 0x24, 0x08, 0x01, 0x30, 0x09, 0x41, 0x04, 0x7b, 0xed, 0x39, 0x41, 0xd6, 0x84, 0xd4, 0xde, 0x8b, 0x45, 0xa3, 0x68, 0x78, 0xe9, 0xff, 0x62, 0xd7, 0x5f, 0xcf, 0xbc, 0x5e, 0x12, 0x96, 0xbd, 0xb4, 0xd9, 0xcf, 0xc4, 0xec, 0xaa, 0x4c, 0x3b, 0x89, 0x8f, 0x8b, 0x1d, 0x90, 0xf8, 0xdf, 0x77, 0x6c, 0x30, 0x46, 0xb6, 0xbe, 0x5a, 0xc8, 0xbc, 0x3a, 0x08, 0x5b, 0x04, 0x87, 0x5d, 0x23, 0xa3, 0xa7, 0xaa, 0x6c, 0x27, 0x7d, 0x1f, 0x67, 0xc7, 0x37, 0x0a, 0x35, 0x01, 0x28, 0x01, 0x18, 0x24, 0x02, 0x01, 0x36, 0x03, 0x04, 0x02, 0x04, 0x01, 0x18, 0x30, 0x04, 0x14, 0x92, 0x4e, 0xdc, 0x3d, 0x06, 0x50, 0xe4, 0x99, 0xf1, 0x8f, 0x97, 0x76, 0xe4, 0xf0, 0xcc, 0x76, 0x40, 0x16, 0xe3, 0xf0, 0x30, 0x05, 0x14, 0x8e, 0xa6, 0xc2, 0xa7, 0x1f, 0xb8, 0x1c, 0xb6, 0x76, 0xe9, 0x69, 0xf7, 0x82, 0x98, 0xf0, 0xeb, 0xbf, 0xdc, 0x69, 0xcb, 0x18, 0x30, 0x0b, 0x40, 0xef, 0xe7, 0xd0, 0xbb, 0x38, 0xcd, 0x51, 0xbf, 0x97, 0x03, 0x69, 0xa4, 0x0b, 0x49, 0x07, 0x36, 0x06, 0xf7, 0xb9, 0x40, 0xd5, 0x57, 0x6a, 0x9a, 0x36, 0x1f, 0xa8, 0xf5, 0xef, 0x67, 0x57, 0xf5, 0xcb, 0x79, 0x9b, 0xab, 0x43, 0x54, 0x0c, 0x36, 0x15, 0xec, 0x89, 0x89, 0x1f, 0x08, 0xb9, 0xf8, 0xa7, 0x70, 0x19, 0x7c, 0x6a, 0xec, 0x53, 0xde, 0x57, 0x52, 0xc5, 0x3b, 0x52, 0xc7, 0xb3, 0x95, 0x18,
+[1681187819.197934][12175:12175] CHIP:DMG:                              ] (241 bytes)
+[1681187819.197958][12175:12175] CHIP:DMG:                              0x1 = [
+[1681187819.198011][12175:12175] CHIP:DMG:                                              0x15, 0x30, 0x01, 0x01, 0x01, 0x24, 0x02, 0x01, 0x37, 0x03, 0x24, 0x14, 0x01, 0x18, 0x26, 0x04, 0x80, 0x22, 0x81, 0x27, 0x26, 0x05, 0x80, 0x25, 0x4d, 0x3a, 0x37, 0x06, 0x24, 0x13, 0x02, 0x18, 0x24, 0x07, 0x01, 0x24, 0x08, 0x01, 0x30, 0x09, 0x41, 0x04, 0x33, 0x30, 0x6b, 0x11, 0x10, 0xc1, 0x99, 0x70, 0xb2, 0xdb, 0x02, 0x68, 0xb8, 0xb0, 0x0e, 0x93, 0xf3, 0x66, 0x2d, 0xf0, 0xee, 0x01, 0x21, 0x32, 0x89, 0xe5, 0xaf, 0xa3, 0xd8, 0x34, 0x02, 0x58, 0xa8, 0x98, 0x46, 0x62, 0xd7, 0x9e, 0x57, 0xbd, 0x19, 0xde, 0x1c, 0x68, 0x7e, 0xbe, 0xd5, 0xb2, 0x97, 0x2a, 0xb5, 0xa8, 0xa9, 0x86, 0x34, 0x33, 0xd2, 0x24, 0xe9, 0xcd, 0xe0, 0xb9, 0x0d, 0xc0, 0x37, 0x0a, 0x35, 0x01, 0x29, 0x01, 0x18, 0x24, 0x02, 0x60, 0x30, 0x04, 0x14, 0x8e, 0xa6, 0xc2, 0xa7, 0x1f, 0xb8, 0x1c, 0xb6, 0x76, 0xe9, 0x69, 0xf7, 0x82, 0x98, 0xf0, 0xeb, 0xbf, 0xdc, 0x69, 0xcb, 0x30, 0x05, 0x14, 0x83, 0x03, 0x8d, 0xf5, 0x16, 0x82, 0x58, 0x4b, 0x21, 0x6f, 0xbf, 0x47, 0xde, 0x84, 0x52, 0x15, 0x7a, 0x27, 0x96, 0x4d, 0x18, 0x30, 0x0b, 0x40, 0x31, 0x6a, 0x30, 0xac, 0xd7, 0x16, 0x45, 0x33, 0x1a, 0x95, 0xb2, 0x72, 0x2e, 0x2a, 0x6e, 0x30, 0xe2, 0x61, 0x3a, 0x17, 0xd4, 0x8f, 0x54, 0x5d, 0x85, 0xab, 0x04, 0xd0, 0xa3, 0xc1, 0xae, 0xc7, 0xfb, 0x48, 0x65, 0x0b, 0xb8, 0xf8, 0x3c, 0xad, 0x62, 0x5b, 0xf4, 0x98, 0xe7, 0x88, 0x81, 0xce, 0x7e, 0xb3, 0xab, 0xd9, 0x1c, 0x45, 0xbf, 0x4e, 0xd5, 0x6c, 0xe7, 0x5f, 0x30, 0x07, 0xbb, 0x86, 0x18,
+[1681187819.198036][12175:12175] CHIP:DMG:                              ] (231 bytes)
+[1681187819.198040][12175:12175] CHIP:DMG:                              0x2 = [
+[1681187819.198047][12175:12175] CHIP:DMG:                                              0x74, 0x65, 0x6d, 0x70, 0x6f, 0x72, 0x61, 0x72, 0x79, 0x20, 0x69, 0x70, 0x6b, 0x20, 0x30, 0x31,
+[1681187819.198068][12175:12175] CHIP:DMG:                              ] (16 bytes)
+[1681187819.198090][12175:12175] CHIP:DMG:                              0x3 = 112233,
+[1681187819.198094][12175:12175] CHIP:DMG:                              0x4 = 65521,
+[1681187819.198098][12175:12175] CHIP:DMG:                      },
+[1681187819.198101][12175:12175] CHIP:DMG:              },
+[1681187819.198118][12175:12175] CHIP:DMG:
+[1681187819.198138][12175:12175] CHIP:DMG:      ],
+[1681187819.198147][12175:12175] CHIP:DMG:
+[1681187819.198183][12175:12175] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.198188][12175:12175] CHIP:DMG: },
+[1681187819.198262][12175:12175] CHIP:DMG: AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_003E e=0 p=a
+[1681187819.198282][12175:12175] CHIP:DMG: AccessControl: implicit admin (PASE)
+[1681187819.198287][12175:12175] CHIP:DMG: Received command for Endpoint=0 Cluster=0x0000_003E Command=0x0000_0006
+[1681187819.198298][12175:12175] CHIP:ZCL: OpCreds: Received an AddNOC command
+[1681187819.198365][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.198385][12175:12175] CHIP:EM: <<< [E:32040r S:50442 M:160249989 (Ack:226030736)] (S) Msg TX to 0:FFFFFFFB00000000 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.198393][12175:12175] CHIP:IN: (S) Sending msg 160249989 on secure session with LSID: 50442
+[1681187819.198457][12175:12175] CHIP:EM: Flushed pending ack for MessageCounter:226030736 on exchange 32040r
+[1681187819.198575][12175:12175] CHIP:FP: Validating NOC chain
+[1681187819.199212][12175:12175] CHIP:FP: NOC chain validation successful
+[1681187819.199237][12175:12175] CHIP:FP: Added new fabric at index: 0x1
+[1681187819.199240][12175:12175] CHIP:FP: Assigned compressed fabric ID: 0x21190A9D7D12952B, node ID: 0x000000000000006F
+[1681187819.199244][12175:12175] CHIP:TS: Last Known Good Time: 2023-04-11T04:35:44
+[1681187819.199247][12175:12175] CHIP:TS: New proposed Last Known Good Time: 2021-01-01T00:00:00
+[1681187819.199263][12175:12175] CHIP:TS: Retaining current Last Known Good Time
+[1681187819.199269][12175:12175] CHIP:DMG: Endpoint 0, Cluster 0x0000_003E update version to 5d565714
+[1681187819.199292][12175:12175] CHIP:DMG: Endpoint 0, Cluster 0x0000_003E update version to 5d565715
+[1681187819.199440][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-ebtcDQ)
+[1681187819.199654][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187819.199802][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-TpyHcP)
+[1681187819.200303][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187819.200407][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-X4oidQ)
+[1681187819.200547][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187819.200580][12175:12175] CHIP:DMG: AccessControl: validating f=1 p=a a=c s=1 t=0
+[1681187819.200600][12175:12175] CHIP:DMG:   validating subject 0x000000000001B669
+[1681187819.200662][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-xkbAiP)
+[1681187819.200806][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187819.200853][12175:12175] CHIP:EVL: LogEvent event number: 0x0000000000010003 priority: 1, endpoint id:  0x0 cluster id: 0x0000_001F event id: 0x0 Epoch timestamp: 0x000001876E9A4EC0
+[1681187819.200863][12175:12175] CHIP:ZCL: OpCreds: ACL entry created for Fabric index 0x1 CASE Admin Subject 0x000000000001B669
+[1681187819.200976][12175:12175] CHIP:DL: Using wifi MAC for hostname
+[1681187819.200997][12175:12175] CHIP:DIS: Advertise operational node 21190A9D7D12952B-000000000000006F
+[1681187819.201034][12175:12175] CHIP:DIS: Responding with _matter._tcp.local
+[1681187819.201063][12175:12175] CHIP:DIS: Responding with 21190A9D7D12952B-000000000000006F._matter._tcp.local
+[1681187819.201098][12175:12175] CHIP:DIS: Responding with 21190A9D7D12952B-000000000000006F._matter._tcp.local
+[1681187819.201107][12175:12175] CHIP:DIS: Responding with 0000000000000000.local
+[1681187819.201113][12175:12175] CHIP:DIS: Responding with 0000000000000000.local
+[1681187819.201127][12175:12175] CHIP:DIS: Responding with _I21190A9D7D12952B._sub._matter._tcp.local
+[1681187819.201130][12175:12175] CHIP:DIS: CHIP minimal mDNS configured as 'Operational device'; instance name: 21190A9D7D12952B-000000000000006F.
+[1681187819.201865][12175:12175] CHIP:DIS: mDNS service published: _matter._tcp
+[1681187819.201887][12175:12175] CHIP:DMG: Endpoint 0, Cluster 0x0000_003E update version to 5d565716
+[1681187819.201892][12175:12175] CHIP:DMG: Endpoint 0, Cluster 0x0000_003E update version to 5d565717
+[1681187819.201899][12175:12175] CHIP:DMG: Command handler moving to [ Preparing]
+[1681187819.201903][12175:12175] CHIP:DMG: Command handler moving to [AddingComm]
+[1681187819.201907][12175:12175] CHIP:DMG: Command handler moving to [AddedComma]
+[1681187819.201909][12175:12175] CHIP:ZCL: OpCreds: successfully created fabric index 0x1 via AddNOC
+[1681187819.201923][12175:12175] CHIP:DMG: Decreasing reference count for CommandHandler, remaining 0
+[1681187819.201936][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.201939][12175:12175] CHIP:EM: <<< [E:32040r S:50442 M:160249990 (Ack:226030736)] (S) Msg TX to 1:FFFFFFFB00000000 [952B] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187819.201946][12175:12175] CHIP:IN: (S) Sending msg 160249990 on secure session with LSID: 50442
+[1681187819.201995][12175:12175] CHIP:DMG: Command handler moving to [CommandSen]
+[1681187819.202013][12175:12175] CHIP:DMG: Command handler moving to [AwaitingDe]
+[1681187819.202052][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.202075][12175:12175] CHIP:EM: >>> [E:32039r S:50442 M:226030737 (Ack:160249988)] (S) Msg RX from 1:FFFFFFFB00000000 [952B] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.202080][12175:12175] CHIP:EM: Found matching exchange: 32039r, Delegate: (nil)
+[1681187819.202086][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:160249988 from Retrans Table on exchange 32039r
+[1681187819.203467][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.203494][12175:12175] CHIP:EM: >>> [E:32040r S:50442 M:226030738 (Ack:160249990)] (S) Msg RX from 1:FFFFFFFB00000000 [952B] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.203503][12175:12175] CHIP:EM: Found matching exchange: 32040r, Delegate: (nil)
+[1681187819.203526][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:160249990 from Retrans Table on exchange 32040r
+[1681187819.403514][12175:12175] CHIP:EM: >>> [E:32041r S:0 M:87329532] (U) Msg RX from 0:243481CBBC281B14 [0000] --- Type 0000:30 (SecureChannel:CASE_Sigma1)
+[1681187819.403574][12175:12175] CHIP:EM: Handling via exchange: 32041r, Delegate: 0x56536fb50ed0
+[1681187819.403625][12175:12175] CHIP:IN: CASE Server received Sigma1 message . Starting handshake. EC 0x56536fc60ce0
+[1681187819.403655][12175:12175] CHIP:IN: CASE Server disabling CASE session setups
+[1681187819.403701][12175:12175] CHIP:SC: Received Sigma1 msg
+[1681187819.403760][12175:12175] CHIP:SC: Peer assigned session key ID 5967
+[1681187819.403968][12175:12175] CHIP:SC: CASE matched destination ID: fabricIndex 1, NodeID 0x000000000000006F
+[1681187819.406497][12175:12175] CHIP:EM: <<< [E:32041r S:0 M:88218463 (Ack:87329532)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:31 (SecureChannel:CASE_Sigma2)
+[1681187819.406643][12175:12175] CHIP:IN: (U) Sending msg 88218463 to IP address 'UDP:[fe80::42:acff:fe11:2%eth0]:51374'
+[1681187819.406773][12175:12175] CHIP:SC: Sent Sigma2 msg
+[1681187819.410115][12175:12175] CHIP:EM: >>> [E:32041r S:0 M:87329533 (Ack:88218463)] (U) Msg RX from 0:243481CBBC281B14 [0000] --- Type 0000:32 (SecureChannel:CASE_Sigma3)
+[1681187819.410141][12175:12175] CHIP:EM: Found matching exchange: 32041r, Delegate: 0x56536fb50f08
+[1681187819.410156][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:88218463 from Retrans Table on exchange 32041r
+[1681187819.410175][12175:12175] CHIP:SC: Received Sigma3 msg
+[1681187819.412839][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-nRtedO)
+[1681187819.413372][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187819.413571][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-x2hCSP)
+[1681187819.415253][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187819.415508][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-kmb2TQ)
+[1681187819.415859][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187819.415917][12175:12175] CHIP:SC: Sending status report. Protocol code 0, exchange 32041
+[1681187819.415991][12175:12175] CHIP:EM: <<< [E:32041r S:0 M:88218464 (Ack:87329533)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:40 (SecureChannel:StatusReport)
+[1681187819.416073][12175:12175] CHIP:IN: (U) Sending msg 88218464 to IP address 'UDP:[fe80::42:acff:fe11:2%eth0]:51374'
+[1681187819.416280][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_TEST_MODE=1 bypassing key negotiation... All sessions will use known, fixed test key, and NodeID=0 in NONCE. Node can only communicate with other nodes built with this flag set.
+[1681187819.416322][12175:12175] CHIP:SC: SecureSession[0x56536fc602e0]: Moving from state 'kEstablishing' --> 'kActive'
+[1681187819.416365][12175:12175] CHIP:IN: SecureSession[0x56536fc602e0]: Activated - Type:2 LSID:50443
+[1681187819.416373][12175:12175] CHIP:IN: New secure session activated for device <000000000001B669, 1>, LSID:50443 PSID:5967!
+[1681187819.416399][12175:12175] CHIP:IN: CASE Session established to peer: <000000000001B669, 1>
+[1681187819.416409][12175:12175] CHIP:IN: CASE Server enabling CASE session setups
+[1681187819.416448][12175:12175] CHIP:IN: SecureSession[0x56536fc7cb80]: Allocated Type:2 LSID:50444
+[1681187819.416470][12175:12175] CHIP:SC: Allocated SecureSession (0x56536fc7cb80) - waiting for Sigma1 msg
+[1681187819.420348][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.420391][12175:12175] CHIP:EM: >>> [E:32042r S:50443 M:165256213] (S) Msg RX from 1:000000000001B669 [952B] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187819.420419][12175:12175] CHIP:EM: Handling via exchange: 32042r, Delegate: 0x56536fb4b2c8
+[1681187819.420521][12175:12175] CHIP:DMG: InvokeRequestMessage =
+[1681187819.420563][12175:12175] CHIP:DMG: {
+[1681187819.420576][12175:12175] CHIP:DMG:      suppressResponse = false,
+[1681187819.420595][12175:12175] CHIP:DMG:      timedRequest = false,
+[1681187819.420602][12175:12175] CHIP:DMG:      InvokeRequests =
+[1681187819.420614][12175:12175] CHIP:DMG:      [
+[1681187819.420621][12175:12175] CHIP:DMG:              CommandDataIB =
+[1681187819.420628][12175:12175] CHIP:DMG:              {
+[1681187819.420633][12175:12175] CHIP:DMG:                      CommandPathIB =
+[1681187819.420639][12175:12175] CHIP:DMG:                      {
+[1681187819.420649][12175:12175] CHIP:DMG:                              EndpointId = 0x0,
+[1681187819.420690][12175:12175] CHIP:DMG:                              ClusterId = 0x30,
+[1681187819.420700][12175:12175] CHIP:DMG:                              CommandId = 0x4,
+[1681187819.420708][12175:12175] CHIP:DMG:                      },
+[1681187819.420719][12175:12175] CHIP:DMG:
+[1681187819.420728][12175:12175] CHIP:DMG:                      CommandFields =
+[1681187819.420735][12175:12175] CHIP:DMG:                      {
+[1681187819.420742][12175:12175] CHIP:DMG:                      },
+[1681187819.420747][12175:12175] CHIP:DMG:              },
+[1681187819.420757][12175:12175] CHIP:DMG:
+[1681187819.420762][12175:12175] CHIP:DMG:      ],
+[1681187819.420773][12175:12175] CHIP:DMG:
+[1681187819.420779][12175:12175] CHIP:DMG:      InteractionModelRevision = 1
+[1681187819.420783][12175:12175] CHIP:DMG: },
+[1681187819.420823][12175:12175] CHIP:DMG: AccessControl: checking f=1 a=c s=0x000000000001B669 t= c=0x0000_0030 e=0 p=a
+[1681187819.420840][12175:12175] CHIP:DMG: AccessControl: allowed
+[1681187819.420850][12175:12175] CHIP:DMG: Received command for Endpoint=0 Cluster=0x0000_0030 Command=0x0000_0004
+[1681187819.420861][12175:12175] CHIP:FS: GeneralCommissioning: Received CommissioningComplete
+[1681187819.421053][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-Fg9yOP)
+[1681187819.421382][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187819.421570][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-KtAl1N)
+[1681187819.422333][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187819.422388][12175:12175] CHIP:FP: Metadata for Fabric 0x1 persisted to storage.
+[1681187819.422512][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-tVuiZO)
+[1681187819.422792][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187819.423008][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-EeyMZP)
+[1681187819.423943][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187819.424130][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-L5z0QN)
+[1681187819.424377][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187819.424525][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-bpqeFM)
+[1681187819.424771][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187819.424818][12175:12175] CHIP:TS: Committing Last Known Good Time to storage: 2023-04-11T04:35:44
+[1681187819.424933][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-uSEDkQ)
+[1681187819.425205][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187819.425330][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-r1tskN)
+[1681187819.426202][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187819.426265][12175:12175] CHIP:ZCL: OpCreds: Fabric index 0x1 was committed to storage. Compressed Fabric Id 0x21190A9D7D12952B, FabricId 0000000000000001, NodeId 000000000000006F, VendorId 0xFFF1
+[1681187819.426402][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-1VGgJP)
+[1681187819.427048][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187819.427101][12175:12175] CHIP:FS: GeneralCommissioning: Successfully commited pending fabric data
+[1681187819.427141][12175:12175] CHIP:FS: Fail-safe cleanly disarmed
+[1681187819.427172][12175:12175] CHIP:DMG: Endpoint 0, Cluster 0x0000_0030 update version to 4424b6a4
+[1681187819.427222][12175:12175] CHIP:DMG: Command handler moving to [ Preparing]
+[1681187819.427263][12175:12175] CHIP:DMG: Command handler moving to [AddingComm]
+[1681187819.427298][12175:12175] CHIP:DMG: Command handler moving to [AddedComma]
+[1681187819.427350][12175:12175] CHIP:DMG: Decreasing reference count for CommandHandler, remaining 0
+[1681187819.427380][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187819.427417][12175:12175] CHIP:EM: <<< [E:32042r S:50443 M:7012080 (Ack:165256213)] (S) Msg TX to 1:000000000001B669 [952B] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187819.427436][12175:12175] CHIP:IN: (S) Sending msg 7012080 on secure session with LSID: 50443
+[1681187819.427559][12175:12175] CHIP:DMG: Command handler moving to [CommandSen]
+[1681187819.427592][12175:12175] CHIP:DMG: Command handler moving to [AwaitingDe]
+[1681187819.427609][12175:12175] CHIP:SVR: Commissioning completed successfully
+[1681187819.427622][12175:12175] CHIP:DIS: Updating services using commissioning mode 0
+[1681187819.428094][12175:12175] CHIP:DIS: CHIP minimal mDNS started advertising.
+[1681187819.429653][12175:12175] CHIP:DL: Using wifi MAC for hostname
+[1681187819.429704][12175:12175] CHIP:DIS: Advertise operational node 21190A9D7D12952B-000000000000006F
+[1681187819.429723][12175:12175] CHIP:DIS: Responding with _matter._tcp.local
+[1681187819.429755][12175:12175] CHIP:DIS: Responding with 21190A9D7D12952B-000000000000006F._matter._tcp.local
+[1681187819.429786][12175:12175] CHIP:DIS: Responding with 21190A9D7D12952B-000000000000006F._matter._tcp.local
+[1681187819.429792][12175:12175] CHIP:DIS: Responding with 0000000000000000.local
+[1681187819.429797][12175:12175] CHIP:DIS: Responding with 0000000000000000.local
+[1681187819.429807][12175:12175] CHIP:DIS: Responding with _I21190A9D7D12952B._sub._matter._tcp.local
+[1681187819.429814][12175:12175] CHIP:DIS: CHIP minimal mDNS configured as 'Operational device'; instance name: 21190A9D7D12952B-000000000000006F.
+[1681187819.430568][12175:12175] CHIP:DIS: mDNS service published: _matter._tcp
+[1681187819.430633][12175:12175] CHIP:IN: Expiring all PASE sessions
+[1681187819.430669][12175:12175] CHIP:IN: SecureSession[0x56536fc5f990]: MarkForEviction Type:1 LSID:50442
+[1681187819.430675][12175:12175] CHIP:SC: SecureSession[0x56536fc5f990]: Moving from state 'kActive' --> 'kPendingEviction'
+[1681187819.430703][12175:12175] CHIP:IN: SecureSession[0x56536fc5f990]: Released - Type:1 LSID:50442
+[1681187819.430734][12175:12175] CHIP:ZCL: Commissioning complete, notify platform driver to persist network credentials.
+[1681187819.430806][12175:12175] CHIP:EM: >>> [E:32041r S:0 M:87329534 (Ack:88218464)] (U) Msg RX from 0:243481CBBC281B14 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.430849][12175:12175] CHIP:EM: Found matching exchange: 32041r, Delegate: (nil)
+[1681187819.430884][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:88218464 from Retrans Table on exchange 32041r
+[1681187819.432120][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187819.432192][12175:12175] CHIP:EM: >>> [E:32042r S:50443 M:165256214 (Ack:7012080)] (S) Msg RX from 1:000000000001B669 [952B] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187819.432234][12175:12175] CHIP:EM: Found matching exchange: 32042r, Delegate: (nil)
+[1681187819.432263][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:7012080 from Retrans Table on exchange 32042r
+[1681187852.126536][12175:12175] CHIP:EM: >>> [E:41533r S:0 M:50907700] (U) Msg RX from 0:182D098B6391585A [0000] --- Type 0000:30 (SecureChannel:CASE_Sigma1)
+[1681187852.126611][12175:12175] CHIP:EM: Handling via exchange: 41533r, Delegate: 0x56536fb50ed0
+[1681187852.126636][12175:12175] CHIP:IN: CASE Server received Sigma1 message . Starting handshake. EC 0x56536fc79fb0
+[1681187852.126683][12175:12175] CHIP:IN: CASE Server disabling CASE session setups
+[1681187852.126700][12175:12175] CHIP:SC: Received Sigma1 msg
+[1681187852.126727][12175:12175] CHIP:SC: Peer assigned session key ID 49393
+[1681187852.127053][12175:12175] CHIP:SC: CASE matched destination ID: fabricIndex 1, NodeID 0x000000000000006F
+[1681187852.128456][12175:12175] CHIP:EM: <<< [E:41533r S:0 M:88218465 (Ack:50907700)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:31 (SecureChannel:CASE_Sigma2)
+[1681187852.128654][12175:12175] CHIP:IN: (U) Sending msg 88218465 to IP address 'UDP:[fe80::42:acff:fe11:2%eth0]:59194'
+[1681187852.128808][12175:12175] CHIP:SC: Sent Sigma2 msg
+[1681187852.132937][12175:12175] CHIP:EM: >>> [E:41533r S:0 M:50907701 (Ack:88218465)] (U) Msg RX from 0:182D098B6391585A [0000] --- Type 0000:32 (SecureChannel:CASE_Sigma3)
+[1681187852.133053][12175:12175] CHIP:EM: Found matching exchange: 41533r, Delegate: 0x56536fb50f08
+[1681187852.133080][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:88218465 from Retrans Table on exchange 41533r
+[1681187852.133146][12175:12175] CHIP:SC: Received Sigma3 msg
+[1681187852.135889][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-ye6nnN)
+[1681187852.136392][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187852.136673][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-9Vd3ZN)
+[1681187852.138690][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187852.139034][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-HJ7J8O)
+[1681187852.139421][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187852.139453][12175:12175] CHIP:SC: Sending status report. Protocol code 0, exchange 41533
+[1681187852.139526][12175:12175] CHIP:EM: <<< [E:41533r S:0 M:88218466 (Ack:50907701)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:40 (SecureChannel:StatusReport)
+[1681187852.139651][12175:12175] CHIP:IN: (U) Sending msg 88218466 to IP address 'UDP:[fe80::42:acff:fe11:2%eth0]:59194'
+[1681187852.139881][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_TEST_MODE=1 bypassing key negotiation... All sessions will use known, fixed test key, and NodeID=0 in NONCE. Node can only communicate with other nodes built with this flag set.
+[1681187852.139986][12175:12175] CHIP:SC: SecureSession[0x56536fc7cb80]: Moving from state 'kEstablishing' --> 'kActive'
+[1681187852.140019][12175:12175] CHIP:IN: SecureSession[0x56536fc7cb80]: Activated - Type:2 LSID:50444
+[1681187852.140032][12175:12175] CHIP:IN: New secure session activated for device <000000000001B669, 1>, LSID:50444 PSID:49393!
+[1681187852.140041][12175:12175] CHIP:IN: CASE Session established to peer: <000000000001B669, 1>
+[1681187852.140048][12175:12175] CHIP:IN: CASE Server enabling CASE session setups
+[1681187852.140103][12175:12175] CHIP:IN: SecureSession[0x56536fc5f990]: Allocated Type:2 LSID:50445
+[1681187852.140120][12175:12175] CHIP:SC: Allocated SecureSession (0x56536fc5f990) - waiting for Sigma1 msg
+[1681187852.143328][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187852.143398][12175:12175] CHIP:EM: >>> [E:41534r S:50444 M:16655251] (S) Msg RX from 1:000000000001B669 [952B] --- Type 0001:02 (IM:ReadRequest)
+[1681187852.143421][12175:12175] CHIP:EM: Handling via exchange: 41534r, Delegate: 0x56536fb4b2c8
+[1681187852.143441][12175:12175] CHIP:IM: Received Read request
+[1681187852.143523][12175:12175] CHIP:DMG: ReadRequestMessage =
+[1681187852.143616][12175:12175] CHIP:DMG: {
+[1681187852.143663][12175:12175] CHIP:DMG:      AttributePathIBs =
+[1681187852.143678][12175:12175] CHIP:DMG:      [
+[1681187852.143688][12175:12175] CHIP:DMG:              AttributePathIB =
+[1681187852.143699][12175:12175] CHIP:DMG:              {
+[1681187852.143706][12175:12175] CHIP:DMG:                      Endpoint = 0x1,
+[1681187852.143713][12175:12175] CHIP:DMG:                      Cluster = 0x101,
+[1681187852.143721][12175:12175] CHIP:DMG:                      Attribute = 0x0000_0000,
+[1681187852.143736][12175:12175] CHIP:DMG:              }
+[1681187852.143751][12175:12175] CHIP:DMG:
+[1681187852.143758][12175:12175] CHIP:DMG:      ],
+[1681187852.143767][12175:12175] CHIP:DMG:
+[1681187852.143774][12175:12175] CHIP:DMG:      isFabricFiltered = true,
+[1681187852.143780][12175:12175] CHIP:DMG:      InteractionModelRevision = 1
+[1681187852.143785][12175:12175] CHIP:DMG: },
+[1681187852.143890][12175:12175] CHIP:DMG: IM RH moving to [GeneratingReports]
+[1681187852.144076][12175:12175] CHIP:DMG: Building Reports for ReadHandler with LastReportGeneration = 0 DirtyGeneration = 0
+[1681187852.144087][12175:12175] CHIP:DMG: <RE:Run> Cluster 101, Attribute 0 is dirty
+[1681187852.144093][12175:12175] CHIP:DMG: Reading attribute: Cluster=0x0000_0101 Endpoint=1 AttributeId=0x0000_0000 (expanded=0)
+[1681187852.144104][12175:12175] CHIP:DMG: AccessControl: checking f=1 a=c s=0x000000000001B669 t= c=0x0000_0101 e=1 p=v
+[1681187852.144117][12175:12175] CHIP:DMG: AccessControl: allowed
+[1681187852.144142][12175:12175] CHIP:DMG: <RE> Sending report (payload has 37 bytes)...
+[1681187852.144213][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187852.144225][12175:12175] CHIP:EM: <<< [E:41534r S:50444 M:146620948 (Ack:16655251)] (S) Msg TX to 1:000000000001B669 [952B] --- Type 0001:05 (IM:ReportData)
+[1681187852.144242][12175:12175] CHIP:IN: (S) Sending msg 146620948 on secure session with LSID: 50444
+[1681187852.144320][12175:12175] CHIP:DMG: <RE> OnReportConfirm: NumReports = 0
+[1681187852.144356][12175:12175] CHIP:DMG: <RE> ReportsInFlight = 0 with readHandler 0, RE has no more messages
+[1681187852.145406][12175:12175] CHIP:DMG: IM RH moving to [AwaitingDestruction]
+[1681187852.145476][12175:12175] CHIP:DMG: All ReadHandler-s are clean, clear GlobalDirtySet
+[1681187852.146198][12175:12175] CHIP:EM: >>> [E:41533r S:0 M:50907702 (Ack:88218466)] (U) Msg RX from 0:182D098B6391585A [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187852.146254][12175:12175] CHIP:EM: Found matching exchange: 41533r, Delegate: (nil)
+[1681187852.146272][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:88218466 from Retrans Table on exchange 41533r
+[1681187852.148290][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187852.148405][12175:12175] CHIP:EM: >>> [E:41534r S:50444 M:16655252 (Ack:146620948)] (S) Msg RX from 1:000000000001B669 [952B] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187852.148460][12175:12175] CHIP:EM: Found matching exchange: 41534r, Delegate: (nil)
+[1681187852.148558][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:146620948 from Retrans Table on exchange 41534r
+[1681187897.149892][12175:12175] CHIP:EM: >>> [E:60786r S:0 M:4906593] (U) Msg RX from 0:4424208EF3132C9E [0000] --- Type 0000:30 (SecureChannel:CASE_Sigma1)
+[1681187897.149994][12175:12175] CHIP:EM: Handling via exchange: 60786r, Delegate: 0x56536fb50ed0
+[1681187897.150026][12175:12175] CHIP:IN: CASE Server received Sigma1 message . Starting handshake. EC 0x56536fc79ed0
+[1681187897.150040][12175:12175] CHIP:IN: CASE Server disabling CASE session setups
+[1681187897.150054][12175:12175] CHIP:SC: Received Sigma1 msg
+[1681187897.150080][12175:12175] CHIP:SC: Peer assigned session key ID 40129
+[1681187897.150313][12175:12175] CHIP:SC: CASE matched destination ID: fabricIndex 1, NodeID 0x000000000000006F
+[1681187897.151673][12175:12175] CHIP:EM: <<< [E:60786r S:0 M:88218467 (Ack:4906593)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:31 (SecureChannel:CASE_Sigma2)
+[1681187897.151773][12175:12175] CHIP:IN: (U) Sending msg 88218467 to IP address 'UDP:[fe80::42:acff:fe11:2%eth0]:35299'
+[1681187897.151928][12175:12175] CHIP:SC: Sent Sigma2 msg
+[1681187897.156087][12175:12175] CHIP:EM: >>> [E:60786r S:0 M:4906594 (Ack:88218467)] (U) Msg RX from 0:4424208EF3132C9E [0000] --- Type 0000:32 (SecureChannel:CASE_Sigma3)
+[1681187897.156152][12175:12175] CHIP:EM: Found matching exchange: 60786r, Delegate: 0x56536fb50f08
+[1681187897.156172][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:88218467 from Retrans Table on exchange 60786r
+[1681187897.156192][12175:12175] CHIP:SC: Received Sigma3 msg
+[1681187897.159082][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-wLxiyQ)
+[1681187897.159566][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187897.159830][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-8p8tyQ)
+[1681187897.162042][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187897.162392][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-9lyoxQ)
+[1681187897.162820][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187897.162938][12175:12175] CHIP:SC: Sending status report. Protocol code 0, exchange 60786
+[1681187897.163023][12175:12175] CHIP:EM: <<< [E:60786r S:0 M:88218468 (Ack:4906594)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:40 (SecureChannel:StatusReport)
+[1681187897.163078][12175:12175] CHIP:IN: (U) Sending msg 88218468 to IP address 'UDP:[fe80::42:acff:fe11:2%eth0]:35299'
+[1681187897.163255][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_TEST_MODE=1 bypassing key negotiation... All sessions will use known, fixed test key, and NodeID=0 in NONCE. Node can only communicate with other nodes built with this flag set.
+[1681187897.163322][12175:12175] CHIP:SC: SecureSession[0x56536fc5f990]: Moving from state 'kEstablishing' --> 'kActive'
+[1681187897.163337][12175:12175] CHIP:IN: SecureSession[0x56536fc5f990]: Activated - Type:2 LSID:50445
+[1681187897.163343][12175:12175] CHIP:IN: New secure session activated for device <000000000001B669, 1>, LSID:50445 PSID:40129!
+[1681187897.163352][12175:12175] CHIP:IN: CASE Session established to peer: <000000000001B669, 1>
+[1681187897.163358][12175:12175] CHIP:IN: CASE Server enabling CASE session setups
+[1681187897.163399][12175:12175] CHIP:IN: SecureSession[0x56536fc7a910]: Allocated Type:2 LSID:50446
+[1681187897.163414][12175:12175] CHIP:SC: Allocated SecureSession (0x56536fc7a910) - waiting for Sigma1 msg
+[1681187897.166191][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187897.166215][12175:12175] CHIP:EM: >>> [E:60787r S:50445 M:85469043] (S) Msg RX from 1:000000000001B669 [952B] --- Type 0001:0a (IM:TimedRequest)
+[1681187897.166236][12175:12175] CHIP:EM: Handling via exchange: 60787r, Delegate: 0x56536fb4b2c8
+[1681187897.166270][12175:12175] CHIP:DMG: TimedRequestMessage =
+[1681187897.166289][12175:12175] CHIP:DMG: {
+[1681187897.166305][12175:12175] CHIP:DMG:      TimeoutMs = 0x7d0,
+[1681187897.166313][12175:12175] CHIP:DMG:      InteractionModelRevision = 1
+[1681187897.166319][12175:12175] CHIP:DMG: }
+[1681187897.166329][12175:12175] CHIP:DMG: Got Timed Request with timeout 2000: handler 0x56536fc7bf20 exchange 60787r
+[1681187897.166370][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187897.166379][12175:12175] CHIP:EM: <<< [E:60787r S:50445 M:250238350 (Ack:85469043)] (S) Msg TX to 1:000000000001B669 [952B] --- Type 0001:01 (IM:StatusResponse)
+[1681187897.166418][12175:12175] CHIP:IN: (S) Sending msg 250238350 on secure session with LSID: 50445
+[1681187897.166583][12175:12175] CHIP:DMG: Timed Request time limit 0x000000000043FF75: handler 0x56536fc7bf20 exchange 60787r
+[1681187897.166746][12175:12175] CHIP:EM: >>> [E:60786r S:0 M:4906595 (Ack:88218468)] (U) Msg RX from 0:4424208EF3132C9E [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187897.166819][12175:12175] CHIP:EM: Found matching exchange: 60786r, Delegate: (nil)
+[1681187897.166839][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:88218468 from Retrans Table on exchange 60786r
+[1681187897.167654][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187897.167680][12175:12175] CHIP:EM: >>> [E:60787r S:50445 M:85469044 (Ack:250238350)] (S) Msg RX from 1:000000000001B669 [952B] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187897.167692][12175:12175] CHIP:EM: Found matching exchange: 60787r, Delegate: 0x56536fc7bf20
+[1681187897.167706][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:250238350 from Retrans Table on exchange 60787r
+[1681187897.167720][12175:12175] CHIP:DMG: Timed following action arrived at 0x000000000043F7A6: handler 0x56536fc7bf20 exchange 60787r
+[1681187897.167727][12175:12175] CHIP:DMG: Handing timed invoke to IM engine: handler 0x56536fc7bf20 exchange 60787r
+[1681187897.167747][12175:12175] CHIP:DMG: InvokeRequestMessage =
+[1681187897.167758][12175:12175] CHIP:DMG: {
+[1681187897.167762][12175:12175] CHIP:DMG:      suppressResponse = false,
+[1681187897.167770][12175:12175] CHIP:DMG:      timedRequest = true,
+[1681187897.167775][12175:12175] CHIP:DMG:      InvokeRequests =
+[1681187897.167789][12175:12175] CHIP:DMG:      [
+[1681187897.167834][12175:12175] CHIP:DMG:              CommandDataIB =
+[1681187897.167883][12175:12175] CHIP:DMG:              {
+[1681187897.167892][12175:12175] CHIP:DMG:                      CommandPathIB =
+[1681187897.167902][12175:12175] CHIP:DMG:                      {
+[1681187897.167910][12175:12175] CHIP:DMG:                              EndpointId = 0x1,
+[1681187897.167918][12175:12175] CHIP:DMG:                              ClusterId = 0x101,
+[1681187897.167980][12175:12175] CHIP:DMG:                              CommandId = 0x1,
+[1681187897.167990][12175:12175] CHIP:DMG:                      },
+[1681187897.168000][12175:12175] CHIP:DMG:
+[1681187897.168007][12175:12175] CHIP:DMG:                      CommandFields =
+[1681187897.168019][12175:12175] CHIP:DMG:                      {
+[1681187897.168063][12175:12175] CHIP:DMG:                      },
+[1681187897.168073][12175:12175] CHIP:DMG:              },
+[1681187897.168085][12175:12175] CHIP:DMG:
+[1681187897.168127][12175:12175] CHIP:DMG:      ],
+[1681187897.168143][12175:12175] CHIP:DMG:
+[1681187897.168150][12175:12175] CHIP:DMG:      InteractionModelRevision = 1
+[1681187897.168161][12175:12175] CHIP:DMG: },
+[1681187897.168209][12175:12175] CHIP:DMG: AccessControl: checking f=1 a=c s=0x000000000001B669 t= c=0x0000_0101 e=1 p=o
+[1681187897.168248][12175:12175] CHIP:DMG: AccessControl: allowed
+[1681187897.168263][12175:12175] CHIP:DMG: Received command for Endpoint=1 Cluster=0x0000_0101 Command=0x0000_0001
+[1681187897.168275][12175:12175] CHIP:ZCL: Received command: UnlockDoor
+[1681187897.168295][12175:12175] CHIP:ZCL: Door Lock App: PIN code is not specified [endpointId=1]
+[1681187897.168339][12175:12175] CHIP:ZCL: Door Lock App: setting door lock state to "Unlocked" [endpointId=1]
+[1681187897.168553][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-lKqCdO)
+[1681187897.168883][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187897.168966][12175:12175] CHIP:DMG: Endpoint 1, Cluster 0x0000_0101 update version to d4806a6f
+[1681187897.169024][12175:12175] CHIP:ZCL: Door Lock attribute changed
+[1681187897.169049][12175:12175] CHIP:DMG: Command handler moving to [ Preparing]
+[1681187897.169060][12175:12175] CHIP:DMG: Command handler moving to [AddingComm]
+[1681187897.169068][12175:12175] CHIP:DMG: Command handler moving to [AddedComma]
+[1681187897.169176][12175:12175] CHIP:EVL: LogEvent event number: 0x0000000000010004 priority: 2, endpoint id:  0x1 cluster id: 0x0000_0101 event id: 0x2 Epoch timestamp: 0x000001876E9B7F51
+[1681187897.169224][12175:12175] CHIP:DMG: Decreasing reference count for CommandHandler, remaining 0
+[1681187897.169249][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187897.169261][12175:12175] CHIP:EM: <<< [E:60787r S:50445 M:250238351 (Ack:85469044)] (S) Msg TX to 1:000000000001B669 [952B] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187897.169314][12175:12175] CHIP:IN: (S) Sending msg 250238351 on secure session with LSID: 50445
+[1681187897.169454][12175:12175] CHIP:DMG: Command handler moving to [CommandSen]
+[1681187897.169499][12175:12175] CHIP:DMG: Command handler moving to [AwaitingDe]
+[1681187897.170440][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187897.170511][12175:12175] CHIP:EM: >>> [E:60787r S:50445 M:85469045 (Ack:250238351)] (S) Msg RX from 1:000000000001B669 [952B] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187897.170526][12175:12175] CHIP:EM: Found matching exchange: 60787r, Delegate: (nil)
+[1681187897.170543][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:250238351 from Retrans Table on exchange 60787r
+[1681187928.236371][12175:12175] CHIP:EM: >>> [E:12301r S:0 M:73263449] (U) Msg RX from 0:E09BC98F5C799239 [0000] --- Type 0000:30 (SecureChannel:CASE_Sigma1)
+[1681187928.236491][12175:12175] CHIP:EM: Handling via exchange: 12301r, Delegate: 0x56536fb50ed0
+[1681187928.236515][12175:12175] CHIP:IN: CASE Server received Sigma1 message . Starting handshake. EC 0x56536fc79e50
+[1681187928.236529][12175:12175] CHIP:IN: CASE Server disabling CASE session setups
+[1681187928.236541][12175:12175] CHIP:SC: Received Sigma1 msg
+[1681187928.236602][12175:12175] CHIP:SC: Peer assigned session key ID 45540
+[1681187928.236915][12175:12175] CHIP:SC: CASE matched destination ID: fabricIndex 1, NodeID 0x000000000000006F
+[1681187928.238317][12175:12175] CHIP:EM: <<< [E:12301r S:0 M:88218469 (Ack:73263449)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:31 (SecureChannel:CASE_Sigma2)
+[1681187928.238444][12175:12175] CHIP:IN: (U) Sending msg 88218469 to IP address 'UDP:[fe80::42:acff:fe11:2%eth0]:35408'
+[1681187928.238565][12175:12175] CHIP:SC: Sent Sigma2 msg
+[1681187928.242181][12175:12175] CHIP:EM: >>> [E:12301r S:0 M:73263450 (Ack:88218469)] (U) Msg RX from 0:E09BC98F5C799239 [0000] --- Type 0000:32 (SecureChannel:CASE_Sigma3)
+[1681187928.242234][12175:12175] CHIP:EM: Found matching exchange: 12301r, Delegate: 0x56536fb50f08
+[1681187928.242327][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:88218469 from Retrans Table on exchange 12301r
+[1681187928.242391][12175:12175] CHIP:SC: Received Sigma3 msg
+[1681187928.245221][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-amJrPQ)
+[1681187928.245678][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187928.245900][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-v6a7yM)
+[1681187928.246859][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187928.247053][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-vxEgVQ)
+[1681187928.247473][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187928.247535][12175:12175] CHIP:SC: Sending status report. Protocol code 0, exchange 12301
+[1681187928.247594][12175:12175] CHIP:EM: <<< [E:12301r S:0 M:88218470 (Ack:73263450)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:40 (SecureChannel:StatusReport)
+[1681187928.247786][12175:12175] CHIP:IN: (U) Sending msg 88218470 to IP address 'UDP:[fe80::42:acff:fe11:2%eth0]:35408'
+[1681187928.248054][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_TEST_MODE=1 bypassing key negotiation... All sessions will use known, fixed test key, and NodeID=0 in NONCE. Node can only communicate with other nodes built with this flag set.
+[1681187928.248137][12175:12175] CHIP:SC: SecureSession[0x56536fc7a910]: Moving from state 'kEstablishing' --> 'kActive'
+[1681187928.248214][12175:12175] CHIP:IN: SecureSession[0x56536fc7a910]: Activated - Type:2 LSID:50446
+[1681187928.248229][12175:12175] CHIP:IN: New secure session activated for device <000000000001B669, 1>, LSID:50446 PSID:45540!
+[1681187928.248239][12175:12175] CHIP:IN: CASE Session established to peer: <000000000001B669, 1>
+[1681187928.248245][12175:12175] CHIP:IN: CASE Server enabling CASE session setups
+[1681187928.248312][12175:12175] CHIP:IN: SecureSession[0x56536fc7ce30]: Allocated Type:2 LSID:50447
+[1681187928.248371][12175:12175] CHIP:SC: Allocated SecureSession (0x56536fc7ce30) - waiting for Sigma1 msg
+[1681187928.251293][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187928.251341][12175:12175] CHIP:EM: >>> [E:12302r S:50446 M:250993880] (S) Msg RX from 1:000000000001B669 [952B] --- Type 0001:02 (IM:ReadRequest)
+[1681187928.251361][12175:12175] CHIP:EM: Handling via exchange: 12302r, Delegate: 0x56536fb4b2c8
+[1681187928.251378][12175:12175] CHIP:IM: Received Read request
+[1681187928.251456][12175:12175] CHIP:DMG: ReadRequestMessage =
+[1681187928.251528][12175:12175] CHIP:DMG: {
+[1681187928.251568][12175:12175] CHIP:DMG:      AttributePathIBs =
+[1681187928.251585][12175:12175] CHIP:DMG:      [
+[1681187928.251591][12175:12175] CHIP:DMG:              AttributePathIB =
+[1681187928.251598][12175:12175] CHIP:DMG:              {
+[1681187928.251605][12175:12175] CHIP:DMG:                      Endpoint = 0x1,
+[1681187928.251651][12175:12175] CHIP:DMG:                      Cluster = 0x101,
+[1681187928.251702][12175:12175] CHIP:DMG:                      Attribute = 0x0000_0000,
+[1681187928.251782][12175:12175] CHIP:DMG:              }
+[1681187928.251828][12175:12175] CHIP:DMG:
+[1681187928.251835][12175:12175] CHIP:DMG:      ],
+[1681187928.251845][12175:12175] CHIP:DMG:
+[1681187928.251852][12175:12175] CHIP:DMG:      isFabricFiltered = true,
+[1681187928.251862][12175:12175] CHIP:DMG:      InteractionModelRevision = 1
+[1681187928.251867][12175:12175] CHIP:DMG: },
+[1681187928.251941][12175:12175] CHIP:DMG: IM RH moving to [GeneratingReports]
+[1681187928.252032][12175:12175] CHIP:DMG: Building Reports for ReadHandler with LastReportGeneration = 0 DirtyGeneration = 0
+[1681187928.252079][12175:12175] CHIP:DMG: <RE:Run> Cluster 101, Attribute 0 is dirty
+[1681187928.252089][12175:12175] CHIP:DMG: Reading attribute: Cluster=0x0000_0101 Endpoint=1 AttributeId=0x0000_0000 (expanded=0)
+[1681187928.252101][12175:12175] CHIP:DMG: AccessControl: checking f=1 a=c s=0x000000000001B669 t= c=0x0000_0101 e=1 p=v
+[1681187928.252153][12175:12175] CHIP:DMG: AccessControl: allowed
+[1681187928.252203][12175:12175] CHIP:DMG: <RE> Sending report (payload has 37 bytes)...
+[1681187928.252307][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187928.252359][12175:12175] CHIP:EM: <<< [E:12302r S:50446 M:249493634 (Ack:250993880)] (S) Msg TX to 1:000000000001B669 [952B] --- Type 0001:05 (IM:ReportData)
+[1681187928.252486][12175:12175] CHIP:IN: (S) Sending msg 249493634 on secure session with LSID: 50446
+[1681187928.252649][12175:12175] CHIP:DMG: <RE> OnReportConfirm: NumReports = 0
+[1681187928.252706][12175:12175] CHIP:DMG: <RE> ReportsInFlight = 0 with readHandler 0, RE has no more messages
+[1681187928.253959][12175:12175] CHIP:DMG: IM RH moving to [AwaitingDestruction]
+[1681187928.253981][12175:12175] CHIP:DMG: All ReadHandler-s are clean, clear GlobalDirtySet
+[1681187928.254069][12175:12175] CHIP:EM: >>> [E:12301r S:0 M:73263451 (Ack:88218470)] (U) Msg RX from 0:E09BC98F5C799239 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187928.254084][12175:12175] CHIP:EM: Found matching exchange: 12301r, Delegate: (nil)
+[1681187928.254102][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:88218470 from Retrans Table on exchange 12301r
+[1681187928.254195][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187928.254257][12175:12175] CHIP:EM: >>> [E:12302r S:50446 M:250993881 (Ack:249493634)] (S) Msg RX from 1:000000000001B669 [952B] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187928.254270][12175:12175] CHIP:EM: Found matching exchange: 12302r, Delegate: (nil)
+[1681187928.254283][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:249493634 from Retrans Table on exchange 12302r
+[1681187951.905622][12175:12175] CHIP:EM: >>> [E:438r S:0 M:18203258] (U) Msg RX from 0:A8BB4178C3D5A57B [0000] --- Type 0000:30 (SecureChannel:CASE_Sigma1)
+[1681187951.905761][12175:12175] CHIP:EM: Handling via exchange: 438r, Delegate: 0x56536fb50ed0
+[1681187951.905820][12175:12175] CHIP:IN: CASE Server received Sigma1 message . Starting handshake. EC 0x56536fc795b0
+[1681187951.905830][12175:12175] CHIP:IN: CASE Server disabling CASE session setups
+[1681187951.905843][12175:12175] CHIP:SC: Received Sigma1 msg
+[1681187951.905869][12175:12175] CHIP:SC: Peer assigned session key ID 40737
+[1681187951.906093][12175:12175] CHIP:SC: CASE matched destination ID: fabricIndex 1, NodeID 0x000000000000006F
+[1681187951.907272][12175:12175] CHIP:EM: <<< [E:438r S:0 M:88218471 (Ack:18203258)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:31 (SecureChannel:CASE_Sigma2)
+[1681187951.907403][12175:12175] CHIP:IN: (U) Sending msg 88218471 to IP address 'UDP:[fe80::42:acff:fe11:2%eth0]:48275'
+[1681187951.907565][12175:12175] CHIP:SC: Sent Sigma2 msg
+[1681187951.911016][12175:12175] CHIP:EM: >>> [E:438r S:0 M:18203259 (Ack:88218471)] (U) Msg RX from 0:A8BB4178C3D5A57B [0000] --- Type 0000:32 (SecureChannel:CASE_Sigma3)
+[1681187951.911092][12175:12175] CHIP:EM: Found matching exchange: 438r, Delegate: 0x56536fb50f08
+[1681187951.911113][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:88218471 from Retrans Table on exchange 438r
+[1681187951.911179][12175:12175] CHIP:SC: Received Sigma3 msg
+[1681187951.914278][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-8v8TWO)
+[1681187951.914909][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187951.915170][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-J1yyiP)
+[1681187951.916056][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187951.916518][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-MRRINQ)
+[1681187951.917631][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187951.917711][12175:12175] CHIP:SC: Sending status report. Protocol code 0, exchange 438
+[1681187951.917802][12175:12175] CHIP:EM: <<< [E:438r S:0 M:88218472 (Ack:18203259)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:40 (SecureChannel:StatusReport)
+[1681187951.917961][12175:12175] CHIP:IN: (U) Sending msg 88218472 to IP address 'UDP:[fe80::42:acff:fe11:2%eth0]:48275'
+[1681187951.918574][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_TEST_MODE=1 bypassing key negotiation... All sessions will use known, fixed test key, and NodeID=0 in NONCE. Node can only communicate with other nodes built with this flag set.
+[1681187951.918642][12175:12175] CHIP:SC: SecureSession[0x56536fc7ce30]: Moving from state 'kEstablishing' --> 'kActive'
+[1681187951.918658][12175:12175] CHIP:IN: SecureSession[0x56536fc7ce30]: Activated - Type:2 LSID:50447
+[1681187951.918664][12175:12175] CHIP:IN: New secure session activated for device <000000000001B669, 1>, LSID:50447 PSID:40737!
+[1681187951.918806][12175:12175] CHIP:IN: CASE Session established to peer: <000000000001B669, 1>
+[1681187951.918864][12175:12175] CHIP:IN: CASE Server enabling CASE session setups
+[1681187951.919257][12175:12175] CHIP:IN: SecureSession[0x56536fc7c820]: Allocated Type:2 LSID:50448
+[1681187951.919849][12175:12175] CHIP:SC: Allocated SecureSession (0x56536fc7c820) - waiting for Sigma1 msg
+[1681187951.921571][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187951.921605][12175:12175] CHIP:EM: >>> [E:439r S:50447 M:176126507] (S) Msg RX from 1:000000000001B669 [952B] --- Type 0001:0a (IM:TimedRequest)
+[1681187951.921623][12175:12175] CHIP:EM: Handling via exchange: 439r, Delegate: 0x56536fb4b2c8
+[1681187951.921656][12175:12175] CHIP:DMG: TimedRequestMessage =
+[1681187951.921699][12175:12175] CHIP:DMG: {
+[1681187951.921819][12175:12175] CHIP:DMG:      TimeoutMs = 0x7d0,
+[1681187951.921859][12175:12175] CHIP:DMG:      InteractionModelRevision = 1
+[1681187951.921866][12175:12175] CHIP:DMG: }
+[1681187951.921877][12175:12175] CHIP:DMG: Got Timed Request with timeout 2000: handler 0x56536fc7c980 exchange 439r
+[1681187951.921947][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187951.921961][12175:12175] CHIP:EM: <<< [E:439r S:50447 M:170058979 (Ack:176126507)] (S) Msg TX to 1:000000000001B669 [952B] --- Type 0001:01 (IM:StatusResponse)
+[1681187951.921975][12175:12175] CHIP:IN: (S) Sending msg 170058979 on secure session with LSID: 50447
+[1681187951.922377][12175:12175] CHIP:DMG: Timed Request time limit 0x000000000044D559: handler 0x56536fc7c980 exchange 439r
+[1681187951.922609][12175:12175] CHIP:EM: >>> [E:438r S:0 M:18203260 (Ack:88218472)] (U) Msg RX from 0:A8BB4178C3D5A57B [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187951.922679][12175:12175] CHIP:EM: Found matching exchange: 438r, Delegate: (nil)
+[1681187951.922859][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:88218472 from Retrans Table on exchange 438r
+[1681187951.923032][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187951.923061][12175:12175] CHIP:EM: >>> [E:439r S:50447 M:176126508 (Ack:170058979)] (S) Msg RX from 1:000000000001B669 [952B] --- Type 0001:08 (IM:InvokeCommandRequest)
+[1681187951.923120][12175:12175] CHIP:EM: Found matching exchange: 439r, Delegate: 0x56536fc7c980
+[1681187951.923137][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:170058979 from Retrans Table on exchange 439r
+[1681187951.923151][12175:12175] CHIP:DMG: Timed following action arrived at 0x000000000044CD8A: handler 0x56536fc7c980 exchange 439r
+[1681187951.923159][12175:12175] CHIP:DMG: Handing timed invoke to IM engine: handler 0x56536fc7c980 exchange 439r
+[1681187951.923188][12175:12175] CHIP:DMG: InvokeRequestMessage =
+[1681187951.923239][12175:12175] CHIP:DMG: {
+[1681187951.923292][12175:12175] CHIP:DMG:      suppressResponse = false,
+[1681187951.923303][12175:12175] CHIP:DMG:      timedRequest = true,
+[1681187951.923309][12175:12175] CHIP:DMG:      InvokeRequests =
+[1681187951.923325][12175:12175] CHIP:DMG:      [
+[1681187951.923376][12175:12175] CHIP:DMG:              CommandDataIB =
+[1681187951.923432][12175:12175] CHIP:DMG:              {
+[1681187951.923529][12175:12175] CHIP:DMG:                      CommandPathIB =
+[1681187951.923546][12175:12175] CHIP:DMG:                      {
+[1681187951.923593][12175:12175] CHIP:DMG:                              EndpointId = 0x1,
+[1681187951.923646][12175:12175] CHIP:DMG:                              ClusterId = 0x101,
+[1681187951.923693][12175:12175] CHIP:DMG:                              CommandId = 0x0,
+[1681187951.923739][12175:12175] CHIP:DMG:                      },
+[1681187951.923786][12175:12175] CHIP:DMG:
+[1681187951.923832][12175:12175] CHIP:DMG:                      CommandFields =
+[1681187951.923843][12175:12175] CHIP:DMG:                      {
+[1681187951.923850][12175:12175] CHIP:DMG:                      },
+[1681187951.923855][12175:12175] CHIP:DMG:              },
+[1681187951.923865][12175:12175] CHIP:DMG:
+[1681187951.923870][12175:12175] CHIP:DMG:      ],
+[1681187951.923882][12175:12175] CHIP:DMG:
+[1681187951.923888][12175:12175] CHIP:DMG:      InteractionModelRevision = 1
+[1681187951.923892][12175:12175] CHIP:DMG: },
+[1681187951.923935][12175:12175] CHIP:DMG: AccessControl: checking f=1 a=c s=0x000000000001B669 t= c=0x0000_0101 e=1 p=o
+[1681187951.923992][12175:12175] CHIP:DMG: AccessControl: allowed
+[1681187951.924009][12175:12175] CHIP:DMG: Received command for Endpoint=1 Cluster=0x0000_0101 Command=0x0000_0000
+[1681187951.924024][12175:12175] CHIP:ZCL: Received command: LockDoor
+[1681187951.924050][12175:12175] CHIP:ZCL: Door Lock App: PIN code is not specified [endpointId=1]
+[1681187951.924056][12175:12175] CHIP:ZCL: Door Lock App: setting door lock state to "Locked" [endpointId=1]
+[1681187951.924230][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-dkrLBQ)
+[1681187951.924654][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187951.924722][12175:12175] CHIP:DMG: Endpoint 1, Cluster 0x0000_0101 update version to d4806a70
+[1681187951.924742][12175:12175] CHIP:ZCL: Door Lock attribute changed
+[1681187951.924760][12175:12175] CHIP:DMG: Command handler moving to [ Preparing]
+[1681187951.924772][12175:12175] CHIP:DMG: Command handler moving to [AddingComm]
+[1681187951.924828][12175:12175] CHIP:DMG: Command handler moving to [AddedComma]
+[1681187951.924935][12175:12175] CHIP:EVL: LogEvent event number: 0x0000000000010005 priority: 2, endpoint id:  0x1 cluster id: 0x0000_0101 event id: 0x2 Epoch timestamp: 0x000001876E9C5534
+[1681187951.925040][12175:12175] CHIP:DMG: Decreasing reference count for CommandHandler, remaining 0
+[1681187951.925077][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187951.925125][12175:12175] CHIP:EM: <<< [E:439r S:50447 M:170058980 (Ack:176126508)] (S) Msg TX to 1:000000000001B669 [952B] --- Type 0001:09 (IM:InvokeCommandResponse)
+[1681187951.925146][12175:12175] CHIP:IN: (S) Sending msg 170058980 on secure session with LSID: 50447
+[1681187951.925282][12175:12175] CHIP:DMG: Command handler moving to [CommandSen]
+[1681187951.925300][12175:12175] CHIP:DMG: Command handler moving to [AwaitingDe]
+[1681187951.926209][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187951.926235][12175:12175] CHIP:EM: >>> [E:439r S:50447 M:176126509 (Ack:170058980)] (S) Msg RX from 1:000000000001B669 [952B] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187951.926247][12175:12175] CHIP:EM: Found matching exchange: 439r, Delegate: (nil)
+[1681187951.926260][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:170058980 from Retrans Table on exchange 439r
+[1681187957.174785][12175:12175] CHIP:ZCL: Door Auto relock timer expired. Already locked.
+[1681187964.950861][12175:12175] CHIP:EM: >>> [E:20485r S:0 M:244295589] (U) Msg RX from 0:DBCF5DC5EEB7A9C2 [0000] --- Type 0000:30 (SecureChannel:CASE_Sigma1)
+[1681187964.950894][12175:12175] CHIP:EM: Handling via exchange: 20485r, Delegate: 0x56536fb50ed0
+[1681187964.950914][12175:12175] CHIP:IN: CASE Server received Sigma1 message . Starting handshake. EC 0x56536fc5eb50
+[1681187964.950920][12175:12175] CHIP:IN: CASE Server disabling CASE session setups
+[1681187964.950930][12175:12175] CHIP:SC: Received Sigma1 msg
+[1681187964.950954][12175:12175] CHIP:SC: Peer assigned session key ID 21362
+[1681187964.951181][12175:12175] CHIP:SC: CASE matched destination ID: fabricIndex 1, NodeID 0x000000000000006F
+[1681187964.952640][12175:12175] CHIP:EM: <<< [E:20485r S:0 M:88218473 (Ack:244295589)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:31 (SecureChannel:CASE_Sigma2)
+[1681187964.952763][12175:12175] CHIP:IN: (U) Sending msg 88218473 to IP address 'UDP:[fe80::42:acff:fe11:2%eth0]:39959'
+[1681187964.952953][12175:12175] CHIP:SC: Sent Sigma2 msg
+[1681187964.956455][12175:12175] CHIP:EM: >>> [E:20485r S:0 M:244295590 (Ack:88218473)] (U) Msg RX from 0:DBCF5DC5EEB7A9C2 [0000] --- Type 0000:32 (SecureChannel:CASE_Sigma3)
+[1681187964.956477][12175:12175] CHIP:EM: Found matching exchange: 20485r, Delegate: 0x56536fb50f08
+[1681187964.956490][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:88218473 from Retrans Table on exchange 20485r
+[1681187964.956507][12175:12175] CHIP:SC: Received Sigma3 msg
+[1681187964.959208][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-1xZyMM)
+[1681187964.959653][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187964.959843][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-iWSVuN)
+[1681187964.961329][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187964.961768][12175:12175] CHIP:DL: writing settings to file (/tmp/chip_kvs-ro6fHP)
+[1681187964.962152][12175:12175] CHIP:DL: renamed tmp file to file (/tmp/chip_kvs)
+[1681187964.962210][12175:12175] CHIP:SC: Sending status report. Protocol code 0, exchange 20485
+[1681187964.962325][12175:12175] CHIP:EM: <<< [E:20485r S:0 M:88218474 (Ack:244295590)] (U) Msg TX to 0:0000000000000000 [0000] --- Type 0000:40 (SecureChannel:StatusReport)
+[1681187964.962480][12175:12175] CHIP:IN: (U) Sending msg 88218474 to IP address 'UDP:[fe80::42:acff:fe11:2%eth0]:39959'
+[1681187964.962869][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_TEST_MODE=1 bypassing key negotiation... All sessions will use known, fixed test key, and NodeID=0 in NONCE. Node can only communicate with other nodes built with this flag set.
+[1681187964.962944][12175:12175] CHIP:SC: SecureSession[0x56536fc7c820]: Moving from state 'kEstablishing' --> 'kActive'
+[1681187964.962996][12175:12175] CHIP:IN: SecureSession[0x56536fc7c820]: Activated - Type:2 LSID:50448
+[1681187964.963015][12175:12175] CHIP:IN: New secure session activated for device <000000000001B669, 1>, LSID:50448 PSID:21362!
+[1681187964.963023][12175:12175] CHIP:IN: CASE Session established to peer: <000000000001B669, 1>
+[1681187964.963033][12175:12175] CHIP:IN: CASE Server enabling CASE session setups
+[1681187964.963103][12175:12175] CHIP:IN: SecureSession[0x56536fc79f70]: Allocated Type:2 LSID:50449
+[1681187964.963159][12175:12175] CHIP:SC: Allocated SecureSession (0x56536fc79f70) - waiting for Sigma1 msg
+[1681187964.964917][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187964.964984][12175:12175] CHIP:EM: >>> [E:20486r S:50448 M:63772180] (S) Msg RX from 1:000000000001B669 [952B] --- Type 0001:02 (IM:ReadRequest)
+[1681187964.965014][12175:12175] CHIP:EM: Handling via exchange: 20486r, Delegate: 0x56536fb4b2c8
+[1681187964.965032][12175:12175] CHIP:IM: Received Read request
+[1681187964.965123][12175:12175] CHIP:DMG: ReadRequestMessage =
+[1681187964.965167][12175:12175] CHIP:DMG: {
+[1681187964.965174][12175:12175] CHIP:DMG:      AttributePathIBs =
+[1681187964.965182][12175:12175] CHIP:DMG:      [
+[1681187964.965187][12175:12175] CHIP:DMG:              AttributePathIB =
+[1681187964.965194][12175:12175] CHIP:DMG:              {
+[1681187964.965201][12175:12175] CHIP:DMG:                      Endpoint = 0x1,
+[1681187964.965208][12175:12175] CHIP:DMG:                      Cluster = 0x101,
+[1681187964.965215][12175:12175] CHIP:DMG:                      Attribute = 0x0000_0000,
+[1681187964.965220][12175:12175] CHIP:DMG:              }
+[1681187964.965228][12175:12175] CHIP:DMG:
+[1681187964.965233][12175:12175] CHIP:DMG:      ],
+[1681187964.965277][12175:12175] CHIP:DMG:
+[1681187964.965286][12175:12175] CHIP:DMG:      isFabricFiltered = true,
+[1681187964.965293][12175:12175] CHIP:DMG:      InteractionModelRevision = 1
+[1681187964.965297][12175:12175] CHIP:DMG: },
+[1681187964.965343][12175:12175] CHIP:DMG: IM RH moving to [GeneratingReports]
+[1681187964.965433][12175:12175] CHIP:DMG: Building Reports for ReadHandler with LastReportGeneration = 0 DirtyGeneration = 0
+[1681187964.965475][12175:12175] CHIP:DMG: <RE:Run> Cluster 101, Attribute 0 is dirty
+[1681187964.965484][12175:12175] CHIP:DMG: Reading attribute: Cluster=0x0000_0101 Endpoint=1 AttributeId=0x0000_0000 (expanded=0)
+[1681187964.965496][12175:12175] CHIP:DMG: AccessControl: checking f=1 a=c s=0x000000000001B669 t= c=0x0000_0101 e=1 p=v
+[1681187964.965510][12175:12175] CHIP:DMG: AccessControl: allowed
+[1681187964.965534][12175:12175] CHIP:DMG: <RE> Sending report (payload has 37 bytes)...
+[1681187964.965613][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing encryption
+[1681187964.965654][12175:12175] CHIP:EM: <<< [E:20486r S:50448 M:214517159 (Ack:63772180)] (S) Msg TX to 1:000000000001B669 [952B] --- Type 0001:05 (IM:ReportData)
+[1681187964.965704][12175:12175] CHIP:IN: (S) Sending msg 214517159 on secure session with LSID: 50448
+[1681187964.965828][12175:12175] CHIP:DMG: <RE> OnReportConfirm: NumReports = 0
+[1681187964.965870][12175:12175] CHIP:DMG: <RE> ReportsInFlight = 0 with readHandler 0, RE has no more messages
+[1681187964.966879][12175:12175] CHIP:DMG: IM RH moving to [AwaitingDestruction]
+[1681187964.966902][12175:12175] CHIP:DMG: All ReadHandler-s are clean, clear GlobalDirtySet
+[1681187964.966941][12175:12175] CHIP:EM: >>> [E:20485r S:0 M:244295591 (Ack:88218474)] (U) Msg RX from 0:DBCF5DC5EEB7A9C2 [0000] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187964.966954][12175:12175] CHIP:EM: Found matching exchange: 20485r, Delegate: (nil)
+[1681187964.966970][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:88218474 from Retrans Table on exchange 20485r
+[1681187964.967011][12175:12175] CHIP:SC: Warning: CHIP_CONFIG_SECURITY_FUZZ_MODE=1 bypassing decryption
+[1681187964.967061][12175:12175] CHIP:EM: >>> [E:20486r S:50448 M:63772181 (Ack:214517159)] (S) Msg RX from 1:000000000001B669 [952B] --- Type 0000:10 (SecureChannel:StandaloneAck)
+[1681187964.967102][12175:12175] CHIP:EM: Found matching exchange: 20486r, Delegate: (nil)
+[1681187964.967136][12175:12175] CHIP:EM: Rxd Ack; Removing MessageCounter:214517159 from Retrans Table on exchange 20486r
