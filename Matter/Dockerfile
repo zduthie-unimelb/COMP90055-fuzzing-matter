@@ -4,7 +4,7 @@ SHELL ["/bin/bash", "-c"]
 
 # Install dependencies
 RUN apt-get -y update && \
-    apt-get -y install sudo wget vim tcpdump
+    apt-get -y install sudo wget vim zip tcpdump
 
 # Add a new user ubuntu, pass: ubuntu
 RUN groupadd ubuntu && \
