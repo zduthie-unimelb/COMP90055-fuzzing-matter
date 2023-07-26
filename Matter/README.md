@@ -1,3 +1,9 @@
+# Overview
+
+The following outlines code and steps taken to perform targeted fuzzing of the Matter protocol.
+
+Specifically, it makes use of a custom Docker image (in this repository) to build an environment that loads a forked version of the Matter codebase (https://github.com/zduthie-unimelb/connectedhomeip) that contains additional fuzzing infrastructure including additional drivers and coverage scripts. The code is purposefully forked from an older release (1.0.0.2) for consistency. Use with a newer version of the Matter codebase will certainly break things.
+
 # Setup
 
 Build and run the Dockerfile (change default tag of `chip-build-uni` to whatever):
@@ -150,3 +156,7 @@ sudo ./out/chip-tool/chip-tool doorlock unlock-door 111 1 --timedInteractionTime
 
 sudo ./out/chip-tool/chip-tool doorlock read lock-state 111 1
 ```
+
+# Addendum
+
+Some of the findings of this work are also under review for the main Matter codebase (https://github.com/project-chip/connectedhomeip/pull/27857). Note that the pull-request changes were slightly re-worked from their original form in https://github.com/zduthie-unimelb/connectedhomeip to align better with other Matter infrastructure and conventions.
